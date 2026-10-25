@@ -62,6 +62,8 @@ function loadRDKit() {
 
 async function loadRDKitOnce() {
   const status = document.getElementById('lib-status');
+  status.textContent = '⏳ Loading RDKit…';
+  status.className = 'lib-status loading';
   if (location.protocol === 'file:') {
     warn('rdkit', 'Page opened via file:// — WebAssembly cannot be fetched. Use a local server!');
     document.getElementById('file-warning').classList.remove('hidden');

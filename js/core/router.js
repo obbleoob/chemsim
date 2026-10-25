@@ -60,9 +60,17 @@ const ChemRouter = (() => {
       </div>`;
   }
 
+  /** "#wiki/Na" → "wiki" (the part after the slash is for the mode itself). */
+  const modeFromHash = () => location.hash.slice(1).split('/')[0] || 'studio';
+
   function show(id) {
     if (!document.getElementById('view-' + id)) id = 'studio';
-    if (id === active) return;
+    if (id === active) {
+      // same tab, but the sub-path may have changed (e.g. #wiki/Na → #wiki/Cu)
+      const m = modes[id];
+      if (m && m.started && m.show) m.show();
+      return;
+    }
     log('router', `Switching to mode "${id}"`);
     if (active && modes[active] && modes[active].hide) {
       try { modes[active].hide(); } catch (e) { logError('router', `hide() of ${active} failed`, e); }
@@ -82,7 +90,7 @@ const ChemRouter = (() => {
       }
     }
     document.title = `ChemSim · ${(m && m.title) || (COMING_SOON[id] && COMING_SOON[id].title) || id}`;
-    if (location.hash !== '#' + id) history.replaceState(null, '', '#' + id);
+    if (modeFromHash() !== id) history.replaceState(null, '', '#' + id);
   }
 
   function start() {
@@ -90,9 +98,9 @@ const ChemRouter = (() => {
       history.pushState(null, '', '#' + t.dataset.mode);
       show(t.dataset.mode);
     }));
-    window.addEventListener('popstate', () => show(location.hash.slice(1) || 'studio'));
-    window.addEventListener('hashchange', () => show(location.hash.slice(1) || 'studio'));
-    show(location.hash.slice(1) || 'studio');
+    window.addEventListener('popstate', () => show(modeFromHash()));
+    window.addEventListener('hashchange', () => show(modeFromHash()));
+    show(modeFromHash());
   }
 
   return { register, show, start, isActive: (id) => active === id, get active() { return active; } };

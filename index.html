@@ -29,6 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/wiki.css" />
 </head>
 <body>
 
@@ -51,13 +52,13 @@
     <nav class="mode-tabs" id="mode-tabs" aria-label="Modes">
       <button class="mode-tab" data-mode="studio" data-tip="Draw molecules, check valence, see charges and 3D models.">🧪 Molecule Studio</button>
       <button class="mode-tab" data-mode="beaker" data-tip="Mix bulk chemicals in a virtual beaker (coming in Phase 2).">⚗️ Beaker Lab</button>
-      <button class="mode-tab" data-mode="wiki" data-tip="Interactive periodic table and element encyclopedia (coming in Phase 1).">📖 Element Wiki</button>
+      <button class="mode-tab" data-mode="wiki" data-tip="Interactive periodic table: trend heatmaps, and a full page for every element.">📖 Element Wiki</button>
       <button class="mode-tab" data-mode="labs" data-tip="Guided experiments: titration, salt analysis, galvanic cells, calorimetry (coming in Phase 3).">🔬 Guided Labs</button>
       <button class="mode-tab" data-mode="arena" data-tip="USNCO-style quizzes and timed exams (coming in Phase 6).">🏆 Challenge Arena</button>
     </nav>
 
     <div class="header-right">
-      <span id="lib-status" class="lib-status loading" data-tip="Status of the chemistry engine (RDKit WebAssembly).">⏳ Loading RDKit…</span>
+      <span id="lib-status" class="lib-status" data-tip="Status of the chemistry engine (RDKit WebAssembly). It loads the first time you open the Molecule Studio.">⚪ RDKit not loaded</span>
       <div class="data-menu">
         <button id="btn-data-menu" class="hbtn" data-tip="Save or restore everything ChemSim has stored in this browser.">💾 My data ▾</button>
         <div id="data-menu" class="data-menu-list hidden">
@@ -373,6 +374,13 @@
   <script src="js/studio/viewer3d.js"></script>
   <script src="js/studio/export.js"></script>
   <script src="js/studio/main.js"></script>
+  <script src="js/wiki/wiki-data.js"></script>
+  <script src="js/wiki/spectrum.js"></script>
+  <script src="js/wiki/crystal.js"></script>
+  <script src="js/wiki/reactions.js"></script>
+  <script src="js/wiki/table.js"></script>
+  <script src="js/wiki/page.js"></script>
+  <script src="js/wiki/main.js"></script>
   <script src="js/core/errors.js"></script>
   <script src="js/core/boot.js"></script>
 </body>
