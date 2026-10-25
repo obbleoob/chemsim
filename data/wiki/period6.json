@@ -1,0 +1,188 @@
+{
+  "Cs": {
+    "history": "Caesium was the **first element discovered with a spectroscope**. In **1860 Robert Bunsen** and **Gustav Kirchhoff** evaporated tens of thousands of litres of mineral water from Bad Dürkheim and examined the residue in a flame. They saw two bright **blue lines** that matched no known element, and named it from the Latin *caesius*, sky-blue. The metal itself was first isolated in 1882 by Carl Setterberg, by electrolysis of molten caesium cyanide.",
+    "production": "The main ore is **pollucite**, a caesium aluminosilicate. For decades the Tanco mine in Manitoba, Canada, was the world’s main source. The largest use today is **caesium formate brine**, a very dense, non-toxic drilling fluid for high-pressure oil and gas wells. Caesium is also used in photoelectric cells and in **atomic clocks**. Since 1967 the **second** has been defined as exactly 9 192 631 770 oscillations of radiation from caesium-133 atoms. Radioactive caesium-137 is used in radiotherapy, in industrial gauges and for sterilising blood.",
+    "chemistry": "Caesium has the **lowest ionization energy of any stable element** (376 kJ/mol), so it is the most reactive metal you can keep in a bottle. It is soft, has a pale **golden** tint (one of only three coloured metals, with gold and copper), and melts at 28.5 °C, just above room temperature. Caesium-137 (half-life 30 years) from Chernobyl and Fukushima is still the main long-term contaminant around those sites.",
+    "reactions": [
+      { "eq": "2Cs + 2H₂O → 2CsOH + H₂", "note": "Explosive: even a small piece can shatter a glass container. Caesium hydroxide is one of the strongest bases." },
+      { "eq": "Cs + O₂ → CsO₂", "note": "Ignites in air, forming the superoxide." },
+      { "eq": "¹³⁷Cs → ¹³⁷ᵐBa + e⁻ + ν̄; ¹³⁷ᵐBa → ¹³⁷Ba + γ (662 keV)", "note": "The gamma ray that makes Cs-137 useful in medicine, and dangerous as fallout." }
+    ],
+    "safety": "Caesium reacts explosively with water and ignites in air, so it is stored in sealed ampoules under argon. In the **Goiânia accident** (Brazil, 1987), scavengers opened an abandoned radiotherapy source of caesium-137 chloride. Its glowing blue powder was passed around as a curiosity: four people died and hundreds were contaminated."
+  },
+  "Ba": {
+    "history": "In 1602 the Italian shoemaker and alchemist **Vincenzo Casciorolo** heated pebbles of barite (barium sulfate) from near Bologna. Afterwards the pebbles glowed in the dark, and this ‘**Bologna stone**’ was the first known synthetic phosphor. In **1774 Carl Wilhelm Scheele** recognised barium oxide (baryta) as a new earth, and in **1808 Humphry Davy** isolated the metal by electrolysis. The name comes from the Greek *barys*, heavy, after the dense mineral barite.",
+    "production": "The ore **barite** (BaSO₄) is mined mainly in China, India and Morocco. About 70–80 % is ground and used as a **weighting agent in drilling mud** for oil and gas wells: its high density holds back high-pressure gas. Other uses include ‘barium meals’ for X-ray imaging of the gut, barium carbonate in glass and ceramics, **green fireworks** (barium nitrate and chlorate), barium titanate in capacitors, and barium-containing high-temperature superconductors.",
+    "chemistry": "Barium is a soft, silvery, very reactive group 2 metal. Its soluble compounds (chloride, nitrate, carbonate, which dissolves in stomach acid) are **poisonous** because Ba²⁺ blocks potassium channels in cells. Barium sulfate, by contrast, is so insoluble (Ksp ≈ 1 × 10⁻¹⁰) that it passes through the body untouched. That is why it can be swallowed safely to show the gut on X-rays, and why its precipitation is the standard test for sulfate ions.",
+    "reactions": [
+      { "eq": "Ba + 2H₂O → Ba(OH)₂ + H₂", "note": "Reacts rapidly with water." },
+      { "eq": "Ba²⁺ + SO₄²⁻ → BaSO₄↓", "note": "Dense white precipitate: the test for sulfate (after acidifying)." },
+      { "eq": "Ba(OH)₂·8H₂O + 2NH₄Cl → BaCl₂ + 2NH₃ + 10H₂O", "note": "So endothermic it can freeze a beaker to a wet wooden board." },
+      { "eq": "2BaO + O₂ ⇌ 2BaO₂", "note": "The Brin process (1880s) made pure oxygen by cycling this reaction with temperature." }
+    ],
+    "safety": "Soluble barium compounds are **toxic**, causing muscle weakness, irregular heartbeat and paralysis. Barium carbonate was used as rat poison. Medical barium sulfate is safe because it does not dissolve."
+  },
+  "Hf": {
+    "history": "Mendeleev’s table had a gap at element 72. In 1911 Georges Urbain claimed to have found it among the rare earths (‘celtium’). **Niels Bohr**’s new quantum theory of the atom predicted instead that element 72 should be a chemical twin of zirconium, not a rare earth. In **1923 Dirk Coster** and **George de Hevesy**, working in Bohr’s institute in Copenhagen, found it in zirconium ores by X-ray spectroscopy, confirming the theory. They named it after *Hafnia*, the Latin name for Copenhagen.",
+    "production": "Hafnium is always found with zirconium (zirconium ores contain 1–3 % hafnium), and it is a **by-product of making nuclear-grade zirconium**, which must be hafnium-free. The two are separated by solvent extraction, and hafnium tetrachloride is reduced with magnesium. Hafnium absorbs neutrons strongly, so it is used in **nuclear reactor control rods**, especially in submarines. It is also used in superalloys for jet engines, in plasma-cutting electrodes, and as **hafnium oxide**, the ‘high-k’ insulating layer that has replaced silicon dioxide in transistor gates since 2007.",
+    "chemistry": "Hafnium is the closest chemical twin of any pair of elements: hafnium and zirconium atoms are almost exactly the same size (the **lanthanide contraction**), and both are almost entirely +4. Tantalum hafnium carbide and hafnium carbonitride have some of the highest melting points known, around 4000 °C.",
+    "reactions": [
+      { "eq": "HfCl₄ + 2Mg → Hf + 2MgCl₂", "note": "Kroll-type reduction." },
+      { "eq": "Hf + O₂ → HfO₂", "note": "HfO₂ is deposited atom-layer by atom-layer in modern chips." }
+    ],
+    "safety": "Hafnium has low toxicity. Fine hafnium powder can ignite spontaneously in air."
+  },
+  "Ta": {
+    "history": "In **1802 Anders Gustaf Ekeberg** in Uppsala found a new element in minerals from Finland and Sweden. Its oxide was so resistant that it would not absorb or react with acid even when soaked in it. This reminded him of **Tantalus**, who in Greek myth stood in water up to his chin but could never drink. Tantalum was confused with niobium (whose name comes from Tantalus’ daughter Niobe) until 1844, and the two were first cleanly separated by Jean Charles Galissard de Marignac in 1866. In 1903 Werner von Bolton made pure ductile tantalum, briefly used for light-bulb filaments.",
+    "production": "Tantalum comes from **coltan** (columbite–tantalite). Major producers are the DR Congo, Rwanda, Brazil, Nigeria and Australia, and coltan from eastern Congo has funded armed conflict, so it is regulated as a ‘conflict mineral’. Tantalum is separated from niobium by solvent extraction, and potassium heptafluorotantalate is reduced with sodium. About 40 % is used in tiny, high-capacity **capacitors** in phones and laptops, where its oxide film acts as an extremely thin insulator. It is also used in jet-engine superalloys, chip manufacture, surgical implants, and chemical equipment.",
+    "chemistry": "Tantalum is one of the **most corrosion-resistant** metals. It is attacked only by hydrofluoric acid, hot fuming sulfuric acid and molten alkalis. It melts at 3017 °C, and is almost always in the +5 state. It is completely **biocompatible**.",
+    "reactions": [
+      { "eq": "K₂TaF₇ + 5Na → Ta + 2KF + 5NaF", "note": "Sodium reduction to tantalum powder." },
+      { "eq": "4Ta + 5O₂ → 2Ta₂O₅", "note": "Electrochemically grown Ta₂O₅ is the insulator in tantalum capacitors." }
+    ],
+    "safety": "Tantalum is non-toxic and inert in the body, which is why it is used for skull plates and bone implants."
+  },
+  "W": {
+    "history": "Tungsten’s name comes from the Swedish *tung sten*, ‘heavy stone’, the old name of the mineral now called scheelite (CaWO₄). In **1781 Carl Wilhelm Scheele** isolated tungstic acid from it. In **1783 the brothers Juan José and Fausto Elhuyar** in Spain made the metal from the other ore, wolframite, by reducing its oxide with charcoal. The symbol **W** comes from *wolfram*, ‘wolf’s froth’: medieval German tin smelters found that wolframite ‘devoured’ tin like a wolf, reducing their yield.",
+    "production": "China produces about 80 % of the world’s tungsten, mostly from scheelite and wolframite. The concentrate is converted to ammonium paratungstate, then to tungsten oxide, which is reduced with **hydrogen** to tungsten powder. Tungsten melts at too high a temperature for normal casting, so it is shaped by **powder metallurgy**: pressing and sintering. About 60 % becomes **tungsten carbide** (WC), nearly as hard as diamond, for drill bits, cutting tools and mining equipment. Other uses are high-speed steels, heavy alloys (counterweights, radiation shielding, armour-piercing ammunition), welding electrodes, X-ray tube targets, and the inner walls of fusion reactors. It was the filament of incandescent light bulbs for a century.",
+    "chemistry": "Tungsten has the **highest melting point of all metals** (3422 °C) and the lowest vapour pressure. It is extremely dense (19.3 g/cm³, the same as gold, which is why criminals have made fake gold bars with tungsten cores). Its most stable oxidation state is +6, as in tungstates (WO₄²⁻). Surprisingly, some heat-loving microbes use tungsten in their enzymes.",
+    "reactions": [
+      { "eq": "WO₃ + 3H₂ → W + 3H₂O", "note": "Hydrogen reduction at 700–1000 °C." },
+      { "eq": "W + C → WC", "note": "Carburising tungsten powder at about 1400 °C to make tungsten carbide." },
+      { "eq": "CaWO₄ + 2HCl → H₂WO₄ + CaCl₂", "note": "Scheele’s route from scheelite to tungstic acid." }
+    ],
+    "safety": "Tungsten and its compounds have low toxicity. Fine powder is flammable, and grinding cemented carbide can release cobalt dust."
+  },
+  "Re": {
+    "history": "Rhenium was the **last stable element to be discovered**. In **1925 Walter Noddack, Ida Tacke** (later Noddack) and **Otto Berg** in Berlin detected it by X-ray spectroscopy in platinum ores and in the mineral columbite. They named it after the **Rhine** (Latin *Rhenus*). It took them processing 660 kg of molybdenite to isolate a single gram. The Japanese chemist Masataka Ogawa may have found it as early as 1908, but he misidentified it as element 43 (‘nipponium’).",
+    "production": "Rhenium is among the **rarest elements** in Earth’s crust (about 1 part per billion). It is recovered from the flue dust of **roasting molybdenite**, a by-product of copper mining, in Chile, the USA and Poland. Only about 50 tonnes are produced each year. About 80 % goes into **nickel superalloys** for jet-engine turbine blades. Adding 3–6 % rhenium lets single-crystal blades withstand higher temperatures. Platinum–rhenium catalysts are used to make high-octane petrol, and tungsten–rhenium wire in high-temperature thermocouples.",
+    "chemistry": "Rhenium has the third-highest melting point of the elements (3186 °C) and the **highest boiling point** (5596 °C). It shows oxidation states from −1 to +7, with +7 the most stable (perrhenate, ReO₄⁻). The [Re₂Cl₈]²⁻ ion contains the first **quadruple bond** ever found between two atoms (F. Albert Cotton, 1964).",
+    "reactions": [
+      { "eq": "4Re + 7O₂ → 2Re₂O₇", "note": "The volatile oxide is how rhenium escapes into smelter flue dust." },
+      { "eq": "Re₂O₇ + H₂O → 2HReO₄", "note": "Perrhenic acid." },
+      { "eq": "2NH₄ReO₄ + 7H₂ → 2Re + 2NH₃ + 8H₂O", "note": "Making rhenium metal powder." }
+    ],
+    "safety": "Little is known about rhenium’s toxicity, but it appears to be low. The powder is flammable."
+  },
+  "Os": {
+    "history": "In **1803 Smithson Tennant** in London studied the black residue that remains when platinum ore is dissolved in aqua regia. He found two new metals in it: iridium and osmium. Heating the residue gave off a sharp, chlorine-like smell, from osmium tetroxide, so he named the element from the Greek *osme*, smell.",
+    "production": "Osmium is the **rarest** of the commercially produced elements. Only a few hundred kilograms are recovered each year, as a by-product of refining nickel and platinum ores. Hard osmium alloys were used for fountain-pen nibs, gramophone needles and instrument pivots. **Osmium tetroxide** stains fats for electron microscopy and develops fingerprints, and catalytic osmium tetroxide is used for asymmetric dihydroxylation in organic synthesis (K. Barry Sharpless, Nobel Prize 2001).",
+    "chemistry": "Osmium is the **densest naturally occurring element** (22.59 g/cm³, just ahead of iridium). A cube 10 cm on a side would weigh 22.6 kg. It is hard, brittle and bluish-grey, and reaches the **+8 oxidation state** in OsO₄, a volatile yellow solid. Finely divided osmium slowly forms OsO₄ in air.",
+    "reactions": [
+      { "eq": "Os + 2O₂ → OsO₄", "note": "Powdered osmium slowly forms the volatile tetroxide even at room temperature." },
+      { "eq": "R₂C=CR₂ + OsO₄ → cis-diol (after workup)", "note": "Syn dihydroxylation: both OH groups add on the same side of the double bond." }
+    ],
+    "safety": "**Osmium tetroxide is extremely toxic** and volatile. Its vapour can fix (stain) the cornea and cause blindness, and damages the lungs. Massive osmium metal is safe, but the powder is hazardous because it can form OsO₄."
+  },
+  "Ir": {
+    "history": "In **1803 Smithson Tennant** isolated iridium from the same insoluble platinum-ore residue that gave osmium. Its salts have many colours, so he named it after **Iris**, the Greek goddess of the rainbow. In 1980 **Luis and Walter Alvarez** found that a thin clay layer laid down 66 million years ago, at the end of the age of dinosaurs, is strangely rich in iridium. Iridium is rare in Earth’s crust but common in asteroids, so they proposed that an **asteroid impact** caused the mass extinction. The Chicxulub crater in Mexico was later identified as the impact site.",
+    "production": "Iridium is a by-product of platinum mining, mainly in South Africa. Only about 7–8 tonnes are produced each year. It is used in spark-plug tips, crucibles for growing crystals, iridium dioxide anodes for **PEM electrolysers** that make green hydrogen, phosphorescent emitters in **OLED** displays, and catalysts for acetic acid (Cativa process). From 1889 to 2019 the **kilogram** was defined by a cylinder of 90 % platinum and 10 % iridium kept near Paris.",
+    "chemistry": "Iridium is the **most corrosion-resistant metal** known: even hot aqua regia barely attacks it. It is the second-densest element (22.56 g/cm³). In 2014 chemists made the cation [IrO₄]⁺, with iridium in the **+9 oxidation state**, the highest ever observed for any element.",
+    "reactions": [
+      { "eq": "CH₃OH + CO → CH₃COOH", "note": "The Cativa process uses an iridium–iodide catalyst (more efficient than rhodium)." },
+      { "eq": "2H₂O → O₂ + 4H⁺ + 4e⁻", "note": "Oxygen evolution on IrO₂ anodes in PEM electrolysers." },
+      { "eq": "Ir + O₂ → IrO₂", "note": "Only at high temperature." }
+    ],
+    "safety": "Iridium metal is inert and of low toxicity. Some iridium compounds are irritants."
+  },
+  "Pt": {
+    "history": "Pre-Columbian metalworkers at **La Tolita** (Ecuador) were making platinum–gold objects 2000 years ago, by sintering grains of the two metals. Spanish conquistadors in Colombia called the white grains in their gold-panning sand *platina*, ‘little silver’. They considered it a nuisance and sometimes threw it back into the river. **Antonio de Ulloa** described it in 1748, and samples reached English and Swedish chemists, who realised it was a new metal. It was so hard to melt and work that William Hyde Wollaston’s secret powder-metallurgy method (about 1800) made him a fortune.\n\nIn 1965 **Barnett Rosenberg** noticed that bacteria near platinum electrodes stopped dividing. The cause was a platinum compound that became **cisplatin**, one of the most important cancer drugs.",
+    "production": "About 70 % of platinum comes from **South Africa’s Bushveld Igneous Complex** (the Merensky Reef). Russia and Zimbabwe supply most of the rest. Several tonnes of ore must be mined and processed for each ounce. Uses include **catalytic converters** (especially for diesel engines), jewellery, catalysts for nitric acid and petrol refining, **fuel cells**, electrodes, laboratory equipment, resistance thermometers and the cancer drugs **cisplatin**, carboplatin and oxaliplatin.",
+    "chemistry": "Platinum is a dense, silvery **noble metal**. It does not oxidise in air at any temperature, and dissolves only in **aqua regia**. Its surface is an outstanding **catalyst**: molecules such as H₂ and O₂ stick to it and their bonds weaken. Platinum(II) compounds such as cisplatin are square planar, and cisplatin kills cancer cells by cross-linking their DNA.",
+    "reactions": [
+      { "eq": "3Pt + 4HNO₃ + 18HCl → 3H₂PtCl₆ + 4NO + 8H₂O", "note": "Dissolving platinum in aqua regia." },
+      { "eq": "2H₂ + O₂ → 2H₂O (on Pt)", "note": "Platinum sponge makes hydrogen ignite by itself. This was the Döbereiner lamp (1823), the first lighter." },
+      { "eq": "4NH₃ + 5O₂ → 4NO + 6H₂O (Pt–Rh)", "note": "Ostwald process for nitric acid." },
+      { "eq": "K₂PtCl₄ + 2NH₃ → cis-[Pt(NH₃)₂Cl₂] + 2KCl", "note": "Making cisplatin." }
+    ],
+    "safety": "Platinum metal is inert. Soluble platinum salts can cause severe allergies (‘platinosis’) in refinery workers. Platinum anticancer drugs are toxic to the kidneys and nerves."
+  },
+  "Au": {
+    "history": "Gold was probably the **first metal** people used, because it is found pure in rivers. The oldest worked gold, from the **Varna necropolis** in Bulgaria, dates to about 4500 BC. Egyptian pharaohs were buried with tonnes of it, alchemists spent centuries trying to make it, and the gold rushes of California (1848), the Witwatersrand (1886) and the Klondike (1896) reshaped whole countries. The symbol **Au** comes from the Latin *aurum*.",
+    "production": "About **3600 tonnes** of gold are mined each year, by China, Russia, Australia, Canada, the USA and Ghana among others. All the gold ever mined, about 210 000 tonnes, would fit in a cube about 22 m on each side. Most ore contains only a few grams per tonne and is extracted by **cyanide leaching** (the MacArthur–Forrest process, 1887): cyanide and oxygen dissolve the gold as [Au(CN)₂]⁻, which is recovered with activated carbon or zinc. Small-scale miners often use **mercury** amalgamation, the world’s largest source of mercury pollution. About half of gold goes into jewellery, much of the rest into investment bars, coins and central bank reserves. It is also used in electronics, dentistry and medicine, and as gold coatings on spacecraft and the James Webb Space Telescope mirrors.",
+    "chemistry": "Gold is the **least reactive metal**. It never tarnishes and dissolves only in aqua regia, in cyanide solutions with oxygen, or in mercury. It is the most **malleable** metal: gold leaf can be beaten to about 0.1 µm, thin enough for light to shine through green. Its yellow colour comes from **relativistic effects**: its inner electrons move so fast that the 6s orbital contracts, so gold absorbs blue light. Gold nanoparticles look red or purple, as in Roman glass like the Lycurgus Cup and in pregnancy tests.",
+    "reactions": [
+      { "eq": "Au + HNO₃ + 4HCl → H[AuCl₄] + NO + 2H₂O", "note": "Aqua regia: nitric acid oxidises the gold and chloride ions trap it as AuCl₄⁻." },
+      { "eq": "4Au + 8CN⁻ + O₂ + 2H₂O → 4[Au(CN)₂]⁻ + 4OH⁻", "note": "Cyanide leaching (the Elsner equation)." },
+      { "eq": "2[Au(CN)₂]⁻ + Zn → 2Au + [Zn(CN)₄]²⁻", "note": "Recovering the gold with zinc dust (Merrill–Crowe process)." }
+    ],
+    "safety": "Metallic gold is non-toxic, and gold leaf is even approved as a food decoration (E175). The hazards come from extraction: highly toxic **cyanide** and **mercury** pollution."
+  },
+  "Hg": {
+    "history": "Mercury was known to the ancient Chinese, Indians and Egyptians, and a flask of it was found in an Egyptian tomb from about 1500 BC. Its red ore **cinnabar** (HgS) was ground into the pigment vermilion. Legend says the tomb of China’s first emperor, Qin Shi Huang, contains rivers of mercury, and the soil there really is rich in it. The **Almadén** mines in Spain were worked from Roman times until 2003. The symbol **Hg** comes from the Latin *hydrargyrum*, ‘water-silver’. The name ‘mercury’ comes from the swift messenger god, after the way the metal runs.",
+    "production": "Mercury is extracted by **roasting cinnabar**: HgS + O₂ → Hg + SO₂, and the mercury vapour is condensed. China, Tajikistan and Mexico are the main producers, and much mercury is recycled. Under the **Minamata Convention** (2013) most uses are being phased out, including mercury thermometers, batteries, fluorescent lamps, dental amalgam and the mercury cells once used in the chlor-alkali industry. Its largest use today, unfortunately, is in **small-scale gold mining**.",
+    "chemistry": "Mercury is the **only metal that is liquid at room temperature** (it melts at −38.8 °C). This is due to **relativistic effects**: its 6s electrons are held so tightly that the metallic bonding is unusually weak. It dissolves many metals to form **amalgams**. It forms Hg²⁺ and the unusual Hg₂²⁺ ion, which contains a mercury–mercury bond. In 1956 methylmercury from a factory caused **Minamata disease** in Japan. In 19th-century hat-making, mercury nitrate used on felt poisoned hatters, which may lie behind the phrase ‘mad as a hatter’.",
+    "reactions": [
+      { "eq": "HgS + O₂ → Hg + SO₂", "note": "Roasting cinnabar." },
+      { "eq": "2HgO → 2Hg + O₂", "note": "Priestley’s and Lavoisier’s route to oxygen." },
+      { "eq": "Hg + S → HgS", "note": "Sprinkling sulfur on a mercury spill binds it as sulfide." },
+      { "eq": "Hg²⁺ + 2I⁻ → HgI₂↓;  HgI₂ + 2I⁻ → [HgI₄]²⁻", "note": "Scarlet precipitate that dissolves in excess iodide (the basis of Nessler’s reagent for ammonia)." }
+    ],
+    "safety": "Mercury **vapour** is toxic to the nervous system and kidneys. Spills should be cleaned up with a mercury kit, never with a vacuum cleaner. **Organic mercury compounds** are far worse. Methylmercury builds up in large fish such as tuna and swordfish, and in 1997 the chemist Karen Wetterhahn died after a few drops of dimethylmercury soaked through her latex glove."
+  },
+  "Tl": {
+    "history": "In **1861 William Crookes** in London was studying residues from a sulfuric acid factory spectroscopically, looking for tellurium, when he saw a brilliant **green line**. He named the new element from the Greek *thallos*, a green shoot or twig. In 1862 Claude-Auguste Lamy in France independently isolated enough of the metal to cast a small ingot, and a priority dispute followed.",
+    "production": "Thallium is a by-product of smelting zinc, lead and copper ores, recovered from flue dust. Only about 10 tonnes are produced each year. It was once widely used as rat poison and as a depilatory, but both uses are banned in most countries because so many people were poisoned. Today it is used in infrared optics, photoresistors, special low-melting glass, superconductor research, and **thallium-201** heart-stress scans.",
+    "chemistry": "Thallium is a soft, heavy metal that tarnishes quickly. Because of the **inert pair effect**, its most stable oxidation state is **+1**, not the +3 typical of group 13. The Tl⁺ ion is almost the same size as K⁺, so cells take it in through potassium channels and transporters. That is what makes it so poisonous.",
+    "reactions": [
+      { "eq": "Tl⁺ + I⁻ → TlI↓", "note": "Yellow precipitate." },
+      { "eq": "4Tl + O₂ → 2Tl₂O", "note": "Tarnishes quickly in air." },
+      { "eq": "2Tl + 2H₂O → 2TlOH + H₂", "note": "Slowly; thallium(I) hydroxide is a strong base, like an alkali metal hydroxide." }
+    ],
+    "safety": "Thallium is **extremely toxic**: about 1 g can kill an adult. Its compounds are tasteless and odourless, and the symptoms (nerve pain, then hair loss) appear slowly. It was called the ‘poisoner’s poison’. In 1977 a nurse recognised a real case of thallium poisoning because she had read Agatha Christie’s *The Pale Horse*. The antidote is **Prussian blue**, which traps thallium in the gut."
+  },
+  "Pb": {
+    "history": "Lead is easy to smelt from galena, and lead beads from Anatolia date back to about 6500 BC. The **Romans** used it on a vast scale for water pipes, so the Latin *plumbum* gave us ‘plumbing’ and the symbol **Pb**. They also boiled grape juice in lead pots to make a sweet syrup (*sapa*) containing **lead acetate**, ‘sugar of lead’. In 1921 **Thomas Midgley** found that **tetraethyllead** stopped engine knocking. **Leaded petrol** spread lead pollution around the world for most of the century, and was finally phased out everywhere in 2021, when Algeria stopped selling it.",
+    "production": "The main ore is **galena** (PbS), mined in China, Australia, Peru and the USA. It is roasted to lead oxide and reduced with coke. Today more than half of all lead comes from **recycling**, mainly of car batteries, which are among the most recycled products in the world. About 85 % of lead is used in **lead–acid batteries**. Other uses include radiation shielding (X-ray rooms), ammunition, cable sheathing, roofing and crystal glass.",
+    "chemistry": "Lead is dense, soft and melts at only 327 °C. Its +2 state is much more stable than +4 because of the **inert pair effect**, so lead(IV) oxide is a strong oxidiser, which is exactly what a battery needs. Lead is the **end point** of the three natural radioactive decay chains (uranium-238 → lead-206, uranium-235 → lead-207, thorium-232 → lead-208), which is the basis of uranium–lead dating. Clair Patterson used this in 1956 to measure the age of the Earth: 4.55 billion years.",
+    "reactions": [
+      { "eq": "Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O", "note": "Discharge of a lead–acid battery (2 V per cell); charging reverses it." },
+      { "eq": "Pb²⁺ + 2I⁻ → PbI₂↓", "note": "Bright yellow precipitate; recrystallised from hot water it forms glittering ‘golden rain’." },
+      { "eq": "2PbS + 3O₂ → 2PbO + 2SO₂;  PbO + C → Pb + CO", "note": "Roasting and smelting galena." }
+    ],
+    "safety": "Lead is a cumulative **neurotoxin**. In children there is **no known safe level**: even low exposure lowers IQ and affects behaviour. Old lead paint, lead pipes and contaminated soil are the main sources today, as in the Flint, Michigan water crisis (2014)."
+  },
+  "Bi": {
+    "history": "Bismuth was known by the 15th century but often confused with tin and lead. German miners called it *wismut* (perhaps ‘white mass’), which Georgius Agricola latinised as *bisemutum*. **Claude François Geoffroy** showed in 1753 that it is a distinct element. For a long time bismuth-209 was thought to be the heaviest stable isotope. In **2003** scientists in Orsay, France detected its alpha decay, with a half-life of about **2 × 10¹⁹ years**, a billion times the age of the universe.",
+    "production": "Bismuth is a by-product of refining lead, copper and tungsten ores. China produces about 80 %. It is used in medicines (bismuth subsalicylate, the active ingredient of Pepto-Bismol, and bismuth compounds to treat *H. pylori* stomach ulcers), in pearly cosmetics (bismuth oxychloride), and as a non-toxic replacement for lead in shot, solder and plumbing brass. It is also used in **low-melting alloys** such as Wood’s metal (melts at 70 °C) for fire-sprinkler plugs, in bismuth vanadate yellow pigment and in thermoelectric bismuth telluride.",
+    "chemistry": "Bismuth is a brittle, pinkish-silver metal that **expands when it freezes**. It is the most **diamagnetic** metal (it is repelled by magnets) and has unusually low thermal conductivity. Cooling molten bismuth slowly grows stepped ‘hopper’ crystals, whose thin oxide coating gives them rainbow interference colours. Its stable oxidation state is +3, and bismuth(V) (sodium bismuthate) is a powerful oxidiser.",
+    "reactions": [
+      { "eq": "Bi³⁺ + H₂O + Cl⁻ → BiOCl↓ + 2H⁺", "note": "Bismuth chloride solution turns milky when diluted, forming bismuth oxychloride." },
+      { "eq": "2Mn²⁺ + 5BiO₃⁻ + 14H⁺ → 2MnO₄⁻ + 5Bi³⁺ + 7H₂O", "note": "Sodium bismuthate oxidises Mn²⁺ to purple permanganate, a sensitive test for manganese." },
+      { "eq": "4Bi + 3O₂ → 2Bi₂O₃", "note": "Burns with a bluish-white flame when heated strongly." }
+    ],
+    "safety": "Bismuth is unusually **low in toxicity** for a heavy metal, hence its use in medicines. Bismuth medicines can harmlessly turn the tongue or stools black (bismuth sulfide), and very high doses over long periods can affect the nervous system."
+  },
+  "Po": {
+    "history": "In **1898 Marie and Pierre Curie** noticed that pitchblende (uranium ore) from Joachimsthal was far more radioactive than its uranium content explained. Grinding and chemically separating tonnes of ore, they found two new elements. The first, which came out with bismuth, they named **polonium** after Marie’s homeland, Poland, which at the time did not exist as an independent country. It was the first element named to draw attention to a political cause.\n\nIn 2006 the former Russian intelligence officer **Alexander Litvinenko** was murdered in London with polonium-210 slipped into his tea.",
+    "production": "Polonium is made in tiny amounts, about 100 g per year (mainly in Russia), by bombarding **bismuth-209** with neutrons in a nuclear reactor. The bismuth-210 formed decays to polonium-210 (half-life 138 days). It was used in early nuclear weapons (polonium–beryllium neutron initiators) and in heat sources for Soviet moon rovers, and is still used in anti-static brushes for removing dust from film and lenses.",
+    "chemistry": "Polonium is the **only element with a simple cubic crystal structure** (α-Po). It is so radioactive that a gram heats itself to over 500 °C and glows with a pale blue light from ionised air. Its chemistry resembles tellurium and bismuth, with +2 and +4 states. Trace polonium-210 is also present in **tobacco smoke**, a contributor to smokers’ lung cancer.",
+    "reactions": [
+      { "eq": "²⁰⁹Bi + n → ²¹⁰Bi", "note": "Neutron capture in a reactor." },
+      { "eq": "²¹⁰Bi → ²¹⁰Po + e⁻ + ν̄", "note": "Beta decay (half-life 5 days)." },
+      { "eq": "²¹⁰Po → ²⁰⁶Pb + ⁴He (5.3 MeV)", "note": "Alpha decay (half-life 138 days)." }
+    ],
+    "safety": "Polonium-210 is one of the most **radiotoxic** substances known: micrograms are lethal if swallowed or inhaled. Its alpha particles cannot penetrate skin, so it is dangerous only inside the body. Irène Joliot-Curie’s death from leukaemia may have been linked to a polonium accident in her lab."
+  },
+  "At": {
+    "history": "Mendeleev predicted ‘eka-iodine’, but element 85 is so unstable that it went undiscovered for 70 years. In **1940 Dale Corson, Kenneth MacKenzie** and **Emilio Segrè** at the University of California, Berkeley made it by bombarding bismuth with alpha particles in a cyclotron, and named it from the Greek *astatos*, unstable. In 1943 Berta Karlik and Traude Bernert in Vienna showed that astatine also occurs naturally, in tiny amounts in uranium and thorium decay chains.",
+    "production": "Astatine is the **rarest naturally occurring element**: estimates suggest less than a gram, perhaps around 25 g, exists in Earth’s crust at any moment. It is made only in **nanogram** amounts, by bombarding bismuth-209 with alpha particles. **Astatine-211** (half-life 7.2 hours) is being tested for **targeted alpha therapy**: attached to antibodies, it can deliver a short-range, cell-killing alpha particle to a tumour.",
+    "chemistry": "**No one has ever seen astatine.** A visible sample would immediately vaporise itself with the heat of its own radioactivity. What we know comes from experiments on a few billion atoms. Calculations from 2013 suggest that solid astatine would be a **metal** rather than a halogen-like solid. It behaves partly like iodine (forming At⁻ and compounds such as AtI) and partly like a metal (forming cations).",
+    "reactions": [
+      { "eq": "²⁰⁹Bi + ⁴He → ²¹¹At + 2n", "note": "The production reaction in a cyclotron." },
+      { "eq": "At⁻ + Ag⁺ → AgAt↓", "note": "Like iodide, astatide co-precipitates with silver." }
+    ],
+    "safety": "Astatine is intensely radioactive. Like iodine, it concentrates in the thyroid gland."
+  },
+  "Rn": {
+    "history": "In 1899 **Ernest Rutherford** and **Robert Owens** noticed that thorium gives off a radioactive ‘emanation’. In **1900 Friedrich Ernst Dorn** in Halle found that radium does the same: it was the gas now called radon. In **1910 William Ramsay** and **Robert Whytlaw-Gray** collected enough to measure its density, showing it to be the heaviest gas known, and a noble gas. It was called *niton* (‘shining’) for a while; the name *radon*, from radium, was adopted in 1923.",
+    "production": "Radon is not produced commercially. It forms constantly in soil and rock from the decay of **radium-226**, part of the uranium-238 chain. Its most stable isotope, radon-222, has a half-life of 3.8 days. In the early 20th century radon from radium sources was sealed in tiny gold tubes (‘seeds’) to treat cancer, and radon spas were fashionable.",
+    "chemistry": "Radon is the heaviest noble gas that has been studied in bulk. It is colourless, but solid radon glows yellow to orange-red from its own radioactivity. Its ionization energy is low enough that it reacts with fluorine to form **radon difluoride**. Radon seeps out of the ground into buildings. It is the **second leading cause of lung cancer** after smoking, estimated at about 21 000 deaths a year in the USA alone.",
+    "reactions": [
+      { "eq": "²²⁶Ra → ²²²Rn + ⁴He", "note": "Radium alpha-decays to radon in rocks and soil." },
+      { "eq": "²²²Rn → ²¹⁸Po + ⁴He", "note": "Radon’s short-lived decay products (polonium-218, -214) are the real lung hazard." },
+      { "eq": "Rn + F₂ → RnF₂", "note": "Radon is reactive enough to form a fluoride." }
+    ],
+    "safety": "Radon is invisible and odourless. Its radioactive decay products stick to dust and lodge in the lungs. Homes in uranium-rich areas should be tested. Concentrations above about 100–300 Bq/m³, depending on the country, call for better ventilation or sealing of floors. In 1984 the engineer Stanley Watras set off radiation alarms at the nuclear power plant where he worked, because his own home was full of radon."
+  }
+}

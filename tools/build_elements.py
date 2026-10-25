@@ -55,6 +55,13 @@ LATTICE_NAMES = {
 NOT_HCP = {'H', 'He', 'C', 'N', 'Se', 'Te'}   # graphite / molecular / helical-chain hexagonal
 
 
+# Corrections to match the CRC Handbook of Chemistry and Physics (97th ed.), in K
+OVERRIDES = {
+    ('W', 'mp'): 3695.15,   # 3422 °C
+    ('Au', 'bp'): 3129.15,  # 2856 °C
+}
+
+
 def category_for(e):
     raw = (e.get('category') or '').lower()
     if e['symbol'] in HALOGENS and e['number'] <= 85:
@@ -112,7 +119,7 @@ def main(bowser_path, db_path, nist_dir):
     ox = per_atom('select atomic_number, oxidation_state, category from oxidationstates order by oxidation_state')
     ies = per_atom('select atomic_number, ion_charge, ionization_energy, is_theoretical from ionizationenergies order by ion_charge')
     isos = per_atom('select atomic_number, mass_number, abundance, is_radioactive, half_life, half_life_unit, mass from isotopes order by mass_number')
-    phases = per_atom('select atomic_number, melting_point, boiling_point, allotrope, is_sublimation_point, triple_point_temperature, critical_temperature from phasetransitions')
+    phases = per_atom('select atomic_number, melting_point, boiling_point, allotrope, is_sublimation_point, triple_point_temperature, critical_temperature, is_transition from phasetransitions')
 
     elements = []
     for z in range(1, 119):
@@ -124,15 +131,23 @@ def main(bowser_path, db_path, nist_dir):
         # melting / boiling point: mendeleev phasetransitions (NIST/CRC); fall back to Bowserinator
         mp = bp = None
         sublimes = False
-        for (mpv, bpv, allotrope, subl, tp, tc) in phases.get(z, []):
-            if mp is None and mpv is not None:
+        for (mpv, bpv, allotrope, subl, tp, tc, trans) in phases.get(z, []):
+            # rows flagged is_transition give a solid–solid change (e.g. grey → white tin
+            # at 13 °C), not a melting point, so they are skipped for mp
+            # sublimation rows: the element never melts at 1 atm (C, As), so no mp
+            if mp is None and mpv is not None and not trans and not subl:
                 mp = mpv
             if bp is None and bpv is not None:
                 bp = bpv
             if subl:
                 sublimes = True
-        mp = mp if mp is not None else b.get('melt')
+        # only "sublimes" if no allotrope melts normally (red P sublimes, but white P melts)
+        sublimes = sublimes and mp is None
+        mp = mp if (mp is not None or sublimes) else b.get('melt')
         bp = bp if bp is not None else b.get('boil')
+        # a few values where both sources differ from the CRC Handbook (97th ed.)
+        mp = OVERRIDES.get((sym, 'mp'), mp)
+        bp = OVERRIDES.get((sym, 'bp'), bp)
 
         # isotopes: all stable/natural ones, plus the 4 longest-lived radioactive ones
         unit_s = {'zsec': 1e-21, 'asec': 1e-18, 'fsec': 1e-15, 'psec': 1e-12, 'nsec': 1e-9, 'usec': 1e-6, 'msec': 1e-3,

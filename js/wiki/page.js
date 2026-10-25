@@ -25,8 +25,9 @@ const WikiPage = (() => {
     return predicted ? `${t} <span class="tag warn small">predicted</span>` : t;
   };
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  /** Articles may use **bold** and blank lines between paragraphs. */
-  const md = (s) => (s ? esc(s).split(/\n\s*\n/).map((p) => `<p>${p.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br/>')}</p>`).join('') : '');
+  /** Articles may use **bold**, *italic* and blank lines between paragraphs. */
+  const inline = (t) => t.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\*(.+?)\*/g, '<i>$1</i>');
+  const md = (s) => (s ? esc(s).split(/\n\s*\n/).map((p) => `<p>${inline(p).replace(/\n/g, '<br/>')}</p>`).join('') : '');
   const num = (v, d = 2) => (v == null ? '—' : Number(v).toLocaleString('en-US', { maximumFractionDigits: d }));
   const ox = (n) => (n > 0 ? `+${n}` : n < 0 ? `−${-n}` : '0');
 
@@ -235,7 +236,7 @@ const WikiPage = (() => {
       <div class="two-col">
         <div>
           ${facts([
-            ['Melting point', e.mp == null ? null : K(e.mp) + pred],
+            ['Melting point', e.mp == null ? (e.sublimes ? 'does not melt at 1 atm' : null) : K(e.mp) + pred],
             [e.sublimes ? 'Sublimes at' : 'Boiling point', e.bp == null ? null : K(e.bp) + pred],
             ['Density', e.density == null ? null : `${num(e.density, 4)} g/cm³${pred}`],
             ['Molar heat capacity', e.molarHeat == null ? null : `${num(e.molarHeat, 2)} J/(mol·K)`],
@@ -300,13 +301,16 @@ const WikiPage = (() => {
   }
 
   function secReactions(e, art) {
-    const list = art.reactions || [];
     const cards = WikiReactions.cardsFor(e);
+    // don't repeat an equation that already has an animated card
+    const squash = (q) => q.replace(/\s+/g, '');
+    const animated = new Set(cards.map((c) => squash(c.eq)));
+    const list = (art.reactions || []).filter((r) => !animated.has(squash(r.eq)));
     if (!list.length && !cards.length) return section('reactions', 'Reactions', '<p class="dim">No reactions listed yet.</p>');
     return section('reactions', 'Reactions', `
       ${md(art.chemistry)}
       ${cards.map((c, i) => `<div class="rx-card anim" data-rx="${i}"><canvas class="rx-canvas"></canvas><div class="rx-text"><div class="rx-eq">${c.eq}</div><p class="small">${c.text}</p><button class="mini-btn" data-rx-play="${i}">▶ Replay</button></div></div>`).join('')}
-      ${list.map((r) => `<div class="rx-card"><div class="rx-text"><div class="rx-eq">${esc(r.eq)}</div>${r.note ? `<p class="small">${esc(r.note)}</p>` : ''}</div></div>`).join('')}`);
+      ${list.map((r) => `<div class="rx-card"><div class="rx-text"><div class="rx-eq">${esc(r.eq)}</div>${r.note ? `<p class="small">${inline(esc(r.note))}</p>` : ''}</div></div>`).join('')}`);
   }
 
   function secIsotopes(e) {

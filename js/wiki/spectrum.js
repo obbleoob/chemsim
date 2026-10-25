@@ -10,6 +10,7 @@
        functions x̄, ȳ, z̄. We use the analytic fit by Wyman, Sloan & Shirley
        (2013, J. Computer Graphics Techniques 2(2)), accurate to a few %.
      • A spectrum's colour = Σ intensity × (x̄, ȳ, z̄) → XYZ → sRGB.
+     • Single lines are drawn with Bruton's approximation instead (see lineRGB).
    ============================================================================ */
 'use strict';
 
@@ -36,8 +37,26 @@ const Spectrum = (() => {
     return [r, gg, b].map((v) => Math.round(255 * Math.max(0, Math.min(1, gamma((v / mx) * peak)))));
   }
 
-  /** The colour of a single wavelength (for drawing one spectral line). */
-  const lineRGB = (nm) => xyzToRgb(cmf(nm));
+  /**
+   * The colour of a single wavelength, for drawing one spectral line.
+   * Pure spectral colours lie outside what a screen can show, so we use Dan
+   * Bruton's widely used approximation (it also dims the violet and deep-red
+   * ends, where the eye is barely sensitive).
+   */
+  function lineRGB(nm) {
+    let r = 0, g = 0, b = 0;
+    if (nm < 440) { r = -(nm - 440) / 60; b = 1; }
+    else if (nm < 490) { g = (nm - 440) / 50; b = 1; }
+    else if (nm < 510) { g = 1; b = -(nm - 510) / 20; }
+    else if (nm < 580) { r = (nm - 510) / 70; g = 1; }
+    else if (nm < 645) { r = 1; g = -(nm - 645) / 65; }
+    else { r = 1; }
+    let f = 1;
+    if (nm < 420) f = 0.3 + (0.7 * (nm - 380)) / 40;
+    else if (nm > 700) f = 0.3 + (0.7 * (780 - nm)) / 80;
+    const c = (v) => Math.round(255 * Math.pow(Math.max(0, Math.min(1, v * f)), 0.8));
+    return [c(r), c(g), c(b)];
+  }
   const css = (rgb, a = 1) => `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${a})`;
 
   /** Estimated discharge-glow colour of a line list ([[nm, relI], …]). */

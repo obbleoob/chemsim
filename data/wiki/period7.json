@@ -1,0 +1,166 @@
+{
+  "Fr": {
+    "history": "Element 87, ‘eka-caesium’, attracted several false discoveries (‘virginium’, ‘moldavium’). It was finally found in **1939 by Marguerite Perey** at the Curie Institute in Paris, a former laboratory assistant of Marie Curie. While purifying actinium-227 she noticed radiation that could not come from actinium. About 1 % of actinium atoms decay by a rare alpha branch into an isotope of element 87. She named it after **France**. It was the **last element discovered in nature**, and in 1962 Perey became the first woman elected to the French Académie des Sciences (as a corresponding member).",
+    "production": "Francium-223, its longest-lived isotope, has a half-life of only **22 minutes**. Estimates suggest that less than about 30 g exist in the whole of Earth’s crust at any moment. Researchers make it in nuclear reactions, for example oxygen-18 on gold-197, and have trapped clouds of a few hundred thousand francium atoms with lasers to measure their spectra. It has no uses outside research.",
+    "chemistry": "Francium has never been seen in bulk: a visible sample would vaporise from its own radioactive heat. It is **predicted** to behave like caesium, as the heaviest alkali metal. Surprisingly, relativistic effects make its measured ionization energy (393 kJ/mol) slightly **higher** than caesium’s, so caesium may actually be the most reactive alkali metal.",
+    "reactions": [
+      { "eq": "²²⁷Ac → ²²³Fr + ⁴He", "note": "The rare decay branch through which Perey discovered francium." },
+      { "eq": "2Fr + 2H₂O → 2FrOH + H₂ (predicted)", "note": "Expected to be at least as violent as caesium, but never observed." }
+    ],
+    "safety": "Francium exists only as individual atoms in laboratories, so it is no practical hazard. It is intensely radioactive."
+  },
+  "Ra": {
+    "history": "In December **1898 Marie and Pierre Curie**, with **Gustave Bémont**, announced a second new element in pitchblende, far more radioactive than polonium. They named it from the Latin *radius*, ray. Isolating it took Marie four years of stirring tonnes of ore in a leaky shed, to obtain about 0.1 g of radium chloride. In **1910 Marie Curie** and **André-Louis Debierne** isolated the metal itself. The **curie** unit was defined as the activity of one gram of radium-226, and Marie Curie received her second Nobel Prize (Chemistry, 1911) for polonium and radium.\n\nIn the 1910s–20s, the ‘**Radium Girls**’ who painted glowing watch dials in US factories licked their brushes to a point and swallowed radium. Many developed bone cancer and rotting jaws, and their court cases helped establish workers’ rights to compensation for workplace injury.",
+    "production": "Radium is present in uranium ores at only about 1 part in 3 million of the uranium. Radium-226 is no longer produced in bulk. Radium-223 (Xofigo), from actinium-227 generators, is used to treat prostate cancer that has spread to bone, because the body deposits it in bone just like calcium.",
+    "chemistry": "Radium is the heaviest **alkaline earth metal**, forming Ra²⁺. It is a brilliant white metal that blackens in air and reacts vigorously with water. It glows faintly blue in the dark, as its radiation excites the surrounding air. Its compounds were once mixed with zinc sulfide to make luminous paint. Radium sulfate is the most insoluble sulfate known.",
+    "reactions": [
+      { "eq": "²³⁰Th → ²²⁶Ra + ⁴He", "note": "Radium forms in the uranium-238 decay chain." },
+      { "eq": "²²⁶Ra → ²²²Rn + ⁴He", "note": "Radium (half-life 1600 years) decays to radon gas." },
+      { "eq": "Ra + 2H₂O → Ra(OH)₂ + H₂", "note": "Vigorous, like barium." }
+    ],
+    "safety": "Radium is extremely radiotoxic: it seeks out bone, where its radiation causes bone cancer and destroys the marrow. Marie Curie died of aplastic anaemia in 1934. Her laboratory notebooks are still radioactive and are kept in lead-lined boxes."
+  },
+  "Rf": {
+    "history": "Element 104 was claimed first by Georgy Flyorov’s team at **Dubna**, USSR, in **1964**, and then by Albert Ghiorso’s team at **Berkeley**, USA, in **1969**. The two labs argued for decades over who got there first, and the USSR proposed the name *kurchatovium*. These ‘Transfermium Wars’ were finally settled by IUPAC in **1997**, which named the element after **Ernest Rutherford**, the father of nuclear physics.",
+    "production": "Rutherfordium is made **one atom at a time** in particle accelerators, for example: ²⁴⁹Cf + ¹²C → ²⁵⁷Rf + 4n. Its longest-lived isotopes last on the order of an hour. It has no uses outside research.",
+    "chemistry": "Rutherfordium is the **first transactinide** element, the first after the actinide series. Experiments with single atoms showed that its chloride is volatile like hafnium and zirconium tetrachlorides, which confirmed that it belongs in **group 4**. Bulk properties (a dense, silvery metal) are **predictions**.",
+    "reactions": [
+      { "eq": "²⁴⁹Cf + ¹²C → ²⁵⁷Rf + 4n", "note": "Berkeley’s 1969 synthesis." },
+      { "eq": "Rf + 4Cl → RfCl₄ (gas-phase, single atoms)", "note": "Atom-at-a-time chemistry: compared with ZrCl₄ and HfCl₄." }
+    ],
+    "safety": "Only individual atoms have ever existed, so it poses no hazard."
+  },
+  "Db": {
+    "history": "Element 105 was another prize of the Cold War rivalry. **Dubna** reported it in 1968 and 1970, and **Berkeley** in **1970** (²⁴⁹Cf + ¹⁵N). Berkeley proposed *hahnium*. In 1997 IUPAC named it **dubnium**, after the Russian science city of Dubna, home of the Joint Institute for Nuclear Research.",
+    "production": "Dubnium is made atom by atom in accelerators. Its longest-lived isotope, dubnium-268, was found as a decay product of moscovium and lasts about a day, very long for a superheavy element. That has allowed careful chemistry experiments.",
+    "chemistry": "Single-atom experiments show dubnium behaving like a **group 5** element (with niobium and tantalum), forming volatile halides and oxyhalides. Bulk properties are **predicted**.",
+    "reactions": [
+      { "eq": "²⁴⁹Cf + ¹⁵N → ²⁶⁰Db + 4n", "note": "Berkeley’s 1970 synthesis." },
+      { "eq": "²⁴³Am + ⁴⁸Ca → ²⁸⁸Mc + 3n → … → ²⁶⁸Db", "note": "The long-lived isotope appears after a chain of alpha decays from moscovium." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Sg": {
+    "history": "In **1974** Albert Ghiorso’s team at **Berkeley**, working with Livermore, made element 106 by firing oxygen-18 at californium-249. In 1997 it was named **seaborgium** after **Glenn T. Seaborg**, who discovered plutonium and nine other elements and reorganised the periodic table to include the actinides. It was the **first element named after a living person**. Seaborg said it was the greatest honour of his life, and joked that he could now receive mail addressed to himself at ‘seaborgium’.",
+    "production": "Seaborgium is made atom by atom in accelerators, for example ²⁴⁹Cf + ¹⁸O → ²⁶³Sg + 4n. Its isotopes last from milliseconds to minutes.",
+    "chemistry": "Seaborgium behaves like **tungsten**, its group 6 neighbour. It forms a volatile oxychloride (SgO₂Cl₂), and in 2014 a team at RIKEN in Japan made **Sg(CO)₆**, the first carbonyl compound of a superheavy element. Bulk properties are **predicted**.",
+    "reactions": [
+      { "eq": "²⁴⁹Cf + ¹⁸O → ²⁶³Sg + 4n", "note": "The 1974 discovery reaction." },
+      { "eq": "Sg + 6CO → Sg(CO)₆", "note": "Made with single atoms in 2014; volatile like W(CO)₆." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Bh": {
+    "history": "In **1981** a team led by **Peter Armbruster** and **Gottfried Münzenberg** at the **GSI** laboratory in Darmstadt, Germany made element 107 by **cold fusion**. Chromium-54 nuclei were fused with bismuth-209 at just enough energy to stick, so only one neutron is lost. It was named **bohrium** after **Niels Bohr** in 1997.",
+    "production": "Bohrium is made atom by atom, for example ²⁰⁹Bi + ⁵⁴Cr → ²⁶²Bh + n. Its longest-lived isotopes last about a minute.",
+    "chemistry": "In 2000 six atoms of bohrium were converted into the oxychloride BhO₃Cl, which behaved like the rhenium compound ReO₃Cl. This confirmed bohrium as a **group 7** element. Bulk properties are **predicted**.",
+    "reactions": [
+      { "eq": "²⁰⁹Bi + ⁵⁴Cr → ²⁶²Bh + n", "note": "Cold-fusion synthesis at GSI (1981)." },
+      { "eq": "Bh + O₂ + HCl → BhO₃Cl (gas-phase)", "note": "Atom-at-a-time chemistry (2000)." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Hs": {
+    "history": "Element 108 was first made at **GSI Darmstadt** in **1984**, by fusing iron-58 with lead-208. It was named **hassium** after the German state of **Hesse** (Latin *Hassia*), where Darmstadt lies.",
+    "production": "Hassium is made atom by atom: ²⁰⁸Pb + ⁵⁸Fe → ²⁶⁵Hs + n. Its isotopes last from milliseconds to about ten seconds.",
+    "chemistry": "In 2001 chemists at GSI made **hassium tetroxide**, HsO₄, from a handful of atoms. Like osmium tetroxide it was volatile, proving hassium belongs in **group 8**. Hassium-270 is predicted to be ‘doubly magic’ for a deformed nucleus. Bulk properties (an extremely dense metal) are **predicted**.",
+    "reactions": [
+      { "eq": "²⁰⁸Pb + ⁵⁸Fe → ²⁶⁵Hs + n", "note": "The 1984 synthesis." },
+      { "eq": "Hs + 2O₂ → HsO₄ (gas-phase)", "note": "Volatile tetroxide, like OsO₄ (2001)." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Mt": {
+    "history": "On 29 August **1982**, scientists at **GSI Darmstadt** detected a **single atom** of element 109, made by fusing iron-58 with bismuth-209. It was named **meitnerium** in 1997 after **Lise Meitner**, the Austrian-Swedish physicist who explained **nuclear fission** with her nephew Otto Frisch in 1938–39. The 1944 Nobel Prize for fission went to Otto Hahn alone, a decision widely seen as an injustice, and this naming was partly an act of recognition.",
+    "production": "Meitnerium is made atom by atom: ²⁰⁹Bi + ⁵⁸Fe → ²⁶⁶Mt + n. Its longest-lived isotopes last only a few seconds.",
+    "chemistry": "No chemistry has yet been done with meitnerium. It is **predicted** to be a heavy noble metal like iridium, with +3 and +6 among its stable oxidation states. All bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁰⁹Bi + ⁵⁸Fe → ²⁶⁶Mt + n", "note": "The single atom of 1982." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Ds": {
+    "history": "Element 110 was made at **GSI Darmstadt** in **November 1994** by a team led by **Sigurd Hofmann**, by fusing nickel-62 with lead-208. In 2003 it was named **darmstadtium** after the city of Darmstadt. (A rival suggestion had been ‘policium’, from the city’s police phone number, 110.)",
+    "production": "Darmstadtium is made atom by atom: ²⁰⁸Pb + ⁶²Ni → ²⁶⁹Ds + n. Isotopes from the decay chains of heavier elements live up to about ten seconds.",
+    "chemistry": "Darmstadtium is **predicted** to be a noble metal like platinum, but its chemistry has not yet been studied experimentally. All bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁰⁸Pb + ⁶²Ni → ²⁶⁹Ds + n", "note": "The 1994 synthesis at GSI." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Rg": {
+    "history": "In **December 1994**, just weeks after darmstadtium, the same **GSI** team made element 111 by fusing nickel-64 with bismuth-209. In 2004 it was named **roentgenium** after **Wilhelm Conrad Röntgen**, who discovered X-rays in 1895.",
+    "production": "Roentgenium is made atom by atom: ²⁰⁹Bi + ⁶⁴Ni → ²⁷²Rg + n. The longest-lived known isotopes last up to about two minutes.",
+    "chemistry": "As the heavier sister of gold, roentgenium is **predicted** to be a very noble metal. Relativistic effects are expected to be even stronger than in gold, and may make it **silvery** rather than golden. No chemical experiments have been done. All bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁰⁹Bi + ⁶⁴Ni → ²⁷²Rg + n", "note": "The 1994 synthesis at GSI." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Cn": {
+    "history": "Element 112 was made at **GSI Darmstadt** in **1996**, by fusing zinc-70 with lead-208. In 2010 it was named **copernicium** after **Nicolaus Copernicus**, who put the Sun at the centre of the solar system. The name was announced on 19 February, his 537th birthday. The symbol Cp was rejected because it had once been used for lutetium (‘cassiopeium’), so Cn was chosen instead.",
+    "production": "Copernicium is made atom by atom. Its longest-lived isotopes, such as copernicium-285 (about 30 seconds), come from the decay of flerovium.",
+    "chemistry": "In 2007 experiments with a few atoms showed copernicium binding to gold surfaces much as mercury does, but more weakly. It is **predicted** to be very volatile because of relativistic effects, possibly a **liquid or even a gas** at room temperature. All bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁰⁸Pb + ⁷⁰Zn → ²⁷⁷Cn + n", "note": "The 1996 discovery reaction." },
+      { "eq": "²⁴⁴Pu + ⁴⁸Ca → ²⁸⁹Fl + 3n → ²⁸⁵Cn + ⁴He", "note": "Longer-lived copernicium from flerovium decay." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Nh": {
+    "history": "A team led by **Kosuke Morita** at **RIKEN** in Japan bombarded bismuth-209 with zinc-70 for nearly a decade. They observed just **three atoms** of element 113, in 2004, 2005 and 2012. A Russian–American team at Dubna had seen it earlier (2003) as a decay product of element 115. IUPAC credited RIKEN, and in 2016 the element was named **nihonium**, from *Nihon*, Japan. It is the first element discovered in Asia.",
+    "production": "Nihonium is made atom by atom, either directly (²⁰⁹Bi + ⁷⁰Zn → ²⁷⁸Nh + n) or by the decay of moscovium. Its isotopes last up to about ten seconds.",
+    "chemistry": "Nihonium is **predicted** to be a heavy post-transition metal below thallium, with +1 (and perhaps +3) oxidation states. Bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁰⁹Bi + ⁷⁰Zn → ²⁷⁸Nh + n", "note": "RIKEN’s cold-fusion synthesis (three atoms in nine years)." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Fl": {
+    "history": "In **1998** a team led by **Yuri Oganessian** at the Joint Institute for Nuclear Research in **Dubna**, Russia, working with Lawrence Livermore (USA), fired calcium-48 at plutonium-244 and observed element 114. This ‘hot fusion’ with neutron-rich calcium-48 opened the way to all the elements up to 118. In 2012 it was named **flerovium**, after the Flerov Laboratory of Nuclear Reactions, itself named after **Georgy Flyorov**.",
+    "production": "Flerovium is made atom by atom: ²⁴⁴Pu + ⁴⁸Ca → ²⁸⁹Fl + 3n. Its isotopes last up to a few seconds, much longer than lighter neighbours, a sign of the predicted ‘**island of stability**’ around 114 protons and 184 neutrons.",
+    "chemistry": "Relativistic effects strongly stabilise flerovium’s 7p electrons, so it was **predicted** to be unusually unreactive, perhaps even noble-gas-like. Experiments with single atoms (2022) suggest it is a volatile metal, the most volatile in group 14. Bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁴⁴Pu + ⁴⁸Ca → ²⁸⁹Fl + 3n", "note": "The hot-fusion synthesis at Dubna." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Mc": {
+    "history": "Element 115 was first made in **2003** by the **Dubna–Livermore** collaboration, by firing calcium-48 at americium-243. The discovery was confirmed by experiments at GSI and elsewhere, and in 2016 it was named **moscovium** after the Moscow region, home of Dubna.",
+    "production": "Moscovium is made atom by atom: ²⁴³Am + ⁴⁸Ca → ²⁸⁸Mc + 3n. Its isotopes last a fraction of a second, and decay through nihonium down to long-lived dubnium.",
+    "chemistry": "Moscovium is **predicted** to be a heavy metal below bismuth. Its +1 state may be important, making it in some ways similar to thallium(I). Bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁴³Am + ⁴⁸Ca → ²⁸⁸Mc + 3n", "note": "The 2003 Dubna synthesis." },
+      { "eq": "²⁸⁸Mc → ²⁸⁴Nh + ⁴He", "note": "The start of its alpha-decay chain." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Lv": {
+    "history": "In 1999 a Berkeley group announced elements 116 and 118, but the claim was **retracted** in 2001 after it emerged that one researcher had fabricated the data. Element 116 was genuinely made in **2000** by the **Dubna–Livermore** collaboration, by fusing calcium-48 with curium-248. In 2012 it was named **livermorium** after **Lawrence Livermore National Laboratory** in California.",
+    "production": "Livermorium is made atom by atom: ²⁴⁸Cm + ⁴⁸Ca → ²⁹²Lv + 4n. Its isotopes last tens of milliseconds.",
+    "chemistry": "Livermorium is **predicted** to be a post-transition metal below polonium, with +2 the most stable oxidation state. No chemistry has been done yet. Bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁴⁸Cm + ⁴⁸Ca → ²⁹²Lv + 4n", "note": "The 2000 Dubna synthesis." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Ts": {
+    "history": "Making element 117 required an unusual target: **berkelium-249**. In 2009 the **Oak Ridge** reactor in Tennessee produced 22 milligrams of it, which took about 250 days of irradiation and processing. It was flown to **Dubna** and bombarded with calcium-48, and in **2010** six atoms of element 117 were detected. In 2016 it was named **tennessine** after the US state of Tennessee, home of Oak Ridge National Laboratory, Vanderbilt University and the University of Tennessee.",
+    "production": "Tennessine is made atom by atom: ²⁴⁹Bk + ⁴⁸Ca → ²⁹³Ts + 4n (or ²⁹⁴Ts + 3n). Its isotopes last tens of milliseconds.",
+    "chemistry": "Although it sits in group 17 with the halogens, tennessine is **predicted** to behave more like a metal or metalloid, because relativistic effects weaken its ability to gain an electron. Its +1 state may be important. Bulk properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁴⁹Bk + ⁴⁸Ca → ²⁹³Ts + 4n", "note": "The 2010 synthesis." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  },
+  "Og": {
+    "history": "Element 118 was first made at **Dubna** in **2002**, with confirmation published in 2006, by firing calcium-48 at californium-249. Only about **five atoms** have ever been detected. In 2016 it was named **oganesson** after **Yuri Oganessian**, the leader of the Dubna superheavy-element programme. He became the second person, after Glenn Seaborg, to have an element named after him while still alive. Oganesson completes the seventh row of the periodic table.",
+    "production": "Oganesson is made atom by atom: ²⁴⁹Cf + ⁴⁸Ca → ²⁹⁴Og + 3n. Oganesson-294 has a half-life of under a millisecond. To go beyond 118, elements 119 and 120 will need heavier projectiles such as titanium-50 or chromium-54, and experiments are under way.",
+    "chemistry": "Oganesson is in group 18, but it is **predicted** not to be a ‘noble gas’ at all. Strong relativistic effects make its electron cloud so diffuse and polarisable that it is probably a **solid** at room temperature, perhaps a semiconductor, and it may be chemically reactive. All its properties are **predictions**.",
+    "reactions": [
+      { "eq": "²⁴⁹Cf + ⁴⁸Ca → ²⁹⁴Og + 3n", "note": "The only known way to make oganesson." },
+      { "eq": "²⁹⁴Og → ²⁹⁰Lv + ⁴He", "note": "Decays within about a millisecond." }
+    ],
+    "safety": "Exists only as individual atoms, so it poses no practical hazard."
+  }
+}

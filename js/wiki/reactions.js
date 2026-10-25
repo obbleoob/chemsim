@@ -50,7 +50,7 @@ const WikiReactions = (() => {
       const ion = { Al: 'AlCl₃', Fe: 'FeCl₂', Cr: 'CrCl₂', Mn: 'MnCl₂', Co: 'CoCl₂', Ni: 'NiCl₂', Sn: 'SnCl₂', Pb: 'PbCl₂', Cd: 'CdCl₂', Ti: 'TiCl₃', Be: 'BeCl₂' }[s] || `${s}Cl₂`;
       const eq = s === 'Al' ? '2Al + 6HCl → 2AlCl₃ + 3H₂↑' : s === 'Ti' ? '2Ti + 6HCl → 2TiCl₃ + 3H₂↑' : `${s} + 2HCl → ${ion} + H₂↑`;
       const extra = s === 'Al' ? ' Slow to start: a thin protective Al₂O₃ layer must dissolve first.' : s === 'Pb' ? ' Very slow: insoluble PbCl₂ coats the surface.' : '';
-      cards.push({ type: 'acid', eq, text: `${e.name} is above hydrogen in the reactivity series, so it displaces hydrogen from acid. Bubble rate shows how reactive it is.${extra}`, p: { rate: r, metal: e.cpk } });
+      cards.push({ type: 'acid', eq, text: `${e.name} is above hydrogen in the reactivity series, so it displaces hydrogen from acid. Bubble rate shows how reactive it is.${extra}`, p: { rate: r, metal: '#a8b0bb' } });
     }
     if (NO_ACID.has(s)) {
       cards.push({ type: 'noacid', eq: `${s} + HCl → no reaction`, text: `${e.name} is below hydrogen in the reactivity series, so it cannot displace hydrogen from dilute acid.${s === 'Au' || s === 'Pt' ? ' Dissolving it takes aqua regia (HNO₃ + 3HCl).' : s === 'Cu' || s === 'Ag' ? ' It does dissolve in oxidising nitric acid.' : ''}`, p: { metal: s === 'Cu' ? '#d97745' : s === 'Au' ? '#f5c542' : '#d1d5db' } });

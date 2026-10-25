@@ -15,7 +15,7 @@ This is the plan for growing ChemSim from one molecule editor into a multi-mode 
 
 ---
 
-## Phase 0: Foundation (do this first, whatever comes next)
+## Phase 0: Foundation ✅ done
 
 The app is currently one 2,600-line `app.js`. Before adding four more modes it needs splitting up.
 
@@ -36,7 +36,7 @@ The app is currently one 2,600-line `app.js`. Before adding four more modes it n
 
 ---
 
-## Phase 1: Element Wiki (Mode 3)
+## Phase 1: Element Wiki (Mode 3) ✅ done
 
 ### Periodic table
 - All 118 elements in standard layout with the lanthanide and actinide rows. Colours by category (alkali metal, halogen, noble gas…).
@@ -61,9 +61,9 @@ A full-screen page per element with these sections:
 For superheavy elements (roughly Rf onward) the honest answer is often "only a few atoms ever made". Those pages will cover the discovery story, how they were made, and *predicted* properties clearly labelled as predictions.
 
 ### Data sources and fact-checking
-- Numbers (masses, radii, energies, configurations) come from an established open dataset, cross-checked against NIST and IUPAC values. Each value keeps its source.
-- Emission lines come from the NIST Atomic Spectra Database's strong-line lists.
-- I'll write the history/extraction text myself and you should treat it as a draft to spot-check. This is the biggest piece of work in the whole roadmap, and it will be delivered in batches (period 1–3 first, then 4, 5, 6–7, f-block).
+- Numbers come from mendeleev (MIT) and Periodic-Table-JSON (CC BY-SA), merged by `tools/build_elements.py` and spot-checked against CRC/NIST values in `tests/wiki.test.js`. Details are in `data/SOURCES.md`.
+- Emission lines come from the NIST Atomic Spectra Database (94 elements have visible lines).
+- The history, production, chemistry and safety articles for all 118 elements (~27 000 words, 350 reactions) were written for ChemSim. They are drafts: please report anything that looks wrong.
 
 **Done when:** every element opens a page, the heatmaps match the reference data, and every flame colour and spectrum matches its reference.
 

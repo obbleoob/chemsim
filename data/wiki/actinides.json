@@ -1,0 +1,156 @@
+{
+  "Ac": {
+    "history": "In **1899 André-Louis Debierne**, a colleague of Marie and Pierre Curie, found a new radioactive element in the leftovers of pitchblende processing. He named it from the Greek *aktis*, ray. **Friedrich Oskar Giesel** independently found it in 1902 and called it *emanium*. Actinium gives its name to the **actinide series** (Ac–Lr), in which the 5f subshell fills.",
+    "production": "Actinium is extremely rare in nature: uranium ore contains about 0.2 mg per tonne. Actinium-227 (half-life 21.8 years) is made by irradiating radium-226 with neutrons in a reactor. Actinium-225 (half-life 10 days) is in high demand for **targeted alpha therapy** against cancer: each atom releases four alpha particles as it decays, destroying tumour cells at very short range. It is made from thorium-229 stocks or with accelerators.",
+    "chemistry": "Actinium closely resembles **lanthanum**, forming only Ac³⁺. It is so radioactive that it glows with a pale blue light in the dark.",
+    "reactions": [
+      { "eq": "²²⁶Ra + n → ²²⁷Ra;  ²²⁷Ra → ²²⁷Ac + e⁻ + ν̄", "note": "Reactor production of actinium-227." },
+      { "eq": "²²⁵Ac → ²²¹Fr + ⁴He → … → ²⁰⁹Bi", "note": "The decay chain releases four alpha particles, ideal for killing cancer cells." }
+    ],
+    "safety": "Actinium is highly radiotoxic, and handled only in specialised radiochemistry laboratories."
+  },
+  "Th": {
+    "history": "In 1828 the Norwegian clergyman **Hans Morten Thrane Esmark** found a black mineral on the island of Løvøya and sent it to **Jöns Jacob Berzelius**, who identified a new element in **1829**. He named it after **Thor**, the Norse god of thunder. He had used the name once before, in 1815, for a ‘new earth’ that turned out to be yttrium phosphate. In 1898 Gerhard Schmidt and Marie Curie independently discovered that thorium is **radioactive**.",
+    "production": "Thorium is about **three times more abundant than uranium**. It is mainly a by-product of extracting rare earths from **monazite** sands (India, Brazil, Australia). It was famously used in **gas mantles**: 99 % thorium oxide with 1 % cerium oxide glows intensely white when heated. Other uses have included thoriated tungsten welding electrodes, high-quality camera lenses from the 1940s–70s (which are slightly radioactive and turn yellow with age), and heat-resistant ceramics. Thorium may become a **nuclear fuel**: thorium-232 can be converted into fissile uranium-233, and India and China are developing thorium reactors.",
+    "chemistry": "Thorium is almost always in the **+4** state. Thorium dioxide has the **highest melting point of any oxide** (about 3390 °C). Thorium-232 has a half-life of 14 billion years, about the age of the universe, so most of the thorium present when Earth formed is still here. Its slow decay is one of the main sources of heat inside the Earth.",
+    "reactions": [
+      { "eq": "²³²Th + n → ²³³Th → ²³³Pa → ²³³U", "note": "The thorium fuel cycle: two beta decays make fissile uranium-233." },
+      { "eq": "²³²Th → ²²⁸Ra + ⁴He", "note": "Start of the thorium decay chain, which ends at lead-208." }
+    ],
+    "safety": "Thorium is only weakly radioactive, but inhaled or ingested dust is a hazard. In the 1930s–50s the X-ray contrast agent ‘Thorotrast’ (colloidal ThO₂) caused liver cancers decades after injection. Thorium’s decay chain releases radioactive **thoron** gas (radon-220)."
+  },
+  "Pa": {
+    "history": "In **1913 Kasimir Fajans** and **Oswald Göhring** found a short-lived isotope of element 91 (protactinium-234m), which they called *brevium*. In **1917–18 Otto Hahn** and **Lise Meitner** in Berlin, and independently **Frederick Soddy** and **John Cranston** in Glasgow, found the long-lived isotope protactinium-231. Because it decays into actinium, it was named *protoactinium*, ‘before actinium’, shortened in 1949 to **protactinium**. Aristid von Grosse isolated the element itself in 1934.",
+    "production": "In 1961 the UK Atomic Energy Authority processed about **60 tonnes** of uranium-refining waste to extract around **125 g** of protactinium, which remains most of the world’s supply. It has no uses outside research. The ratio of protactinium-231 to thorium-230 in ocean sediments is used to reconstruct past ocean circulation.",
+    "chemistry": "Protactinium is mostly in the **+5** state in solution, where it tends to form hydrolysed species that stick to glass. That makes it notoriously difficult to work with. Protactinium-233 is the key intermediate in the thorium fuel cycle.",
+    "reactions": [
+      { "eq": "²³¹Pa → ²²⁷Ac + ⁴He", "note": "Alpha decay (half-life 32 760 years)." },
+      { "eq": "²³³Th → ²³³Pa + e⁻ + ν̄", "note": "Protactinium-233 forms in thorium reactors." }
+    ],
+    "safety": "Protactinium is highly toxic and radiotoxic."
+  },
+  "U": {
+    "history": "In **1789 Martin Heinrich Klaproth** analysed pitchblende from Joachimsthal (Jáchymov, in today’s Czech Republic) and found what he thought was a new metal. He named it after **Uranus**, discovered eight years earlier. What he had actually isolated was the oxide. **Eugène-Melchior Péligot** made the metal itself in 1841. In **1896 Henri Becquerel** found that uranium salts fogged photographic plates in the dark, the discovery of **radioactivity**. In **1938 Otto Hahn** and **Fritz Strassmann** split uranium nuclei with neutrons, and Lise Meitner and Otto Frisch explained it as **fission**. In 1942 Enrico Fermi’s Chicago Pile-1 achieved the first controlled chain reaction, and in 1945 a uranium-235 bomb destroyed Hiroshima.\n\nAbout 2 billion years ago, uranium-rich deposits at **Oklo** in Gabon spontaneously became **natural nuclear reactors**.",
+    "production": "**Kazakhstan** produces about 40 % of the world’s uranium, mostly by in-situ leaching (pumping acid through the ore underground), followed by Canada (whose Cigar Lake and McArthur River deposits are the richest anywhere), Namibia and Australia. The ore is leached with sulfuric acid and precipitated as **yellowcake** (U₃O₈). It is then converted to uranium hexafluoride (UF₆) and **enriched** in gas centrifuges from 0.72 % uranium-235 to 3–5 % for reactor fuel. About 10 % of the world’s electricity comes from uranium. Leftover **depleted uranium** is used in armour, armour-piercing ammunition and aircraft counterweights.",
+    "chemistry": "Uranium is a dense (19.1 g/cm³), silvery, mildly radioactive metal with oxidation states +3 to +6. The yellow-green **uranyl ion** (UO₂²⁺) fluoresces brightly under UV light, which is why antique **uranium glass** glows green. Uranium hexafluoride sublimes at only 56.5 °C, which makes gas-phase isotope separation possible.",
+    "reactions": [
+      { "eq": "²³⁵U + n → ¹⁴¹Ba + ⁹²Kr + 3n (+ ≈ 200 MeV)", "note": "A typical fission: each split releases energy and more neutrons, allowing a chain reaction." },
+      { "eq": "²³⁸U + n → ²³⁹U → ²³⁹Np → ²³⁹Pu", "note": "Breeding plutonium in a reactor." },
+      { "eq": "UO₂ + 4HF → UF₄ + 2H₂O;  UF₄ + F₂ → UF₆", "note": "Conversion to the volatile hexafluoride for enrichment." }
+    ],
+    "safety": "Uranium is a toxic heavy metal that damages the kidneys, and it is weakly radioactive. Enriched uranium must be handled so it never forms a **critical mass**. Uranium miners face a serious risk from radon gas."
+  },
+  "Np": {
+    "history": "In 1934 Enrico Fermi thought he had made elements 93 and 94 by bombarding uranium with neutrons, but he had actually discovered fission without realising it. In **1940 Edwin McMillan** and **Philip Abelson** at Berkeley identified a genuine new element among the products of neutron-irradiated uranium: the **first transuranium element**. Since uranium was named after Uranus, they named element 93 after the next planet, **Neptune**.",
+    "production": "Kilogram amounts of neptunium-237 (half-life 2.1 million years) are produced in nuclear reactors and recovered from spent fuel. Its main use is as the starting material for **plutonium-238**, the heat source in spacecraft power supplies.",
+    "chemistry": "Neptunium shows oxidation states from +3 to +7, and several can coexist in the same solution, each with its own colour. Neptunium-237 is fissile with fast neutrons (critical mass about 60 kg).",
+    "reactions": [
+      { "eq": "²³⁸U + n → ²³⁹U → ²³⁹Np + e⁻ + ν̄", "note": "McMillan and Abelson’s 1940 discovery (²³⁹Np half-life 2.4 days)." },
+      { "eq": "²³⁷Np + n → ²³⁸Np → ²³⁸Pu + e⁻ + ν̄", "note": "Making plutonium-238 for spacecraft." }
+    ],
+    "safety": "Neptunium is radiotoxic and accumulates in bone."
+  },
+  "Pu": {
+    "history": "In **December 1940** and **February 1941**, **Glenn Seaborg, Edwin McMillan, Joseph Kennedy** and **Arthur Wahl** at Berkeley made element 94 by bombarding uranium with deuterons. Following Uranus and Neptune, it was named after **Pluto**, then still classed as a planet. Seaborg chose the symbol **Pu** as a joke, expecting objections, but none came. Plutonium-239 proved to be fissile, and the Manhattan Project built huge reactors at **Hanford** to produce it. It fuelled the Trinity test and the bomb that destroyed **Nagasaki** in August 1945.",
+    "production": "Plutonium forms in every uranium reactor, where about 1 % of spent fuel is plutonium. It is recovered by reprocessing (the PUREX process) in a few countries, notably France. It is used in nuclear weapons and in **MOX** reactor fuel. **Plutonium-238**, which produces about 0.56 W of heat per gram, has powered **radioisotope thermoelectric generators** on Voyager, Cassini, New Horizons and the Curiosity and Perseverance Mars rovers.",
+    "chemistry": "Plutonium is one of the strangest metals: it has **six solid allotropes** between room temperature and its melting point (640 °C), with large changes in density. In solution it can exist in four oxidation states (+3, +4, +5, +6) **at the same time**. The metal is pyrophoric and self-heating.",
+    "reactions": [
+      { "eq": "²³⁸U + n → ²³⁹U → ²³⁹Np → ²³⁹Pu", "note": "Production in reactors (two beta decays)." },
+      { "eq": "²³⁹Pu + n → fission products + 2–3 n + ≈ 200 MeV", "note": "The fission chain reaction." },
+      { "eq": "²³⁸Pu → ²³⁴U + ⁴He", "note": "The alpha decay that keeps space probes powered (half-life 87.7 years)." }
+    ],
+    "safety": "Plutonium is extremely **radiotoxic** when inhaled or swallowed, because it lodges in the lungs, liver and bone. A **criticality** accident can deliver a lethal dose in a split second: Harry Daghlian (1945) and Louis Slotin (1946) died after accidents with the same plutonium sphere, later nicknamed the ‘demon core’."
+  },
+  "Am": {
+    "history": "In **1944 Glenn Seaborg, Ralph James, Leon Morgan** and **Albert Ghiorso** at the wartime Metallurgical Laboratory in Chicago made element 95 by irradiating plutonium with neutrons. It was named after the **Americas**, just as europium, the element above it, is named after Europe. The discovery was secret. Seaborg revealed it, along with curium, on a children’s radio quiz show, *Quiz Kids*, in **November 1945**, days before the official announcement.",
+    "production": "Americium-241 (half-life 432 years) forms from the decay of plutonium-241 in reactor fuel and is recovered by reprocessing. Each household **smoke detector** contains a tiny amount (about a microcurie, a fraction of a microgram), making americium the most common synthetic element in homes. It is also used in americium–beryllium neutron sources for oil-well logging, and Europe plans to use it to power future space missions.",
+    "chemistry": "Americium is most stable as **Am³⁺**, similar to the lanthanides, though higher states up to +7 are known.",
+    "reactions": [
+      { "eq": "²³⁹Pu + 2n → ²⁴¹Pu → ²⁴¹Am + e⁻ + ν̄", "note": "How americium-241 forms in reactor fuel." },
+      { "eq": "²⁴¹Am → ²³⁷Np + ⁴He (+ γ 59.5 keV)", "note": "In a smoke detector the alpha particles ionise air so a small current flows. Smoke particles reduce the current and trigger the alarm." }
+    ],
+    "safety": "Smoke detectors are safe in normal use. Americium itself is radiotoxic if swallowed or inhaled."
+  },
+  "Cm": {
+    "history": "In **1944 Glenn Seaborg, Ralph James** and **Albert Ghiorso** made element 96 at Berkeley by bombarding plutonium-239 with alpha particles from the 60-inch cyclotron. It was named in honour of **Marie and Pierre Curie**, mirroring gadolinium, the element above it, named after Johan Gadolin. It was announced on the *Quiz Kids* radio show together with americium.",
+    "production": "Curium is produced in reactors in gram quantities. Curium-244 has been used in **alpha-particle X-ray spectrometers** (APXS) on Mars rovers from Sojourner to Curiosity, and on the Philae comet lander, to analyse the chemical composition of rocks. Curium is also a target for making heavier elements.",
+    "chemistry": "Curium forms mostly **Cm³⁺**, with a half-filled 5f⁷ subshell (like gadolinium’s 4f⁷). It is so radioactive that it is warm to the touch and its compounds glow.",
+    "reactions": [
+      { "eq": "²³⁹Pu + ⁴He → ²⁴²Cm + n", "note": "The 1944 discovery reaction." },
+      { "eq": "²⁴⁴Cm → ²⁴⁰Pu + ⁴He", "note": "The alpha source in Mars rover spectrometers (half-life 18 years)." }
+    ],
+    "safety": "Curium is highly radiotoxic and generates significant heat."
+  },
+  "Bk": {
+    "history": "In **December 1949 Stanley Thompson, Albert Ghiorso** and **Glenn Seaborg** at Berkeley made element 97 by bombarding americium-241 with alpha particles. It was named after the city of **Berkeley**, mirroring terbium (named after Ytterby) above it.",
+    "production": "Berkelium is made in milligram amounts in the **High Flux Isotope Reactor** at Oak Ridge. In 2009, 22 mg of berkelium-249 were produced there and flown to Dubna to make element 117 (tennessine).",
+    "chemistry": "Berkelium shows **+3** and **+4** oxidation states, like terbium. Only a few compounds have ever been made, because so little exists.",
+    "reactions": [
+      { "eq": "²⁴¹Am + ⁴He → ²⁴³Bk + 2n", "note": "The 1949 discovery reaction." },
+      { "eq": "²⁴⁹Bk + ⁴⁸Ca → ²⁹³Ts + 4n", "note": "Berkelium as the target for making tennessine." },
+      { "eq": "²⁴⁹Bk → ²⁴⁹Cf + e⁻ + ν̄", "note": "Half-life 330 days, so the target slowly turns into californium." }
+    ],
+    "safety": "Berkelium is radioactive and handled only in specialised facilities."
+  },
+  "Cf": {
+    "history": "In **1950 Stanley Thompson, Kenneth Street Jr., Albert Ghiorso** and **Glenn Seaborg** at Berkeley made element 98 by bombarding curium-242 with alpha particles. They named it after the state and University of **California**. When *The New Yorker* teased that they should have called elements 97 and 98 ‘universitium’ and ‘ofium’, the team replied that they had thereby forestalled some New Yorker naming the next two ‘newium’ and ‘yorkium’.",
+    "production": "Californium is made in reactors at Oak Ridge (USA) and Dimitrovgrad (Russia). **Californium-252** (half-life 2.6 years) undergoes spontaneous fission and emits an enormous number of neutrons: about 2.3 million per second per microgram. It is used as a portable **neutron source** to start up nuclear reactors, for neutron radiography, moisture gauges, cancer treatment, prospecting for gold and silver, and detecting explosives. Californium-249 was the target for making oganesson.",
+    "chemistry": "Californium is mainly **Cf³⁺**, but also forms Cf²⁺ and Cf⁴⁺ compounds. Its chemistry is still being explored with milligram samples.",
+    "reactions": [
+      { "eq": "²⁴²Cm + ⁴He → ²⁴⁵Cf + n", "note": "The 1950 discovery reaction." },
+      { "eq": "²⁵²Cf → (spontaneous fission) → 2 fragments + ≈ 3.8 n", "note": "Why californium-252 is such a powerful neutron source." },
+      { "eq": "²⁴⁹Cf + ⁴⁸Ca → ²⁹⁴Og + 3n", "note": "Californium as the target for element 118." }
+    ],
+    "safety": "Californium-252 is an intense **neutron** emitter and requires heavy shielding. It is also radiotoxic."
+  },
+  "Es": {
+    "history": "Einsteinium was discovered in the fallout from **‘Ivy Mike’**, the first hydrogen bomb test, on Enewetak Atoll on 1 November **1952**. Filter papers flown through the mushroom cloud, and coral from the atoll, were analysed by **Albert Ghiorso**’s team at Berkeley. In the blast, uranium nuclei had captured up to 15 neutrons in an instant, then beta-decayed into new elements. The discovery was classified until 1955. The element was named after **Albert Einstein**, who died that year.",
+    "production": "Einsteinium is made in microgram quantities in the High Flux Isotope Reactor at Oak Ridge. In **2021** a team at Berkeley led by Rebecca Abergel used just 200 nanograms to measure an einsteinium bond length for the first time.",
+    "chemistry": "Einsteinium is mostly **Es³⁺**. It is so radioactive that it glows, and its radiation steadily destroys its own crystal structure. Its decay also converts it into berkelium and californium within weeks.",
+    "reactions": [
+      { "eq": "²³⁸U + 15n → ²⁵³U → (7 β⁻) → ²⁵³Es", "note": "Formed in the instant of the Ivy Mike explosion." },
+      { "eq": "²⁵³Es + ⁴He → ²⁵⁶Md + n", "note": "Einsteinium was the target used to make mendelevium." }
+    ],
+    "safety": "Einsteinium is intensely radioactive, and only microgram amounts have ever been isolated."
+  },
+  "Fm": {
+    "history": "Fermium was also found in the debris of the **Ivy Mike** hydrogen bomb test (1952), by Albert Ghiorso and colleagues, and kept secret until 1955. It was named after **Enrico Fermi**, the builder of the first nuclear reactor.",
+    "production": "Fermium is the **heaviest element that can be made by neutron capture** in a reactor. Fermium-258 undergoes spontaneous fission in under a millisecond, which blocks the path to heavier elements (the ‘fermium gap’). Only picograms to nanograms have ever been made, and fermium has no uses outside research.",
+    "chemistry": "Fermium is mostly **Fm³⁺**, with a reducible Fm²⁺ state. All of its chemistry has been studied with trace amounts.",
+    "reactions": [
+      { "eq": "²³⁸U + 17n → ²⁵⁵U → (8 β⁻) → ²⁵⁵Fm", "note": "Formed in the Ivy Mike explosion." },
+      { "eq": "²⁵⁸Fm → spontaneous fission (t½ ≈ 0.37 ms)", "note": "The ‘fermium gap’ that ends neutron-capture synthesis." }
+    ],
+    "safety": "Fermium exists only in trace amounts, but it is intensely radioactive."
+  },
+  "Md": {
+    "history": "In **1955 Albert Ghiorso, Bernard Harvey, Gregory Choppin, Stanley Thompson** and **Glenn Seaborg** at Berkeley bombarded about a billion atoms of einsteinium with alpha particles. They identified just **17 atoms** of element 101, the first element made and detected **one atom at a time**. They named it after **Dmitri Mendeleev**, creator of the periodic table. During the Cold War this was a bold choice: Seaborg had to get permission from the US government to name an element after a Russian.",
+    "production": "Mendelevium is made atom by atom in accelerators. Mendelevium-258, its longest-lived isotope, lasts about 51 days.",
+    "chemistry": "Mendelevium forms **Md³⁺** and, unusually for an actinide, a fairly stable **Md²⁺**. Its chemistry has been studied with only a few thousand atoms at a time.",
+    "reactions": [
+      { "eq": "²⁵³Es + ⁴He → ²⁵⁶Md + n", "note": "The 1955 discovery: 17 atoms." },
+      { "eq": "²⁵⁶Md → (electron capture) ²⁵⁶Fm → spontaneous fission", "note": "How the atoms were detected." }
+    ],
+    "safety": "Mendelevium exists only as individual atoms."
+  },
+  "No": {
+    "history": "In **1957** a team at the Nobel Institute in Stockholm announced element 102 and named it after **Alfred Nobel**, but nobody could repeat their result. Berkeley (1958) and **Dubna** (1963–66) then made competing claims. IUPAC eventually credited the Dubna team with the discovery, but kept the name **nobelium**, which was already in use.",
+    "production": "Nobelium is made atom by atom in accelerators, for example ²⁴⁸Cm + ¹²C → ²⁵⁴No + 6n. Its longest-lived isotope lasts about an hour.",
+    "chemistry": "Unusually for an actinide, nobelium’s most stable oxidation state in water is **+2**, because No²⁺ has a completely filled 5f¹⁴ subshell. This is similar to how ytterbium readily forms Yb²⁺.",
+    "reactions": [
+      { "eq": "²³⁸U + ²²Ne → ²⁵⁶No + 4n", "note": "One of Dubna’s synthesis reactions." },
+      { "eq": "²⁴⁸Cm + ¹²C → ²⁵⁴No + 6n", "note": "Another route to nobelium." }
+    ],
+    "safety": "Nobelium exists only as individual atoms."
+  },
+  "Lr": {
+    "history": "In **1961 Albert Ghiorso, Torbjørn Sikkeland, Almon Larsh** and **Robert Latimer** at Berkeley bombarded californium with boron ions and detected element 103. They named it after **Ernest Lawrence**, inventor of the cyclotron. Its symbol was originally Lw, changed to **Lr** in 1963. Dubna disputed parts of the discovery, and IUPAC eventually shared the credit.",
+    "production": "Lawrencium is made atom by atom in accelerators. Its longest-lived isotopes last up to about 11 hours.",
+    "chemistry": "Lawrencium is the **last actinide**. Relativistic effects are predicted to give it the unusual configuration [Rn]5f¹⁴7s²7p¹ instead of the expected 6d¹. In **2015** a team in Japan (JAEA) measured its first ionization energy, using single atoms: 4.96 eV, the lowest of all the actinides. That result revived the long debate over whether lutetium and lawrencium, or lanthanum and actinium, belong under scandium and yttrium in group 3.",
+    "reactions": [
+      { "eq": "²⁵²Cf + ¹⁰B → ²⁵⁸Lr + 4n", "note": "One of the reactions behind the 1961 discovery." },
+      { "eq": "²⁴⁹Cf + ¹⁵N → ²⁶⁰Lr + 4n", "note": "A later, cleaner synthesis." }
+    ],
+    "safety": "Lawrencium exists only as individual atoms."
+  }
+}

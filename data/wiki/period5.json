@@ -1,0 +1,205 @@
+{
+  "Rb": {
+    "history": "In **1861 Robert Bunsen** and **Gustav Kirchhoff** in Heidelberg used their newly invented **spectroscope** to examine the mineral lepidolite and the residue of Dürkheim mineral water. They found two deep-red lines belonging to no known element, and named it from the Latin *rubidus*, deep red. It was the second element discovered by spectroscopy, after caesium the year before. Bunsen isolated the metal in 1863.",
+    "production": "Rubidium has no ores of its own. It is recovered in small amounts as a **by-product** of processing lepidolite (lithium ore) and pollucite (caesium ore). The world market is only a few tonnes a year. Uses include **rubidium atomic clocks** (compact frequency standards in GPS satellites, mobile phone masts and laboratories), research on ultra-cold atoms, specialised glass, and rubidium-82 for PET scans of the heart. In **1995** the first **Bose–Einstein condensate** was made from rubidium-87 atoms cooled to 170 billionths of a kelvin (Cornell and Wieman, Nobel Prize 2001).",
+    "chemistry": "Rubidium is a very soft, silvery alkali metal that **melts at 39 °C** and ignites spontaneously in air. It reacts more violently with water than potassium does. About 28 % of natural rubidium is radioactive **rubidium-87** (half-life 49 billion years), which decays to strontium-87. Geologists use this for **rubidium–strontium dating** of ancient rocks and meteorites.",
+    "reactions": [
+      { "eq": "2Rb + 2H₂O → 2RbOH + H₂", "note": "Explosive: the hydrogen ignites immediately." },
+      { "eq": "Rb + O₂ → RbO₂", "note": "Burns to the superoxide." },
+      { "eq": "⁸⁷Rb → ⁸⁷Sr + e⁻ + ν̄", "note": "Beta decay used in Rb–Sr dating." }
+    ],
+    "safety": "Rubidium reacts violently with water and can ignite in air. It is stored in sealed glass ampoules under argon or dry oil. Its compounds have low toxicity, and the body treats Rb⁺ much like K⁺."
+  },
+  "Sr": {
+    "history": "In **1790 Adair Crawford** and **William Cruickshank** noticed that a mineral from the lead mines near **Strontian**, a village in the Scottish Highlands, was not the barium mineral it had been taken for. **Thomas Charles Hope** studied it in detail and noted its crimson flame. **Humphry Davy** isolated strontium metal in 1808 by electrolysis. Strontium is one of the few elements named after a place in the British Isles.",
+    "production": "The main ore is **celestine** (SrSO₄), mined in Spain, China and Mexico. It is heated with coal to strontium sulfide, which is dissolved and reacted with sodium carbonate to precipitate strontium carbonate. Strontium carbonate was once mostly used in the glass of **colour TV tubes** to block X-rays. Today it is used in ferrite magnets, **red fireworks and flares**, and ceramics. Strontium chloride is used in toothpaste for sensitive teeth. Strontium **optical-lattice clocks** are among the most precise clocks ever built: they would lose less than a second over the age of the universe.",
+    "chemistry": "Strontium is a soft, reactive group 2 metal, between calcium and barium in its properties. Because it resembles calcium, the body builds Sr²⁺ into bone. That is helpful for strontium-based osteoporosis drugs, but dangerous with **strontium-90** (half-life 28.8 years), a fission product spread by nuclear bomb tests and the Chernobyl accident, which irradiates the bone marrow from inside.",
+    "reactions": [
+      { "eq": "Sr + 2H₂O → Sr(OH)₂ + H₂", "note": "Reacts more vigorously than calcium." },
+      { "eq": "SrSO₄ + 2C → SrS + 2CO₂", "note": "‘Black ash’ process, the first step from celestine." },
+      { "eq": "SrS + Na₂CO₃ → SrCO₃ + Na₂S", "note": "Precipitating strontium carbonate." },
+      { "eq": "Sr²⁺ + SO₄²⁻ → SrSO₄↓", "note": "A white precipitate, used in qualitative analysis." }
+    ],
+    "safety": "Stable strontium compounds have low toxicity. **Strontium-90** is a serious radiological hazard because it concentrates in bone. Strontium metal reacts with water and can ignite when powdered."
+  },
+  "Y": {
+    "history": "In 1787 the army lieutenant and amateur chemist **Carl Axel Arrhenius** found an unusually heavy black stone in a quarry at **Ytterby**, a village near Stockholm. In **1794 Johan Gadolin** discovered a new ‘earth’ (oxide) in it, later called *yttria*, and the mineral was named gadolinite after him. Yttria turned out to be a mixture hiding several more elements. The little village of Ytterby has given its name to **four elements**: yttrium, ytterbium, terbium and erbium. Friedrich Wöhler isolated impure yttrium metal in 1828.",
+    "production": "Yttrium is extracted with the rare-earth elements, mainly from **ionic-adsorption clays in southern China**, and from xenotime and monazite sands. It is separated from the lanthanides by solvent extraction. Yttrium oxide doped with europium was the **red phosphor** of colour TV tubes and fluorescent lamps, and yttrium aluminium garnet (YAG) phosphors make blue LEDs look white. Other uses include **Nd:YAG lasers**, yttria-stabilised zirconia (dental crowns, oxygen sensors, jet-engine heat shields) and the superconductor **YBCO** (YBa₂Cu₃O₇). In 1987 YBCO was the first material found to superconduct above the boiling point of liquid nitrogen (77 K).",
+    "chemistry": "Yttrium is a silvery metal that forms only **Y³⁺**. Its ionic radius is almost identical to holmium’s, so in nature it behaves just like a heavy lanthanide. That is why it is grouped with the rare earths and found in the same minerals.",
+    "reactions": [
+      { "eq": "4Y + 3O₂ → 2Y₂O₃", "note": "Powder or turnings burn when ignited." },
+      { "eq": "2Y + 6H₂O → 2Y(OH)₃ + 3H₂", "note": "Slow with cold water." },
+      { "eq": "Y₂O₃ + 6HCl → 2YCl₃ + 3H₂O", "note": "The oxide dissolves in acids." }
+    ],
+    "safety": "Yttrium has low toxicity and no known biological role. Inhaling compounds may harm the lungs, and fine powder is flammable."
+  },
+  "Zr": {
+    "history": "The gemstone **zircon** has been known since antiquity. Its name comes from the Persian *zargun*, gold-coloured. In **1789 Martin Heinrich Klaproth** found a new oxide, zirconia, in zircon from Ceylon (Sri Lanka). **Jöns Jacob Berzelius** isolated impure zirconium metal in 1824. Truly pure, ductile zirconium was made only in 1925, by the **van Arkel–de Boer** ‘crystal bar’ process.",
+    "production": "Zirconium comes from **zircon sand** (ZrSiO₄), a by-product of mining titanium mineral sands in Australia and South Africa. About half of all zircon is used directly as an opacifier in ceramic tiles and in refractories and foundry moulds. The metal is made like titanium: zircon is chlorinated to ZrCl₄, which is reduced with magnesium (the Kroll process). For the nuclear industry, the chemically almost identical **hafnium** must be removed. Hafnium absorbs neutrons strongly, but zirconium hardly at all, which is why zirconium alloy (**Zircaloy**) is used to clad nuclear fuel rods. Cubic zirconia (ZrO₂ stabilised with yttria) is the best-known diamond imitation.",
+    "chemistry": "Zirconium is protected by a tough oxide film and resists acids and alkalis very well. Its chemistry is almost entirely **+4**. At very high temperatures, however, it reacts with steam to produce **hydrogen**. In the 1979 Three Mile Island and 2011 Fukushima nuclear accidents, overheated fuel cladding released hydrogen this way, and at Fukushima the hydrogen exploded.",
+    "reactions": [
+      { "eq": "ZrSiO₄ + 4C + 4Cl₂ → ZrCl₄ + SiCl₄ + 4CO", "note": "Carbochlorination of zircon." },
+      { "eq": "ZrCl₄ + 2Mg → Zr + 2MgCl₂", "note": "Kroll reduction." },
+      { "eq": "Zr + 2H₂O → ZrO₂ + 2H₂", "note": "Only above about 1200 °C: the dangerous reaction in an overheated reactor core." }
+    ],
+    "safety": "Zirconium and its compounds have low toxicity. Fine zirconium powder can ignite spontaneously, and was used in early camera flashbulbs."
+  },
+  "Nb": {
+    "history": "In **1801** the English chemist **Charles Hatchett** analysed a black mineral from Connecticut that had been in the British Museum for 150 years. He found a new element and named it *columbium*, after Columbia, a poetic name for America. In 1809 William Hyde Wollaston wrongly decided that columbium was identical to the recently found tantalum, because the two are chemically so similar. In **1844 Heinrich Rose** showed they are different and named the element *niobium*, after **Niobe**, the daughter of Tantalus in Greek myth. IUPAC officially chose ‘niobium’ in 1949, though some American metallurgists still say columbium.",
+    "production": "The main ore is **pyrochlore**. One mine at Araxá in **Brazil** (CBMM) supplies about 90 % of the world’s niobium, and Canada most of the rest. The ore is converted to ferroniobium by aluminothermic reduction. About 90 % is added to steel: just 0.05 % niobium makes the **high-strength low-alloy steels** used in pipelines, car bodies and bridges. Niobium–titanium and niobium–tin alloys are the workhorse **superconductors** in MRI scanners and in the magnets of the Large Hadron Collider. It is also used in jet-engine superalloys and in jewellery, where anodising gives it rainbow colours.",
+    "chemistry": "Niobium is a soft, grey, ductile metal that resists corrosion thanks to its oxide film. Its main oxidation state is **+5**. Its near-twin is tantalum: the **lanthanide contraction** makes the two atoms almost the same size, so they are found together in nature and are hard to separate.",
+    "reactions": [
+      { "eq": "3Nb₂O₅ + 10Al → 6Nb + 5Al₂O₃", "note": "Aluminothermic reduction." },
+      { "eq": "4Nb + 5O₂ → 2Nb₂O₅", "note": "Anodising grows a thin oxide layer whose thickness controls the interference colour." }
+    ],
+    "safety": "Niobium has low toxicity and is used in implants and jewellery for people allergic to nickel."
+  },
+  "Mo": {
+    "history": "Soft black **molybdenite** (MoS₂) was long confused with graphite and with lead ore. The name comes from the Greek *molybdos*, lead. In **1778 Carl Wilhelm Scheele** showed that molybdenite contains a new element, and in **1781 Peter Jacob Hjelm** isolated the metal by heating its oxide with carbon. In the First World War, molybdenum steel was used for German heavy artillery, and the Climax mine in Colorado became the world’s main source.",
+    "production": "Molybdenite is mined in **China**, and is also recovered as a valuable by-product of copper mining in Chile, the USA and Peru. It is concentrated by froth flotation, roasted to molybdenum trioxide, and reduced with hydrogen to the metal. About 80 % is used in **steels and superalloys**: molybdenum makes steel stronger at high temperature and stainless steel more resistant to seawater. Cobalt–molybdenum catalysts remove sulfur from crude oil, and molybdenum disulfide is a solid lubricant.",
+    "chemistry": "Molybdenum has one of the highest melting points of any element (2623 °C). Its most stable oxidation state is +6, as in molybdate (MoO₄²⁻). It is an **essential trace element**: nitrogen-fixing bacteria use it in **nitrogenase** (the iron–molybdenum cofactor), and our bodies need it for enzymes such as xanthine oxidase.",
+    "reactions": [
+      { "eq": "2MoS₂ + 7O₂ → 2MoO₃ + 4SO₂", "note": "Roasting the ore." },
+      { "eq": "MoO₃ + 3H₂ → Mo + 3H₂O", "note": "Hydrogen reduction to metal powder." },
+      { "eq": "PO₄³⁻ + 12MoO₄²⁻ + 3NH₄⁺ + 24H⁺ → (NH₄)₃PMo₁₂O₄₀↓ + 12H₂O", "note": "Ammonium molybdate gives a yellow precipitate with phosphate, a classic test." }
+    ],
+    "safety": "Molybdenum has low toxicity. Molybdenum trioxide dust irritates the airways."
+  },
+  "Tc": {
+    "history": "Mendeleev left a gap at element 43, which he called *eka-manganese*. Many false discoveries followed, including ‘masurium’, claimed in 1925 by Walter Noddack, Ida Tacke and Otto Berg. In **1937 Emilio Segrè** and **Carlo Perrier** at the University of Palermo examined a molybdenum foil that had been bombarded with deuterons in Ernest Lawrence’s cyclotron at Berkeley. They found element 43. It was the **first element ever made artificially**, so they named it from the Greek *technetos*, artificial.\n\nIn 1952 astronomer **Paul Merrill** found technetium lines in the spectra of red giant stars. Since no technetium isotope lives longer than a few million years, the stars must be **making it**: direct proof that elements are forged inside stars.",
+    "production": "Technetium has **no stable isotopes**. Tiny natural traces come from the spontaneous fission of uranium. Kilograms of technetium-99 are produced in spent nuclear fuel. Medically, **technetium-99m** is the most widely used radioisotope in the world, in about 40 million scans a year. Hospitals receive it in a ‘technetium cow’: a generator in which molybdenum-99 (half-life 66 hours) decays to technetium-99m, which is washed out with saline as needed.",
+    "chemistry": "Technetium and promethium are the only elements lighter than lead with **no stable isotopes**. Technetium-99m emits 140 keV gamma rays and has a half-life of only 6 hours, ideal for imaging bones, the heart and other organs with gamma cameras. In water technetium forms the pertechnetate ion, TcO₄⁻, similar to permanganate. Long-lived technetium-99 (211 000 years) is an awkward component of nuclear waste, because pertechnetate dissolves and moves easily in groundwater.",
+    "reactions": [
+      { "eq": "⁹⁸Mo + n → ⁹⁹Mo", "note": "Molybdenum-99 is made in reactors (mostly by fission of uranium-235 targets)." },
+      { "eq": "⁹⁹Mo → ⁹⁹ᵐTc + e⁻ + ν̄", "note": "The technetium generator (66-hour half-life)." },
+      { "eq": "⁹⁹ᵐTc → ⁹⁹Tc + γ (140 keV)", "note": "The gamma ray detected in a medical scan (6-hour half-life)." }
+    ],
+    "safety": "All technetium is radioactive. The small doses used in medical imaging are considered very low risk. Larger amounts of Tc-99 must be handled as radioactive material."
+  },
+  "Ru": {
+    "history": "Platinum ore from the Ural Mountains, discovered in the 1820s, contained several new metals. In **1844 Karl Ernst Claus** at Kazan University in Russia isolated the last of them from the residue left after dissolving the ore in aqua regia. He named it after *Ruthenia*, the Latin name for Russia. Jędrzej Śniadecki (1808) and Gottfried Osann (1828) had made earlier, unconfirmed claims.",
+    "production": "Ruthenium is a by-product of mining the **platinum-group metals**, mostly in South Africa’s Bushveld Complex and at Norilsk in Russia. Only about 30 tonnes are produced each year. It is used in **hard-disk drives** (thin ruthenium layers between magnetic films), electrical contacts, chip resistors, and to harden platinum and palladium jewellery. Ruthenium catalysts won two Nobel Prizes: **Grubbs’ catalyst** for olefin metathesis (2005) and **Noyori’s** chiral BINAP–ruthenium hydrogenation catalysts (2001).",
+    "chemistry": "Ruthenium is a hard, brittle, silvery metal that resists acids, even aqua regia when cold. It shows an unusually wide range of oxidation states, from 0 to +8. The +8 state is ruthenium tetroxide (RuO₄), a volatile, toxic oxidising agent similar to osmium tetroxide.",
+    "reactions": [
+      { "eq": "R¹CH=CHR¹ + R²CH=CHR² ⇌ 2R¹CH=CHR²", "note": "Olefin metathesis with a Grubbs ruthenium catalyst: swapping the partners of C=C bonds." },
+      { "eq": "Ru + O₂ → RuO₂", "note": "Forms only on heating in air." },
+      { "eq": "RuO₂ + 2NaIO₄ → RuO₄ + 2NaIO₃", "note": "Generating RuO₄, a powerful oxidant for organic chemistry." }
+    ],
+    "safety": "Ruthenium metal is inert, but **ruthenium tetroxide** is highly toxic and volatile, and may explode. Ruthenium compounds stain the skin."
+  },
+  "Rh": {
+    "history": "In **1803 William Hyde Wollaston** in London dissolved platinum ore in aqua regia. After removing the platinum and the newly found palladium, he obtained a rose-red salt (sodium hexachlororhodate) of another new metal. He named it from the Greek *rhodon*, rose.",
+    "production": "Rhodium is one of the **rarest and most expensive** metals, at times worth over ten times its weight in gold. It is a by-product of platinum mining, about 80 % from South Africa, with most of the rest from Russia. Only around 30 tonnes are produced each year. About 80 % goes into **catalytic converters**, where rhodium reduces nitrogen oxides to nitrogen. It is also used in chemical catalysts (the Monsanto acetic acid process, hydroformylation), in platinum–rhodium thermocouples and in glass-fibre spinning nozzles. Rhodium plating gives white gold jewellery its bright shine.",
+    "chemistry": "Rhodium is hard, very reflective and extremely resistant to corrosion. Its typical oxidation state in compounds is +3. **Wilkinson’s catalyst**, RhCl(PPh₃)₃, was one of the first homogeneous catalysts for hydrogenating alkenes (Geoffrey Wilkinson, Nobel Prize 1973).",
+    "reactions": [
+      { "eq": "2NO + 2CO → N₂ + 2CO₂", "note": "On rhodium in a three-way catalytic converter." },
+      { "eq": "CH₃OH + CO → CH₃COOH", "note": "Monsanto process for acetic acid (rhodium–iodide catalyst)." },
+      { "eq": "RCH=CH₂ + CO + H₂ → RCH₂CH₂CHO", "note": "Hydroformylation: alkenes to aldehydes, for making plastics and detergents." }
+    ],
+    "safety": "Rhodium metal is inert and of low toxicity. Some rhodium compounds are toxic and may be carcinogenic."
+  },
+  "Pd": {
+    "history": "In **1802 William Hyde Wollaston** dissolved platinum ore in aqua regia and precipitated a new metal. He named it after the asteroid **Pallas**, discovered earlier that year. Instead of publishing, Wollaston anonymously sold the metal through a shop in Soho in **1803** as ‘new silver’. The chemist Richard Chenevix claimed it was just an alloy of platinum and mercury, so Wollaston anonymously offered a reward to anyone who could make it. Nobody could, and he revealed himself as the discoverer in 1805.",
+    "production": "Palladium comes mainly from **Russia** (Norilsk, about 40 %), South Africa, Canada and the USA (Stillwater, Montana). About 80 % goes into **catalytic converters**, especially for petrol cars. It is also used in electronic capacitors, dentistry, jewellery (white gold) and hydrogen purification, since palladium membranes let only hydrogen pass. Palladium catalysts are essential in organic synthesis. The **Heck, Negishi and Suzuki** cross-coupling reactions (Nobel Prize 2010) are used to make many medicines and OLED materials.",
+    "chemistry": "Palladium can absorb up to about **900 times its own volume of hydrogen** at room temperature. The hydrogen atoms slip into the spaces of the metal lattice. It is the least dense and lowest-melting of the platinum-group metals. Its usual oxidation states are 0, +2 and +4, and catalytic cycles switch between Pd(0) and Pd(II).",
+    "reactions": [
+      { "eq": "Ar–Br + Ar′–B(OH)₂ → Ar–Ar′", "note": "Suzuki coupling (Pd(0) catalyst, base): joining two aromatic rings." },
+      { "eq": "RC≡CR + H₂ → cis-RCH=CHR", "note": "Lindlar catalyst (Pd poisoned with lead) stops at the cis-alkene." },
+      { "eq": "Pd + x/2 H₂ → PdHₓ", "note": "Hydrogen absorption, reversible on heating." }
+    ],
+    "safety": "Palladium has low toxicity, though some people are allergic to it. Palladium on carbon soaked with hydrogen can ignite flammable solvents."
+  },
+  "Ag": {
+    "history": "Silver has been mined since about 3000 BC in Anatolia, and was refined from lead ores by **cupellation**. The silver mines of **Laurium** paid for the Athenian fleet that defeated Persia at Salamis in 480 BC. In the 16th and 17th centuries the vast silver mountain of **Potosí** (in modern Bolivia) financed the Spanish Empire and changed the world economy. The symbol **Ag** comes from the Latin *argentum*, and **Argentina** is named after silver.",
+    "production": "Most silver is a **by-product** of mining lead–zinc, copper and gold ores. Mexico, China and Peru are the largest producers. It is recovered from refinery slimes, from lead bullion (Parkes process), or by cyanide leaching. About half of all silver is used in **industry**: electronics, solar panels (silver paste collects the current), brazing alloys, and catalysts for making ethylene oxide. The rest goes into jewellery, silverware, coins and bars. Photography was once the largest use. Silver ions kill bacteria and are used in wound dressings.",
+    "chemistry": "Silver has the **highest electrical and thermal conductivity** and the highest visible reflectivity of all metals. It does not react with oxygen, but **tarnishes** black with traces of hydrogen sulfide in the air. Its halides darken in light, which is the basis of film photography. The Tollens test for aldehydes deposits a ‘silver mirror’ on glass, and was once used to make mirrors.",
+    "reactions": [
+      { "eq": "4Ag + 2H₂S + O₂ → 2Ag₂S + 2H₂O", "note": "Tarnishing." },
+      { "eq": "Ag⁺ + Cl⁻ → AgCl↓", "note": "White precipitate: test for chloride (or for silver)." },
+      { "eq": "2AgBr → 2Ag + Br₂ (light)", "note": "Light splits silver bromide in film, forming the latent image." },
+      { "eq": "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag↓ + 4NH₃ + 2H₂O", "note": "Tollens’ silver mirror test for aldehydes." },
+      { "eq": "Ag + 2HNO₃ → AgNO₃ + NO₂ + H₂O", "note": "Silver dissolves in concentrated nitric acid." }
+    ],
+    "safety": "Silver has low toxicity. Long-term ingestion of ‘colloidal silver’ supplements can cause **argyria**, a permanent blue-grey discolouring of the skin. Silver nitrate is corrosive and stains skin black."
+  },
+  "Cd": {
+    "history": "In **1817 Friedrich Stromeyer**, professor at Göttingen and an inspector of pharmacies, investigated zinc carbonate (calamine) that turned yellow when heated even though it contained no iron. He traced the colour to a new metal and named it after the Latin *cadmia*, an old name for calamine. That word comes from the Greek legend of **Cadmus**. Others, including Karl Hermann, found cadmium in zinc samples at almost the same time.",
+    "production": "Cadmium is a **by-product of zinc refining**, since zinc ores contain about 0.3 % cadmium. China, Korea and Japan are the largest producers. Its main uses were **nickel–cadmium batteries**, bright cadmium yellow and red pigments, and anti-corrosion coatings. These are declining because of toxicity. Cadmium is still used in **cadmium telluride solar panels**, in nuclear control rods (it absorbs neutrons), and in cadmium selenide **quantum dots** for displays (Nobel Prize 2023).",
+    "chemistry": "Cadmium closely resembles zinc and forms only Cd²⁺. Its sulfide (CdS) is bright yellow. Because the body mistakes it for zinc, it accumulates in the kidneys and bones and stays there for decades. In Japan in the 20th century, mining waste in the Jinzū River poisoned rice farmers with **itai-itai disease** (‘it hurts, it hurts’), with softened, fragile bones.",
+    "reactions": [
+      { "eq": "Cd²⁺ + S²⁻ → CdS↓", "note": "Bright yellow precipitate (pigment cadmium yellow)." },
+      { "eq": "Cd + 2NiO(OH) + 2H₂O → Cd(OH)₂ + 2Ni(OH)₂", "note": "Discharge of a NiCd rechargeable battery." },
+      { "eq": "2Cd + O₂ → 2CdO", "note": "Brown fumes when cadmium is heated, which are extremely dangerous to breathe." }
+    ],
+    "safety": "Cadmium is **highly toxic** and a known human carcinogen. Breathing the fumes, for example from welding cadmium-plated parts or using cadmium solder, can cause fatal lung damage. Long-term exposure damages the kidneys and bones. EU rules strictly limit cadmium in electronics and jewellery."
+  },
+  "In": {
+    "history": "In **1863 Ferdinand Reich** and **Hieronymous Theodor Richter** at the Freiberg Mining Academy were searching zinc ores for thallium. Reich was colour-blind, so Richter did the spectroscopy, and saw a brilliant **indigo** line that no known element produced. They named the element after it (Latin *indicum*). Reich later tried to claim sole credit, which led to a bitter dispute.",
+    "production": "Indium is a **by-product** of zinc refining, as it occurs in small amounts in sphalerite. China produces about 60 %, followed by Korea and Japan. More than half goes into **indium tin oxide** (ITO), a transparent electrical conductor coated on every touchscreen, LCD and OLED display, and on many solar cells. Indium is also used in low-melting solders, as a thermal interface material, and in indium phosphide and indium gallium nitride semiconductors (lasers, LEDs, fast fibre-optic electronics).",
+    "chemistry": "Indium is so soft it can be scratched with a fingernail, softer than lead. Like tin, it ‘cries’ (a faint crackling sound) when bent. It melts at 157 °C, wets glass, and mostly forms In³⁺, with In⁺ becoming more important, as for heavier group 13 elements.",
+    "reactions": [
+      { "eq": "2In + 6HCl → 2InCl₃ + 3H₂", "note": "Dissolves in acids." },
+      { "eq": "4In + 3O₂ → 2In₂O₃", "note": "Burns with a violet flame when heated." },
+      { "eq": "In₂O₃ + SnO₂ (doping) → ITO", "note": "A few percent tin in indium oxide makes it conduct while staying transparent." }
+    ],
+    "safety": "Indium metal has low toxicity, but inhaling indium tin oxide dust in factories has caused a serious lung disease (‘indium lung’)."
+  },
+  "Sn": {
+    "history": "Tin has been used since about 3000 BC to make **bronze**. It was so valuable that tin traders sailed from the Mediterranean to Cornwall, the ‘tin islands’ of ancient writers. The symbol **Sn** comes from the Latin *stannum*. Below 13.2 °C, ordinary white tin slowly crumbles into grey powder (‘**tin pest**’). It has been blamed for the failure of Napoleon’s army’s buttons in Russia and of Captain Scott’s fuel cans in Antarctica, though both stories are probably exaggerated.",
+    "production": "The ore is **cassiterite** (SnO₂), often found in river gravels. China, Indonesia (the islands of Bangka and Belitung), Myanmar and Peru are the largest producers. Ore from some conflict regions is regulated as a ‘conflict mineral’. Cassiterite is reduced with carbon in a furnace. About half of all tin is used in **solder** for electronics, now mostly lead-free tin–silver–copper alloys. Other uses include **tinplate** (steel cans coated with tin), PVC stabilisers, bronze and pewter. Flat **float glass** for windows is made by floating molten glass on a bath of molten tin.",
+    "chemistry": "Tin has two main allotropes: metallic white tin (β) and brittle grey tin (α), which has the diamond structure. Tin shows oxidation states **+2** and **+4**. Lower in group 14 the +2 state becomes more stable (the **inert pair effect**), and Sn²⁺ is a useful reducing agent.",
+    "reactions": [
+      { "eq": "SnO₂ + 2C → Sn + 2CO", "note": "Smelting cassiterite." },
+      { "eq": "Sn + 2HCl → SnCl₂ + H₂", "note": "Dissolves slowly in hydrochloric acid." },
+      { "eq": "Sn²⁺ + 2Fe³⁺ → Sn⁴⁺ + 2Fe²⁺", "note": "Tin(II) as a reducing agent." },
+      { "eq": "Sn + O₂ → SnO₂", "note": "Tin(IV) oxide coatings make glass bottles stronger." }
+    ],
+    "safety": "Tin metal and inorganic tin compounds have low toxicity (but don’t eat food that has been stored in an open can). **Organotin** compounds, such as tributyltin once used in ship anti-fouling paint, are highly toxic and are banned."
+  },
+  "Sb": {
+    "history": "The black mineral **stibnite** (Sb₂S₃) was used in ancient Egypt as *kohl* eye make-up, and a vase made of antimony found at Tello (in modern Iraq) dates to about 3000 BC. Vannoccio Biringuccio described how to isolate the metal in 1540, and Nicolas Lémery wrote a whole treatise on it in 1707. The symbol **Sb** comes from the Latin *stibium*. The origin of ‘antimony’ is uncertain; one guess is the Greek *anti-monos*, ‘not alone’, because it is rarely found uncombined.",
+    "production": "Antimony comes from **stibnite**. China produces about half the world’s supply, followed by Russia and Tajikistan. The ore is roasted to the oxide and reduced with carbon, or reduced directly with scrap iron. About half is used as antimony trioxide in **flame retardants** for plastics and textiles, together with brominated compounds. Antimony also hardens the lead in car batteries, catalyses the production of PET plastic, clears bubbles from glass, and is used in ammunition and in infrared detectors (indium antimonide).",
+    "chemistry": "Antimony is a brittle, shiny grey **metalloid**. Like water, bismuth and gallium, it **expands when it solidifies**. That made it ideal for **type metal** (lead–tin–antimony): molten type filled every detail of the mould, which helped Gutenberg’s printing press. Its main oxidation states are +3 and +5.",
+    "reactions": [
+      { "eq": "Sb₂S₃ + 3Fe → 2Sb + 3FeS", "note": "Iron precipitation: reducing stibnite directly." },
+      { "eq": "2Sb₂S₃ + 9O₂ → 2Sb₂O₃ + 6SO₂", "note": "Roasting the ore." },
+      { "eq": "2Sb + 3Cl₂ → 2SbCl₃", "note": "Powdered antimony bursts into flame in chlorine." }
+    ],
+    "safety": "Antimony and its compounds are **toxic**, similar to arsenic but less so. Antimony trioxide is a possible carcinogen. Stibine gas (SbH₃) is very toxic."
+  },
+  "Te": {
+    "history": "In **1782 Franz-Joseph Müller von Reichenstein**, a mining official in Transylvania, studied a gold ore from Zlatna that yielded a strange metal. He called it *aurum paradoxum* (paradoxical gold) or *metallum problematicum*. In **1798 Martin Heinrich Klaproth** confirmed it was a new element and named it after the Latin *tellus*, Earth. During the 1896 gold rush at **Kalgoorlie**, Australia, miners reportedly used a grey mineral to fill potholes. When it turned out to be calaverite (gold telluride), they dug up the roads to recover the gold.",
+    "production": "Tellurium is one of the **rarest stable elements** in Earth’s crust (about 1 part per billion, similar to platinum). It is recovered from the anode slime of **copper refining**, mainly in China, Japan, Russia and the USA. Its largest use is in **cadmium telluride** thin-film solar panels. It is also used in thermoelectric bismuth telluride (Peltier coolers and generators), in free-machining steel and copper, in rubber vulcanisation, and in the phase-change layer of rewritable DVDs (germanium–antimony–tellurium).",
+    "chemistry": "Tellurium is a brittle, silvery **metalloid** and a semiconductor. Like sulfur and selenium it shows oxidation states −2, +4 and +6. It is one of the few elements that combine naturally with **gold**, forming minerals such as calaverite (AuTe₂). The body converts tellurium into dimethyl telluride, which gives an extremely persistent **garlic smell** on the breath.",
+    "reactions": [
+      { "eq": "TeO₂ + 2SO₂ + 2H₂O → Te + 2H₂SO₄", "note": "Recovering tellurium from refinery residues." },
+      { "eq": "Te + O₂ → TeO₂", "note": "Burns with a blue-green flame." },
+      { "eq": "Cd + Te → CdTe", "note": "The light-absorbing layer of thin-film solar panels." }
+    ],
+    "safety": "Tellurium compounds are toxic. Even tiny exposures cause ‘**tellurium breath**’, a garlic odour that can last for weeks. Hydrogen telluride is very toxic."
+  },
+  "I": {
+    "history": "In **1811 Bernard Courtois** in Paris was making saltpetre for Napoleon’s gunpowder from the ashes of seaweed. When he added too much sulfuric acid to the residue, clouds of **violet vapour** rose and condensed into shiny black crystals. **Joseph Gay-Lussac** and **Humphry Davy** confirmed in 1813 that it was a new element, named from the Greek *iodes*, violet. In the 1820s the Swiss doctor Jean-François Coindet used iodine to treat **goitre**. Iodised salt, introduced in Switzerland in 1922 and the USA in 1924, has since saved hundreds of millions of people from iodine deficiency.",
+    "production": "About 60 % of iodine comes from **Chile**, where the caliche nitrate deposits of the Atacama Desert contain iodate. Iodate is reduced to iodine with sodium hydrogen sulfite. Japan extracts iodine from natural-gas brines. The largest use is **X-ray contrast agents**. Others include iodised salt and animal feed, disinfectants (povidone-iodine, tincture of iodine), LCD polarising films, and catalysts for making acetic acid. Radioactive **iodine-131** treats thyroid cancer and overactive thyroids. **Potassium iodide tablets** protect the thyroid after nuclear accidents by saturating it with stable iodine.",
+    "chemistry": "Iodine is a shiny violet-black solid that **sublimes** easily to a beautiful violet vapour. It is the least reactive of the stable halogens: chlorine and bromine both displace it from iodides. It dissolves poorly in water but well in potassium iodide solution, as I₃⁻, and in non-polar solvents, giving a violet colour. With starch it gives an intense **blue-black** colour. Iodine is essential for the thyroid hormones **thyroxine (T₄) and T₃**, which control metabolism.",
+    "reactions": [
+      { "eq": "Cl₂ + 2KI → 2KCl + I₂", "note": "Chlorine displaces iodine: the solution turns brown." },
+      { "eq": "I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻", "note": "Iodine–thiosulfate titration, with starch as the end-point indicator." },
+      { "eq": "2IO₃⁻ + 5HSO₃⁻ → I₂ + 5SO₄²⁻ + 3H⁺ + H₂O", "note": "Producing iodine from Chilean iodate." },
+      { "eq": "H₂ + I₂ ⇌ 2HI", "note": "The classic gas equilibrium studied by Max Bodenstein in the 1890s." }
+    ],
+    "safety": "Solid iodine irritates and stains the skin, and its vapour irritates the eyes and lungs. Iodine **deficiency** is the world’s leading preventable cause of intellectual disability. Too much iodine can also upset thyroid function."
+  },
+  "Xe": {
+    "history": "On 12 July **1898 William Ramsay** and **Morris Travers** found xenon in the last, least volatile residue after distilling krypton from liquid air. They named it from the Greek *xenos*, stranger, for the beautiful blue glow it gave in a discharge tube. For 64 years noble gases were thought to form no compounds at all.\n\nIn **1962 Neil Bartlett** at the University of British Columbia noticed that platinum hexafluoride could oxidise O₂ to O₂⁺, and that xenon’s ionization energy (1170 kJ/mol) was almost the same as oxygen’s (1165 kJ/mol). He mixed xenon with PtF₆ and obtained an orange-yellow solid, the **first noble-gas compound**. Within months, xenon tetrafluoride, difluoride and hexafluoride had been made, and textbooks had to be rewritten.",
+    "production": "Xenon is extremely rare (87 parts per billion of air) and is recovered from large **air-separation plants**, which makes it expensive. It is used in **xenon arc lamps** (cinema projectors, car headlights, searchlights), **ion thrusters** on spacecraft such as NASA’s Dawn, XeCl excimer lasers, and as a **general anaesthetic** (non-toxic and fast, but costly). Huge tanks of liquid xenon are used to hunt for **dark matter** (XENONnT, LZ).",
+    "chemistry": "Xenon forms fluorides, oxides and oxyfluorides, mostly in the +2, +4, +6 and +8 states. Its fluorides are famous **VSEPR examples**: XeF₂ is linear (3 lone pairs), XeF₄ is square planar (2 lone pairs) and XeF₆ is a distorted octahedron. Xenon trioxide is a dangerously sensitive explosive.",
+    "reactions": [
+      { "eq": "Xe + F₂ → XeF₂", "note": "With heat or sunlight: colourless crystals, linear molecules." },
+      { "eq": "Xe + 2F₂ → XeF₄", "note": "About 400 °C, 6 atm: square planar." },
+      { "eq": "Xe + 3F₂ → XeF₆", "note": "About 300 °C, 60 atm, excess fluorine." },
+      { "eq": "XeF₆ + 3H₂O → XeO₃ + 6HF", "note": "Hydrolysis gives explosive xenon trioxide." }
+    ],
+    "safety": "Xenon is non-toxic but an asphyxiant, and it is an anaesthetic at high concentrations. Xenon oxides and some oxyfluorides are explosive, and the fluorides are strong oxidisers."
+  }
+}

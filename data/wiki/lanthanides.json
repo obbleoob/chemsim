@@ -1,0 +1,155 @@
+{
+  "La": {
+    "history": "In **1839 Carl Gustaf Mosander**, a student of Berzelius in Stockholm, found that ‘ceria’ (cerium oxide) concealed a second element. Its oxide could be dissolved out with dilute nitric acid. He named it from the Greek *lanthanein*, ‘to lie hidden’. This began a 70-year hunt in which almost every ‘pure’ rare earth turned out to hide yet another element. Lanthanum metal was not prepared in reasonably pure form until 1923.",
+    "production": "Lanthanum comes from the main rare-earth ores, **bastnäsite** (Bayan Obo in Inner Mongolia, Mountain Pass in California) and **monazite** sands. The lanthanides are chemically so alike that separating them takes hundreds of stages of **solvent extraction**, and China dominates this processing. Lanthanum is used in catalysts for cracking crude oil, in **nickel–metal hydride batteries** (hybrid cars use kilograms of a lanthanum–nickel alloy), in high-refractive-index glass for camera lenses, in lanthanum hexaboride electron emitters, and in lanthanum carbonate tablets that bind phosphate in kidney patients.",
+    "chemistry": "Lanthanum is a soft, silvery, reactive metal that tarnishes in air and reacts slowly with water. It forms almost only **La³⁺** (no f electrons), so its compounds are colourless. It gives its name to the **lanthanide series**, the 15 elements La–Lu in which the 4f subshell fills.",
+    "reactions": [
+      { "eq": "2La + 6H₂O → 2La(OH)₃ + 3H₂", "note": "Slow with cold water, faster when hot." },
+      { "eq": "LaNi₅ + 3H₂ ⇌ LaNi₅H₆", "note": "Reversible hydrogen storage in NiMH batteries." },
+      { "eq": "4La + 3O₂ → 2La₂O₃", "note": "Burns readily when heated." }
+    ],
+    "safety": "Lanthanum has low to moderate toxicity. The powder is flammable."
+  },
+  "Ce": {
+    "history": "In **1803** cerium was found independently by **Jöns Jacob Berzelius** and **Wilhelm Hisinger** in Sweden and by **Martin Heinrich Klaproth** in Germany, in the heavy mineral cerite from the Bastnäs mine. It was named after the asteroid (now dwarf planet) **Ceres**, discovered two years earlier. In 1903 **Carl Auer von Welsbach** invented **ferrocerium**, an iron–cerium alloy that throws hot sparks when scraped: the ‘flint’ of every cigarette lighter. His earlier gas mantles, which contained 1 % ceria, lit the streets of the world.",
+    "production": "Cerium is the **most abundant rare earth**, more common in the crust than copper. It is extracted with the other lanthanides from bastnäsite and monazite. Uses include **polishing glass** (cerium oxide is the standard polish for lenses, mirrors and phone screens), **catalytic converters** (where ceria stores and releases oxygen), lighter flints, self-cleaning oven linings, and UV-absorbing glass.",
+    "chemistry": "Cerium is the only lanthanide with a stable **+4** state in water. Ce⁴⁺ (in ceric ammonium nitrate) is a strong oxidising agent used in titrations and organic synthesis. Cerium metal is soft and very reactive, and scraped shavings ignite in air.",
+    "reactions": [
+      { "eq": "2CeO₂ ⇌ Ce₂O₃ + ½O₂", "note": "Ceria ‘breathes’ oxygen in a catalytic converter." },
+      { "eq": "Ce⁴⁺ + Fe²⁺ → Ce³⁺ + Fe³⁺", "note": "Cerimetric titration (yellow Ce⁴⁺ → colourless Ce³⁺)." },
+      { "eq": "Ce + O₂ → CeO₂", "note": "What happens in each spark from a lighter flint." }
+    ],
+    "safety": "Cerium has low toxicity. Cerium metal and its alloys are pyrophoric: scrapings can ignite spontaneously."
+  },
+  "Pr": {
+    "history": "In 1841 Mosander separated a substance he called *didymium* (‘twin’, because it was so close to lanthanum). In **1885 Carl Auer von Welsbach** in Vienna used hundreds of fractional crystallisations to split didymium into two elements: **praseodymium**, ‘green twin’ (Greek *prasios*, leek-green) after its green salts, and neodymium, ‘new twin’.",
+    "production": "Praseodymium is extracted with the other rare earths from bastnäsite and monazite. It is often left together with neodymium as ‘PrNd’ for **NdFeB permanent magnets**. It gives a bright yellow colour to glass and ceramic glazes, and **didymium glasses**, worn by glassblowers and welders, filter out sodium’s glaring yellow light. It is also used in strong magnesium alloys for aircraft engines and in carbon-arc lights for film studios.",
+    "chemistry": "Praseodymium is a soft, silvery metal that develops a green oxide coating. Its usual ion is **Pr³⁺**, whose salts are green, and its common oxide is the mixed-valence Pr₆O₁₁.",
+    "reactions": [
+      { "eq": "2Pr + 6HCl → 2PrCl₃ + 3H₂", "note": "Dissolves readily in acids, giving green solutions." },
+      { "eq": "12Pr + 11O₂ → 2Pr₆O₁₁", "note": "Burns in air, forming the dark brown mixed oxide." }
+    ],
+    "safety": "Praseodymium has low to moderate toxicity. The powder is flammable."
+  },
+  "Nd": {
+    "history": "**Carl Auer von Welsbach** isolated neodymium in **1885** when he split ‘didymium’ into its two ‘twins’. He named it from the Greek *neos didymos*, ‘new twin’. A century later, in **1982–84**, **Masato Sagawa** at Sumitomo and a team at General Motors independently invented the **neodymium–iron–boron (Nd₂Fe₁₄B) magnet**, the strongest type of permanent magnet known.",
+    "production": "Neodymium comes from bastnäsite, monazite and Chinese ionic clays. Rare-earth separation and magnet production are dominated by China, which makes neodymium a ‘critical raw material’ for many countries. Most neodymium goes into **NdFeB magnets** for electric-car motors, wind-turbine generators, hard drives, speakers, headphones and phone vibrators. It is also used in **Nd:YAG lasers** (1064 nm) and in purple glass.",
+    "chemistry": "Nd³⁺ salts are lilac or violet. Its f–f electronic transitions give **very sharp absorption bands**, so neodymium glass visibly changes colour depending on the light source (for example lilac in daylight but bluish under fluorescent tubes). The metal tarnishes quickly in air.",
+    "reactions": [
+      { "eq": "Nd₂O₃ + 6HF → 2NdF₃ + 3H₂O", "note": "Neodymium fluoride is reduced to the metal with calcium or by electrolysis." },
+      { "eq": "2Nd + 6H₂O → 2Nd(OH)₃ + 3H₂", "note": "Reacts slowly with water." }
+    ],
+    "safety": "Neodymium compounds have low to moderate toxicity. NdFeB magnets are so strong they can **pinch skin painfully** or shatter when they snap together, and they are dangerous if two are swallowed."
+  },
+  "Pm": {
+    "history": "Element 61 was the **missing lanthanide**. ‘Illinium’ (1926) and ‘florentium’ were both false claims. It was finally identified in **1945** by **Jacob Marinsky, Lawrence Glendenin** and **Charles Coryell** at Clinton Laboratories (Oak Ridge), among the fission products of uranium from the wartime nuclear reactor. Coryell’s wife **Grace** suggested the name **promethium**, after **Prometheus**, who stole fire from the gods, a reference to both the danger and the promise of nuclear energy.",
+    "production": "Promethium has **no stable isotopes**. Only tiny natural traces occur, in uranium ore. It is made in nuclear reactors, from fission or by neutron capture on neodymium. Promethium-147 (half-life 2.6 years) was used in luminous paint for watches and switches (replacing radium), in **betavoltaic** ‘atomic batteries’ for early heart pacemakers, and in thickness gauges.",
+    "chemistry": "Promethium and technetium are the only elements lighter than lead with no stable isotopes. Pm³⁺ salts are pink and glow faintly. Its chemistry is typical of the lanthanides, but it was so hard to study that the first crystal structure of a promethium complex was only reported in **2024**, by a team at Oak Ridge.",
+    "reactions": [
+      { "eq": "¹⁴⁶Nd + n → ¹⁴⁷Nd;  ¹⁴⁷Nd → ¹⁴⁷Pm + e⁻ + ν̄", "note": "Production in a reactor." },
+      { "eq": "¹⁴⁷Pm → ¹⁴⁷Sm + e⁻ + ν̄", "note": "The low-energy beta decay used in betavoltaic batteries." }
+    ],
+    "safety": "Promethium is radioactive and must be handled with shielding and containment."
+  },
+  "Sm": {
+    "history": "In **1879 Paul-Émile Lecoq de Boisbaudran** isolated samarium from the mineral **samarskite**. The mineral was named after Vasili Samarsky-Bykhovets, a Russian mining engineer, so samarium was the first element named (indirectly) after a real person.",
+    "production": "Samarium is extracted with the other rare earths. **Samarium–cobalt magnets** (1960s) were the strongest magnets before NdFeB, and are still used where heat resistance matters (aerospace, military, high-temperature motors). Samarium-153 relieves pain from bone cancer, samarium oxide absorbs neutrons in reactors, and **samarium(II) iodide** (Kagan’s reagent) is a popular reducing agent in organic synthesis.",
+    "chemistry": "Samarium shows both **+3** and **+2** states. Sm²⁺ is a strong one-electron reducing agent. Samarium-147 alpha-decays to neodymium-143 with a half-life of 106 billion years, which is used in **Sm–Nd dating** of the oldest rocks.",
+    "reactions": [
+      { "eq": "Sm + ICH₂CH₂I → SmI₂ + C₂H₄", "note": "Preparing the deep-blue SmI₂ reagent in THF." },
+      { "eq": "¹⁴⁷Sm → ¹⁴³Nd + ⁴He", "note": "Sm–Nd geochronology." }
+    ],
+    "safety": "Samarium has low to moderate toxicity. The powder is flammable."
+  },
+  "Eu": {
+    "history": "In **1901 Eugène-Anatole Demarçay** in Paris separated a new element from samarium, after years of painstaking fractional crystallisation guided by spectroscopy. He named it after **Europe**.",
+    "production": "Europium is one of the rarer and more valuable lanthanides. Its compounds are brilliant **phosphors**: Eu³⁺ gives the **red** in old colour TV tubes, LED and fluorescent lamps, and Eu²⁺ gives blue. **Euro banknotes** contain europium-based inks that glow under UV light, as an anti-counterfeiting feature. Europium is also used in nuclear control rods.",
+    "chemistry": "Europium is the **most reactive lanthanide**. It oxidises rapidly in air and reacts with water like calcium. It readily forms **Eu²⁺**, because that ion has a stable half-filled 4f⁷ subshell. In geology, Eu²⁺ behaves like Sr²⁺ and fits into feldspar crystals, creating the ‘**europium anomaly**’ that geochemists use to trace how rocks formed.",
+    "reactions": [
+      { "eq": "Eu + 2H₂O → Eu(OH)₂ + H₂", "note": "Reacts with cold water, forming europium(II) hydroxide." },
+      { "eq": "4Eu + 3O₂ → 2Eu₂O₃", "note": "Tarnishes within hours, so it is stored under oil." },
+      { "eq": "Eu³⁺ + UV light → Eu³⁺* → red light (611 nm)", "note": "The red phosphor emission." }
+    ],
+    "safety": "Europium has low to moderate toxicity, and its metal powder is flammable."
+  },
+  "Gd": {
+    "history": "In **1880 Jean Charles Galissard de Marignac** in Geneva detected a new element spectroscopically in samarskite and didymium. In **1886 Paul-Émile Lecoq de Boisbaudran** isolated its oxide and named it *gadolinia*, after the mineral gadolinite, itself named after **Johan Gadolin**, the Finnish chemist who discovered yttrium.",
+    "production": "Gadolinium is extracted with the other rare earths. Its biggest medical use is in **MRI contrast agents**: gadolinium(III) has seven unpaired electrons, making it strongly paramagnetic, so it brightens tissues in MRI scans. Gadolinium-157 has the **highest neutron-capture cross-section** of any stable isotope, so gadolinium is used for neutron shielding and control rods. Gadolinium is also used in phosphors and magnetic refrigeration research.",
+    "chemistry": "Gadolinium is **ferromagnetic** below about 20 °C, its Curie point, so a piece cooled in a fridge is attracted to a magnet but loses that attraction as it warms in your hand. Gd³⁺ has a half-filled 4f⁷ subshell. For MRI, it is wrapped in strong chelating ligands to keep the toxic free ion out of the body.",
+    "reactions": [
+      { "eq": "Gd³⁺ + DTPA⁵⁻ → [Gd(DTPA)]²⁻", "note": "A very stable chelate: the basis of gadolinium MRI agents." },
+      { "eq": "¹⁵⁷Gd + n → ¹⁵⁸Gd + γ", "note": "Neutron capture: why gadolinium shields reactors." }
+    ],
+    "safety": "Free Gd³⁺ is toxic. Some older MRI agents caused **nephrogenic systemic fibrosis** in patients with poor kidney function, and traces of gadolinium can remain in the brain, so the most stable agents are now preferred."
+  },
+  "Tb": {
+    "history": "In **1843 Carl Gustaf Mosander** split ‘yttria’ (from the Ytterby quarry) into three oxides: yttria, *erbia* and *terbia*. The names of the last two were later accidentally swapped, so what we now call terbium was originally his ‘erbium’. Terbium is one of four elements named after **Ytterby**.",
+    "production": "Terbium is one of the scarcer and more expensive rare earths, extracted mostly from southern Chinese ionic clays. It provides the **green** phosphor in fluorescent lamps and screens. **Terfenol-D**, an alloy of terbium, dysprosium and iron, changes shape strongly in a magnetic field, and is used in sonar and precision actuators. Terbium is also added with dysprosium to NdFeB magnets to keep them strong at high temperature.",
+    "chemistry": "Terbium forms Tb³⁺, which glows a brilliant green (545 nm) under UV light, and Tb⁴⁺ in oxides such as TbO₂. It is a soft, silvery, reactive metal.",
+    "reactions": [
+      { "eq": "2Tb + 6HCl → 2TbCl₃ + 3H₂", "note": "Dissolves in acids." },
+      { "eq": "Tb³⁺ + UV → green light (545 nm)", "note": "Terbium phosphors and luminescent probes." }
+    ],
+    "safety": "Terbium has low to moderate toxicity, and its powder is flammable."
+  },
+  "Dy": {
+    "history": "In **1886 Paul-Émile Lecoq de Boisbaudran** separated dysprosium oxide from holmium oxide in Paris. It reportedly took him more than 30 attempts, so he named it from the Greek *dysprositos*, ‘hard to get at’. Pure dysprosium metal had to wait until the 1950s, when **Frank Spedding** at Iowa State developed ion-exchange separation of the rare earths.",
+    "production": "Dysprosium is mainly obtained from **ionic-adsorption clays in southern China** and Myanmar, and it is one of the most supply-critical elements for clean energy. Adding dysprosium to **NdFeB magnets** lets them keep their magnetism at the high temperatures inside electric-car motors and wind turbines. It is also used in Terfenol-D, radiation dosimeters and reactor control rods.",
+    "chemistry": "Dysprosium is a soft, silvery metal. Dy³⁺ has one of the **largest magnetic moments** of any ion. Single-molecule magnets based on dysprosium hold records for retaining magnetism at the highest temperatures.",
+    "reactions": [
+      { "eq": "2Dy + 6H₂O → 2Dy(OH)₃ + 3H₂", "note": "Reacts slowly with cold water." },
+      { "eq": "4Dy + 3O₂ → 2Dy₂O₃", "note": "Tarnishes slowly in air." }
+    ],
+    "safety": "Dysprosium has low toxicity. Its powder is flammable and can explode as a dust cloud."
+  },
+  "Ho": {
+    "history": "In **1878 Marc Delafontaine** and **Jacques-Louis Soret** in Geneva saw unusual spectral lines, which they attributed to an unknown ‘element X’. In **1879 Per Teodor Cleve** in Uppsala independently isolated its oxide from erbia, and named it **holmium** after *Holmia*, the Latin name for Stockholm, his home city.",
+    "production": "Holmium is extracted with the other heavy rare earths. Because it has the **highest magnetic moment** of any naturally occurring element, it is used for the pole pieces that concentrate the field in the strongest electromagnets. **Holmium:YAG lasers** (2.1 µm) are used in surgery, for example to break up kidney stones, and holmium oxide glass is a standard for calibrating spectrophotometers.",
+    "chemistry": "Holmium forms Ho³⁺, whose salts are yellow. Holmium oxide changes colour with the lighting: tan in daylight, pink under fluorescent light.",
+    "reactions": [
+      { "eq": "2Ho + 6H₂O → 2Ho(OH)₃ + 3H₂", "note": "Reacts slowly with water." },
+      { "eq": "Ho₂O₃ glass: sharp absorption peaks near 279, 361, 453 and 536 nm", "note": "The sharp, well-known absorption bands used for wavelength calibration." }
+    ],
+    "safety": "Holmium has low toxicity."
+  },
+  "Er": {
+    "history": "In **1843 Carl Gustaf Mosander** split yttria from the **Ytterby** quarry into three earths, including one he called *terbia*. Through later confusion the names were swapped, and that oxide became today’s erbia, the source of erbium.",
+    "production": "Erbium is extracted with the heavy rare earths. Its most important use is in **erbium-doped fibre amplifiers** (EDFAs). Excited by a 980 nm laser, Er³⁺ ions in an optical fibre amplify signals at 1550 nm, the wavelength where glass fibre is most transparent. EDFAs boost signals in undersea cables without converting them to electricity, and are the hidden backbone of the internet. Erbium also gives a pink colour to glass and cubic zirconia, and Er:YAG lasers (2940 nm) are used in dermatology and dentistry.",
+    "chemistry": "Erbium forms pink Er³⁺ salts, and has sharp absorption and emission lines typical of lanthanides.",
+    "reactions": [
+      { "eq": "Er³⁺ + photon (980 nm) → Er³⁺* → stimulated emission at 1550 nm", "note": "The working principle of a fibre amplifier." },
+      { "eq": "2Er + 6HCl → 2ErCl₃ + 3H₂", "note": "Dissolves in acids, giving pink solutions." }
+    ],
+    "safety": "Erbium has low toxicity."
+  },
+  "Tm": {
+    "history": "In **1879 Per Teodor Cleve** found two new elements in ‘erbia’: holmium and thulium. He named thulium after **Thule**, the mythical land at the far north of the world in Greek and Roman writings, often identified with Scandinavia.",
+    "production": "Thulium is the **rarest naturally occurring lanthanide** (promethium aside) and is expensive. Uses include portable **X-ray sources** (thulium-170, made by irradiating thulium in a reactor), thulium-doped fibre lasers for surgery (2 µm), and the blue fluorescence in euro banknotes.",
+    "chemistry": "Thulium is a soft, silvery-grey metal that forms Tm³⁺ (pale green salts).",
+    "reactions": [
+      { "eq": "¹⁶⁹Tm + n → ¹⁷⁰Tm", "note": "Making the portable X-ray source (half-life 128 days)." },
+      { "eq": "2Tm + 6H₂O → 2Tm(OH)₃ + 3H₂", "note": "Reacts slowly with water." }
+    ],
+    "safety": "Thulium has low toxicity."
+  },
+  "Yb": {
+    "history": "In **1878 Jean Charles Galissard de Marignac** in Geneva found a new earth, *ytterbia*, in erbia, and named it after **Ytterby**. In 1907 Georges Urbain showed that ytterbia itself contained another element, lutetium.",
+    "production": "Ytterbium is used in **ytterbium-doped fibre lasers**, high-power industrial lasers (around 1030–1080 nm) that cut and weld metal, and in some of the world’s most accurate **optical atomic clocks**. It is also used in stress gauges for earthquake and explosion monitoring, and as a doping agent in stainless steel.",
+    "chemistry": "Ytterbium readily forms **Yb²⁺**, because that ion has a completely filled 4f¹⁴ subshell. Yb(II) compounds are reducing agents. The metal is softer and more reactive than its neighbours.",
+    "reactions": [
+      { "eq": "2Yb + 6H₂O → 2Yb(OH)₃ + 3H₂", "note": "Reacts slowly with cold water." },
+      { "eq": "Yb²⁺ → Yb³⁺ + e⁻", "note": "Yb(II) as a reducing agent." }
+    ],
+    "safety": "Ytterbium has low to moderate toxicity and can irritate skin and eyes. Its powder is flammable."
+  },
+  "Lu": {
+    "history": "In **1907** lutetium was discovered independently by three chemists, all splitting ytterbia: **Georges Urbain** in Paris, **Carl Auer von Welsbach** in Austria and **Charles James** in the USA. Urbain published first and named it after *Lutetia*, the Latin name of Paris. Welsbach’s name, *cassiopeium*, was used in German-speaking countries until 1949.",
+    "production": "Lutetium is the most expensive of the lanthanides. **Lutetium oxyorthosilicate** (LSO/LYSO) crystals are the detectors in most **PET scanners**. Lutetium-177 is used in targeted radiotherapy: attached to molecules that seek out tumours, it treats prostate cancer (Pluvicto) and neuroendocrine tumours (Lutathera). Lutetium–hafnium dating helps determine the ages of very old rocks.",
+    "chemistry": "Lutetium is the last lanthanide, with a full 4f¹⁴ subshell, and forms only Lu³⁺. It is the **hardest and densest** lanthanide. Its small ionic radius illustrates the **lanthanide contraction**: across the series the ions shrink steadily, because 4f electrons shield the growing nuclear charge poorly. This is why the elements after the lanthanides (Hf, Ta, W…) are almost the same size as those above them.",
+    "reactions": [
+      { "eq": "¹⁷⁶Yb + n → ¹⁷⁷Yb;  ¹⁷⁷Yb → ¹⁷⁷Lu + e⁻ + ν̄", "note": "Producing medical lutetium-177." },
+      { "eq": "¹⁷⁶Lu → ¹⁷⁶Hf + e⁻ + ν̄", "note": "Lu–Hf dating (half-life 37 billion years)." }
+    ],
+    "safety": "Lutetium has low toxicity. Lutetium-177 is handled as a radiopharmaceutical."
+  }
+}

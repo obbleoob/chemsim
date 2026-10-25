@@ -10,6 +10,8 @@
 | Flame-test colours | Standard qualitative-analysis references (compiled by hand in `js/wiki/wiki-data.js`) | — |
 | Wiki articles (history, extraction, chemistry, safety) | Written for ChemSim (`data/wiki/*.json`). These are drafts and should be spot-checked. | Same as this repository |
 
+Melting and boiling points come from mendeleev's phase-transition table. Solid–solid transition rows are skipped, so tin melts at 505 K and not at its 286 K grey→white transition. Two values are corrected to the CRC Handbook (97th ed.): the melting point of W (3695 K) and the boiling point of Au (3129 K). See `OVERRIDES` in the build script.
+
 ## Caveats
 
 - **Superheavy elements** (Z ≥ 100), **astatine** and **francium**: melting point, boiling point, density and crystal structure have never been measured. The values shown are predictions and are labelled as such in the app.

@@ -42,7 +42,7 @@ const WikiTable = (() => {
         </div>
         <div class="wiki-filters">
           <input id="wiki-search" type="search" placeholder="Search name, symbol or number…" spellcheck="false" />
-          <select id="wiki-phase" aria-label="State at 25 °C"><option value="all">Any state</option><option value="solid">Solid</option><option value="liquid">Liquid</option><option value="gas">Gas</option></select>
+          <select id="wiki-phase" aria-label="State at 25 °C" data-tip="Measured state at 25 °C. Elements whose state is only predicted are left out."><option value="all">Any state</option><option value="solid">Solid</option><option value="liquid">Liquid</option><option value="gas">Gas</option></select>
           <select id="wiki-block" aria-label="Block"><option value="all">Any block</option><option value="s">s-block</option><option value="p">p-block</option><option value="d">d-block</option><option value="f">f-block</option></select>
           <select id="wiki-radio" aria-label="Radioactivity"><option value="all">Stable &amp; radioactive</option><option value="stable">Has stable isotopes</option><option value="radio">Radioactive only</option></select>
         </div>
@@ -212,7 +212,8 @@ const WikiTable = (() => {
   function matches(e) {
     const q = st.search;
     if (q && !(e.name.toLowerCase().startsWith(q) || e.sym.toLowerCase() === q || String(e.z) === q)) return false;
-    if (st.phase !== 'all' && e.phase !== st.phase) return false;
+    // predicted states (e.g. copernicium 'liquid') are not real observations
+    if (st.phase !== 'all' && (e.phase !== st.phase || e.predictedBulk)) return false;
     if (st.block !== 'all' && e.block !== st.block) return false;
     const hasStable = e.isotopes.some((i) => i.abundance && !i.halfLife);
     if (st.radio === 'stable' && !hasStable) return false;

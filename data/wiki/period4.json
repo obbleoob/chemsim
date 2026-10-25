@@ -1,0 +1,214 @@
+{
+  "K": {
+    "history": "Potassium was the **first metal isolated by electrolysis**. On 6 October **1807**, **Humphry Davy** passed a current from a powerful voltaic pile through slightly moist molten potash (KOH). Tiny globules of metal formed, burst into flame and skated around. His cousin reported that Davy ‘danced about the room in ecstatic delight’. Davy named it after *potash*, the salt left in iron pots after soaking wood ashes. The symbol **K** comes from the Latin *kalium*, from the Arabic *qali*, plant ashes (the same root as ‘alkali’).",
+    "production": "Potassium salts (‘**potash**’) are mined as sylvite (KCl) and carnallite from ancient evaporated seabeds. Canada (Saskatchewan) is by far the largest producer, followed by Russia and Belarus. About **95 % is used as fertiliser**, because potassium is one of the three main plant nutrients (the ‘K’ in NPK). Potassium metal is made by reducing molten KCl with sodium vapour at about 850 °C. Potassium is more volatile than sodium, so it boils off and is collected, pulling the equilibrium Na + KCl ⇌ NaCl + K to the right.",
+    "chemistry": "Potassium is softer and more reactive than sodium, because its outer electron is further from the nucleus (first IE 419 kJ/mol). It burns to form **potassium superoxide**, KO₂, which releases oxygen when it absorbs CO₂ and is used in breathing apparatus for mines and spacecraft. K⁺ is the main positive ion inside our cells, and the K⁺/Na⁺ gradient powers nerve signals. Natural potassium contains 0.012 % radioactive **potassium-40**, so all of us, and bananas, are very slightly radioactive.",
+    "reactions": [
+      { "eq": "2K + 2H₂O → 2KOH + H₂", "note": "So exothermic that the hydrogen ignites with a lilac flame." },
+      { "eq": "K + O₂ → KO₂", "note": "Burning potassium forms the superoxide." },
+      { "eq": "4KO₂ + 2CO₂ → 2K₂CO₃ + 3O₂", "note": "How potassium superoxide ‘recycles’ exhaled air in rebreathers." },
+      { "eq": "2KNO₃ → 2KNO₂ + O₂", "note": "Potassium nitrate (saltpetre) is the oxidiser in gunpowder." },
+      { "eq": "2KClO₃ → 2KCl + 3O₂", "note": "Old laboratory oxygen preparation (MnO₂ catalyst); chlorate–sugar mixtures are dangerously explosive." }
+    ],
+    "safety": "Potassium reacts violently with water and can ignite in moist air. Old potassium can grow a crust of **superoxide** that explodes when the metal is cut or scraped, so old samples should be disposed of carefully. Potassium compounds are vital nutrients, but **concentrated potassium chloride injected into a vein stops the heart**."
+  },
+  "Ca": {
+    "history": "Lime (calcium oxide), made by heating limestone, was used by the Egyptians and Romans for mortar. Roman builders also mixed it with volcanic ash to make the concrete of the Pantheon. In **1808 Humphry Davy** isolated calcium metal by electrolysing a mixture of lime and mercury(II) oxide to form an amalgam, then distilling off the mercury. The name comes from the Latin *calx*, lime.",
+    "production": "Calcium is the **fifth most abundant element** in Earth’s crust, found in vast deposits of limestone and chalk (CaCO₃), gypsum (CaSO₄·2H₂O) and fluorite (CaF₂). Most is used as compounds: cement, lime, plaster and chalk. The metal itself is made by heating lime with aluminium under vacuum (aluminothermic reduction) or by electrolysing molten calcium chloride. It is a strong reducing agent used to extract uranium, thorium and rare-earth metals, and is alloyed with lead in car batteries.",
+    "chemistry": "Calcium is a fairly reactive group 2 metal. It reacts steadily with cold water, and its hydroxide is only slightly soluble. Ca²⁺ is essential for life: it builds bones and teeth (hydroxyapatite), shells and coral (calcium carbonate), and triggers muscle contraction and nerve signalling. Water flowing through limestone dissolves it as calcium hydrogencarbonate, which causes **hard water** and slowly carves **caves**, stalactites and stalagmites.",
+    "reactions": [
+      { "eq": "Ca + 2H₂O → Ca(OH)₂ + H₂", "note": "Calcium sinks and fizzes steadily, and the water turns milky." },
+      { "eq": "CaCO₃ → CaO + CO₂", "note": "Lime kilns at about 900 °C: making quicklime." },
+      { "eq": "CaO + H₂O → Ca(OH)₂", "note": "‘Slaking’ lime: so exothermic it can boil the water." },
+      { "eq": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O", "note": "The limewater test for carbon dioxide (it turns cloudy)." },
+      { "eq": "CaCO₃ + CO₂ + H₂O ⇌ Ca(HCO₃)₂", "note": "How rainwater dissolves limestone to form caves, and how hard water leaves scale when heated (reverse reaction)." }
+    ],
+    "safety": "Calcium metal reacts with water to release flammable hydrogen. **Quicklime** and cement are strongly alkaline and cause burns to skin and eyes. Calcium compounds are otherwise of low toxicity."
+  },
+  "Sc": {
+    "history": "Scandium is a triumph of the periodic table. In **1871 Dmitri Mendeleev** left a gap below boron and predicted the properties of the missing ‘**eka-boron**’, including an atomic weight of about 44. In **1879 Lars Fredrik Nilson** of Uppsala found a new element in the Scandinavian minerals euxenite and gadolinite and named it after **Scandinavia**. His colleague **Per Teodor Cleve** soon noticed that it matched Mendeleev’s eka-boron closely. Pure metallic scandium was first made in 1937.",
+    "production": "Scandium is not especially rare in the crust, but it is spread thinly and rarely concentrated in ores, so it is expensive. It is recovered as a **by-product** of processing uranium, rare-earth, titanium and nickel–cobalt ores, and only a few tens of tonnes of scandium oxide are made each year (China, Russia, the Philippines). Small additions to aluminium give strong, weldable **aluminium–scandium alloys**, used in fighter aircraft, high-end bicycle frames and baseball bats. Scandium iodide in **metal-halide lamps** gives light close to daylight, used for stadiums and film sets. Scandia-stabilised zirconia is used in solid-oxide fuel cells.",
+    "chemistry": "Scandium is almost always in the **+3 oxidation state**. Sc³⁺ has no d electrons, so its compounds are colourless. Its chemistry resembles aluminium and the lanthanides, and scandium is counted among the **rare-earth elements**. It is a light, silvery metal that tarnishes slightly yellow in air.",
+    "reactions": [
+      { "eq": "2Sc + 6HCl → 2ScCl₃ + 3H₂", "note": "Dissolves readily in acids." },
+      { "eq": "4Sc + 3O₂ → 2Sc₂O₃", "note": "Burns when heated; scandium oxide is the main commercial form." },
+      { "eq": "Sc³⁺ + 3OH⁻ → Sc(OH)₃", "note": "A white gelatinous precipitate, like aluminium hydroxide." }
+    ],
+    "safety": "Scandium has no known biological role and low toxicity, though it is not well studied. Like most metals, fine scandium powder is flammable."
+  },
+  "Ti": {
+    "history": "In **1791** the Cornish clergyman and amateur mineralogist **William Gregor** found the oxide of an unknown metal in black sand (ilmenite) from the Manaccan valley in Cornwall. In **1795** the German chemist **Martin Heinrich Klaproth** found the same element in rutile. He named it after the **Titans**, the powerful sons of the Earth in Greek mythology. Pure titanium was very hard to make, because the hot metal reacts with oxygen, nitrogen and carbon. Matthew Hunter first produced 99.9 % titanium in 1910 by reducing TiCl₄ with sodium. In 1940 **William Kroll** developed the magnesium-reduction process still used today.",
+    "production": "Titanium ores are **ilmenite** (FeTiO₃) and **rutile** (TiO₂), mined in Australia, South Africa, Canada and China. About **90 % becomes titanium dioxide**, the brilliant white pigment in paint, paper, plastics, toothpaste and sunscreen. Titanium metal is made by the **Kroll process**. The ore is chlorinated with chlorine and carbon to form volatile titanium tetrachloride, which is purified by distillation and reduced with molten magnesium at about 850 °C under argon. This gives porous titanium ‘sponge’, which is melted into ingots. The batch process is slow and energy-intensive, which is why titanium is expensive.",
+    "chemistry": "Titanium has the **highest strength-to-weight ratio** of any common metal: as strong as many steels but 45 % lighter. A thin, self-healing TiO₂ layer makes it extremely resistant to corrosion, even in seawater. It is also **biocompatible**, and bone grows directly onto it (osseointegration), so it is used for hip replacements and dental implants. Its usual oxidation state is +4. Ti³⁺ is violet, and titanium(III) compounds are reducing agents.",
+    "reactions": [
+      { "eq": "TiO₂ + 2C + 2Cl₂ → TiCl₄ + 2CO", "note": "Chlorination step of the Kroll (and chloride pigment) process, about 1000 °C." },
+      { "eq": "TiCl₄ + 2Mg → Ti + 2MgCl₂", "note": "Kroll reduction under argon." },
+      { "eq": "TiCl₄ + 2H₂O → TiO₂ + 4HCl", "note": "TiCl₄ fumes in moist air, which is why it was used for smoke screens and skywriting." },
+      { "eq": "Ti + O₂ → TiO₂", "note": "Hot titanium burns brilliantly; titanium is one of the few metals that also burns in nitrogen." }
+    ],
+    "safety": "Titanium metal and TiO₂ have very low toxicity. The EU banned TiO₂ as a food colouring (E171) in 2022 as a precaution. Fine titanium powder and swarf are flammable. Titanium tetrachloride is corrosive and releases HCl fumes."
+  },
+  "V": {
+    "history": "In **1801** the Spanish-Mexican mineralogist **Andrés Manuel del Río** found a new element in a Mexican lead ore (vanadinite). Because its salts turned red when heated, he called it *erythronium*, but other chemists persuaded him it was only impure chromium. In **1830 Nils Gabriel Sefström** in Sweden rediscovered it in iron ore and named it after **Vanadís** (Freyja), the Norse goddess of beauty, because its compounds come in so many colours. **Henry Roscoe** isolated the pure metal in 1867.",
+    "production": "Most vanadium comes from the **slag** left after smelting vanadium-bearing magnetite iron ores in China, Russia, South Africa and Brazil. The slag is roasted with sodium salts to form soluble sodium vanadate, which is precipitated and heated to V₂O₅. About **85–90 % is used in steel** as ferrovanadium: a few tenths of a percent makes steel much stronger and tougher, for reinforcing bars, springs, tools and pipelines. Vanadium pentoxide is the catalyst in the Contact process for sulfuric acid. **Vanadium redox flow batteries**, which store energy in large tanks of vanadium solutions, are used to store grid electricity.",
+    "chemistry": "Vanadium is famous for showing **four colourful oxidation states** in solution: yellow VO₂⁺ (+5), blue VO²⁺ (+4), green V³⁺ (+3) and violet V²⁺ (+2). Zinc in acid steps a vanadate solution down through all four in turn. Some sea squirts concentrate vanadium in their blood cells to a million times its level in seawater, and nobody knows exactly why.",
+    "reactions": [
+      { "eq": "VO₂⁺ (yellow) → VO²⁺ (blue) → V³⁺ (green) → V²⁺ (violet)", "note": "Successive reduction by zinc in acid: a classic colour demonstration." },
+      { "eq": "2SO₂ + O₂ ⇌ 2SO₃", "note": "V₂O₅ catalyses the key step of sulfuric acid manufacture, cycling between V(+5) and V(+4)." },
+      { "eq": "V₂O₅ + 5Ca → 2V + 5CaO", "note": "Making pure vanadium metal." }
+    ],
+    "safety": "Vanadium pentoxide dust is toxic and irritates the airways, and it is a possible carcinogen. The metal itself has low toxicity."
+  },
+  "Cr": {
+    "history": "In **1797 Louis-Nicolas Vauquelin** analysed ‘Siberian red lead’ (the mineral crocoite, PbCrO₄) and found a new element, which he isolated in 1798 by heating its oxide with charcoal. Because its compounds have such vivid colours (yellow, orange, green, violet), he named it from the Greek *chroma*, colour. The green of emeralds and the red of rubies both come from traces of chromium(III).",
+    "production": "The ore is **chromite** (FeCr₂O₄). South Africa mines over 40 % of the world’s supply, followed by Kazakhstan, Turkey and India. Most chromite is smelted with carbon in electric furnaces to make **ferrochrome**, an iron–chromium alloy for **stainless steel**. Steel needs at least 10.5 % chromium to become ‘stainless’, because chromium forms a thin, self-repairing oxide layer. Pure chromium for **chrome plating** and superalloys is made by reducing chromium(III) oxide with aluminium, or by electrolysis. Chromium compounds are also used for tanning leather, as pigments (chrome yellow, chrome green) and for wood preservation.",
+    "chemistry": "Chromium’s common oxidation states are **+3** (green or violet, stable) and **+6** (chromate CrO₄²⁻, yellow, and dichromate Cr₂O₇²⁻, orange). Chromate and dichromate interconvert with pH, and dichromate is a strong oxidising agent. Older breathalysers worked by acidified dichromate turning green as it oxidised ethanol. Chromium(VI) compounds are **toxic and carcinogenic**. The groundwater contamination in Hinkley, California became famous through the film *Erin Brockovich*.",
+    "reactions": [
+      { "eq": "2CrO₄²⁻ + 2H⁺ ⇌ Cr₂O₇²⁻ + H₂O", "note": "Yellow ⇌ orange as acid is added or removed (Le Chatelier’s principle)." },
+      { "eq": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O", "note": "Orange to green: dichromate as an oxidising agent." },
+      { "eq": "(NH₄)₂Cr₂O₇ → Cr₂O₃ + N₂ + 4H₂O", "note": "The ‘chemical volcano’: orange crystals erupt into fluffy green chromium(III) oxide." },
+      { "eq": "Cr₂O₃ + 2Al → 2Cr + Al₂O₃", "note": "Aluminothermic production of chromium metal." }
+    ],
+    "safety": "Chromium metal and Cr(III) compounds have low toxicity. **Chromium(VI)** compounds (chromates, dichromates, chromic acid) are toxic, corrosive, cause skin ulcers and allergies, and cause lung cancer when inhaled. They are handled with strict controls."
+  },
+  "Mn": {
+    "history": "Black manganese dioxide (pyrolusite) was used as a pigment in prehistoric cave paintings, including at Lascaux, and by ancient glassmakers to remove the green tint from glass. In 1774 **Carl Wilhelm Scheele** recognised it contained a new element, and in the same year his friend **Johan Gottlieb Gahn** isolated the metal by heating the dioxide with charcoal. The name comes from *magnesia nigra* (black magnesia), and ultimately from the region of Magnesia in Greece, the same origin as ‘magnesium’ and ‘magnet’.",
+    "production": "Manganese ores (pyrolusite and others) are mined mainly in South Africa, Gabon, Australia and China. About **90 % is used in steelmaking**, as ferromanganese or silicomanganese. Manganese removes sulfur and oxygen from molten steel and makes the steel stronger and tougher. Railway points and safe doors use Hadfield manganese steel. Manganese is also used in aluminium drinks cans, in alkaline batteries (MnO₂) and in lithium-ion battery cathodes (LMO, NMC).",
+    "chemistry": "Manganese has the widest range of oxidation states of the first-row transition metals: **+2 to +7**. **Potassium permanganate** (KMnO₄, +7) is an intensely purple, powerful oxidiser. It is used in titrations, where it acts as its own indicator, and as a disinfectant. In nature a cluster of four manganese atoms in **photosystem II** splits water to release the oxygen we breathe.",
+    "reactions": [
+      { "eq": "MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O", "note": "Redox titration: the purple colour disappears until the end point." },
+      { "eq": "2H₂O₂ → 2H₂O + O₂", "note": "MnO₂ is the classic catalyst for decomposing hydrogen peroxide." },
+      { "eq": "2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O", "note": "Permanganate oxidises chloride to chlorine gas." },
+      { "eq": "Zn + 2MnO₂ → ZnO + Mn₂O₃", "note": "The overall reaction in an alkaline battery." }
+    ],
+    "safety": "Manganese is an essential trace nutrient. Chronic inhalation of manganese dust or fumes (miners, welders) can cause **manganism**, a Parkinson-like nerve disorder. Potassium permanganate is a strong oxidiser that stains and burns skin, and can ignite organic materials."
+  },
+  "Fe": {
+    "history": "The earliest iron objects, tube-shaped beads from Gerzeh in Egypt (about 3200 BC), were hammered from **meteorites**, as was the blade of a dagger found in Tutankhamun’s tomb. Smelting iron from ore began around 1500–1200 BC in Anatolia, starting the **Iron Age**. Chinese metalworkers were casting iron in blast furnaces by the 5th century BC. In 1709 **Abraham Darby** smelted iron with coke instead of charcoal at Coalbrookdale, England, which helped start the Industrial Revolution. Henry Bessemer’s converter (1856) made cheap steel possible. The symbol **Fe** comes from the Latin *ferrum*.",
+    "production": "Iron ores are **haematite** (Fe₂O₃) and **magnetite** (Fe₃O₄), mined mainly in Australia, Brazil, China and India. In a **blast furnace** the ore, coke and limestone are fed in at the top while hot air is blown in at the bottom. The coke burns to carbon monoxide, which reduces the ore. Limestone removes sand and other impurities as molten slag. The resulting pig iron (about 4 % carbon) is turned into steel by blowing oxygen through it. About **1.9 billion tonnes** of steel are made each year, more than all other metals combined. Electric-arc furnaces recycle scrap, and new ‘**green steel**’ plants use hydrogen instead of coke to reduce the ore.",
+    "chemistry": "Iron is the most common element of the Earth as a whole (about a third of its mass, mostly in the core), and the fourth most abundant in the crust. It is **ferromagnetic**, and its two common ions are Fe²⁺ (pale green) and Fe³⁺ (yellow-brown). Iron in **haemoglobin** carries oxygen in our blood. **Rusting** needs both oxygen and water, and salt speeds it up. Iron-56 has one of the most stable nuclei of all, which is why the nuclear fusion that powers massive stars stops at iron.",
+    "reactions": [
+      { "eq": "Fe₂O₃ + 3CO → 2Fe + 3CO₂", "note": "The main reduction in the blast furnace." },
+      { "eq": "CaCO₃ → CaO + CO₂; CaO + SiO₂ → CaSiO₃", "note": "Limestone removes sandy impurities as slag." },
+      { "eq": "Fe³⁺ + SCN⁻ → [Fe(SCN)]²⁺", "note": "Blood-red colour: a sensitive test for iron(III)." },
+      { "eq": "Fe²⁺ + 2OH⁻ → Fe(OH)₂ (green); Fe³⁺ + 3OH⁻ → Fe(OH)₃ (rust-brown)", "note": "Sodium hydroxide tells the two iron ions apart." },
+      { "eq": "Fe + CuSO₄ → FeSO₄ + Cu", "note": "Iron displaces copper from solution." }
+    ],
+    "safety": "Iron is essential: too little causes anaemia, the world’s most common nutritional deficiency. Iron tablets are dangerous to young children, and accidental overdose was once a leading cause of fatal poisoning in toddlers. Hot metal and sparks are the main hazards in industry."
+  },
+  "Co": {
+    "history": "Cobalt compounds gave the deep blue of ancient Egyptian glass and Chinese Ming porcelain, long before anyone knew why. Miners in Saxony called certain ores *Kobold* (goblin), because smelting them released poisonous arsenic fumes and yielded no copper or silver. In about **1735 Georg Brandt** in Stockholm showed that the blue colour came from a new metal, the first metal discovered since antiquity whose discoverer is known.",
+    "production": "Cobalt is mostly a **by-product of copper and nickel mining**. The **Democratic Republic of the Congo** produces about 70 % of the world’s cobalt, partly through artisanal mines with serious safety and child-labour problems. Most refining takes place in China. The biggest use is now **lithium-ion battery** cathodes (LCO, NMC). Cobalt is also used in heat-resistant **superalloys** for jet engines, permanent magnets (AlNiCo, SmCo), cutting tools (cemented carbides) and catalysts. Cobalt-60 is used for radiotherapy and for sterilising medical equipment and food.",
+    "chemistry": "Cobalt is one of the three ferromagnetic elements at room temperature, with iron and nickel. Its ions show a famous colour change. In water cobalt(II) forms pink [Co(H₂O)₆]²⁺, while with chloride ions it forms blue [CoCl₄]²⁻. The balance shifts with temperature and with water, so cobalt chloride paper turns from blue to pink in moist air. Cobalt sits at the centre of **vitamin B₁₂**.",
+    "reactions": [
+      { "eq": "[Co(H₂O)₆]²⁺ (pink) + 4Cl⁻ ⇌ [CoCl₄]²⁻ (blue) + 6H₂O", "note": "Endothermic forward: heating turns it blue, cooling pink. A classic Le Chatelier demonstration." },
+      { "eq": "CoCl₂·6H₂O ⇌ CoCl₂ + 6H₂O", "note": "Pink hydrated / blue anhydrous: the test for water." },
+      { "eq": "Co + 2HCl → CoCl₂ + H₂", "note": "Dissolves slowly in dilute acids." }
+    ],
+    "safety": "Cobalt is an essential trace element (via vitamin B₁₂). Inhaling cobalt or hard-metal dust causes lung disease and allergies, and cobalt compounds are possible carcinogens. In the 1960s cobalt added as a foam stabiliser to beer caused deadly heart failure among heavy drinkers in Quebec."
+  },
+  "Ni": {
+    "history": "German miners named a reddish ore *Kupfernickel* (‘copper-demon’). It looked like copper ore but gave no copper, so they blamed a mischievous spirit, Old Nick. In **1751 Axel Fredrik Cronstedt** in Sweden showed that the ore (niccolite, NiAs) contained a new metal, which he named *nickel*. In 1890 **Ludwig Mond** discovered that nickel reacts with carbon monoxide to form a volatile compound, nickel carbonyl. This became the basis of the Mond refining process, and was the first metal carbonyl ever made.",
+    "production": "Nickel comes from **sulfide ores** such as pentlandite (Sudbury, Canada, which lies in an ancient meteorite crater; Norilsk, Russia) and **laterites** in tropical countries. **Indonesia** is now the largest producer by far. Sulfide ores are smelted to a matte. Very pure nickel can be made by the **Mond process**: nickel reacts with CO at about 50 °C to form Ni(CO)₄ gas, which decomposes back to pure nickel at about 230 °C. About two-thirds of nickel goes into **stainless steel**. It is also used in batteries (NMC, nickel–metal hydride), superalloys, electroplating and coins, and Raney nickel catalyses the hydrogenation of vegetable oils.",
+    "chemistry": "Nickel is ferromagnetic, resists corrosion, and usually forms **Ni²⁺**, which is green in solution. Nickel ions give a strawberry-red precipitate with dimethylglyoxime, a classic test. Finely divided nickel catalyses the addition of hydrogen to carbon–carbon double bonds, which is how margarine was first made.",
+    "reactions": [
+      { "eq": "Ni + 4CO ⇌ Ni(CO)₄", "note": "Mond process: forward at about 50 °C, reverse at about 230 °C." },
+      { "eq": "Ni²⁺ + 2 dmgH₂ → Ni(dmgH)₂↓ + 2H⁺", "note": "Bright red precipitate with dimethylglyoxime." },
+      { "eq": "RCH=CHR + H₂ → RCH₂CH₂R", "note": "Nickel-catalysed hydrogenation of unsaturated fats." },
+      { "eq": "Ni + 2HCl → NiCl₂ + H₂", "note": "Slow; nickel is just above hydrogen in the reactivity series." }
+    ],
+    "safety": "**Nickel allergy** is the most common contact allergy, caused by jewellery, watch backs and buttons. Inhaled nickel compounds are carcinogenic. **Nickel carbonyl** is one of the most toxic industrial chemicals."
+  },
+  "Cu": {
+    "history": "Copper was one of the first metals used. Native copper ornaments from the Middle East date to about 9000 BC, and smelting began around 5000 BC. Mixing copper with tin gave **bronze**, and began the **Bronze Age** (about 3300 BC). Ötzi the Iceman (about 3300 BC) carried a copper axe. The Romans obtained much of their copper from **Cyprus**, *aes Cyprium*, later *cuprum*, which gives the symbol **Cu**.",
+    "production": "The main ore is **chalcopyrite** (CuFeS₂). Chile produces about a quarter of the world’s copper, followed by Peru, the DR Congo and China. Ore containing only 0.5–1 % copper is crushed and concentrated by froth flotation, then smelted to a copper-rich matte and ‘converted’ to blister copper. Final **electrolytic refining** gives 99.99 % copper, and the anode sludge yields gold, silver and other valuable metals. Oxide ores are leached with acid and the copper recovered by electrowinning. Over half of all copper goes into **electrical wiring**, motors and electronics, because it is the second-best conductor after silver. It is also used in plumbing, roofing and alloys such as brass and bronze.",
+    "chemistry": "Copper is below hydrogen in the reactivity series: it does not dissolve in dilute non-oxidising acids, but does in nitric acid. Its main ions are Cu⁺ and Cu²⁺. Hydrated Cu²⁺ is blue, and it turns **deep royal blue** with ammonia. Outdoors, copper slowly forms a green **patina** of basic copper carbonate and sulfate, which is why the Statue of Liberty is green. Copper is essential to life: some proteins use it to transfer electrons, and octopus blood (haemocyanin) is blue because of copper.",
+    "reactions": [
+      { "eq": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag", "note": "Copper wire grows a ‘silver tree’ and the solution turns blue." },
+      { "eq": "Cu + 4HNO₃(conc) → Cu(NO₃)₂ + 2NO₂ + 2H₂O", "note": "Brown toxic NO₂ gas and a green-blue solution." },
+      { "eq": "Cu²⁺ + 2OH⁻ → Cu(OH)₂↓", "note": "Pale blue precipitate." },
+      { "eq": "Cu(OH)₂ + 4NH₃ → [Cu(NH₃)₄]²⁺ + 2OH⁻", "note": "With excess ammonia the precipitate dissolves to a deep blue solution." },
+      { "eq": "2Cu + O₂ → 2CuO", "note": "Heated copper turns black." }
+    ],
+    "safety": "Copper is an essential trace element, but excess is toxic. People with Wilson’s disease cannot excrete it. Copper salts are toxic to fish and aquatic life, which is why they are used in antifouling paints."
+  },
+  "Zn": {
+    "history": "Brass (copper–zinc alloy) was made by the Romans by heating copper with zinc ore and charcoal, without ever isolating zinc. Zinc metal itself is hard to make because it boils (907 °C) at the temperature needed to smelt it. Smelters at **Zawar in Rajasthan, India** solved this by about the 12th century, using downward-distillation retorts. Zinc was also produced in China. In Europe, **Andreas Sigismund Marggraf** isolated zinc in **1746**. The name ‘zinc’ was used by Paracelsus, possibly from the German *Zinke* (prong), after the spiky crystals.",
+    "production": "The main ore is **sphalerite** (ZnS), mined in China, Peru, Australia and India. It is roasted to zinc oxide, dissolved in sulfuric acid, and the zinc is deposited by **electrolysis** (about 90 % of production). About half of all zinc is used to **galvanise** steel: a zinc coating that corrodes in place of the iron, even where scratched. Zinc is also used in brass, die-cast parts, batteries (alkaline, zinc–carbon, zinc–air), and zinc oxide for sunscreen and rubber.",
+    "chemistry": "Zinc forms only **Zn²⁺**. With a full d¹⁰ shell, its compounds are colourless, which is why some chemists don’t count it as a ‘true’ transition metal. Zinc hydroxide is **amphoteric**: the white precipitate dissolves in excess sodium hydroxide. Zinc is essential to over 300 enzymes and to the ‘zinc finger’ proteins that read DNA. In a Daniell cell, zinc and copper half-cells give 1.10 V.",
+    "reactions": [
+      { "eq": "Zn + 2HCl → ZnCl₂ + H₂", "note": "Standard way to make hydrogen in school labs." },
+      { "eq": "Zn + CuSO₄ → ZnSO₄ + Cu", "note": "Zinc displaces copper: the blue colour fades and copper deposits." },
+      { "eq": "Zn²⁺ + 2OH⁻ → Zn(OH)₂↓; Zn(OH)₂ + 2OH⁻ → [Zn(OH)₄]²⁻", "note": "White precipitate that dissolves in excess alkali (amphoteric)." },
+      { "eq": "2ZnS + 3O₂ → 2ZnO + 2SO₂", "note": "Roasting the ore; the SO₂ is turned into sulfuric acid." },
+      { "eq": "Zn | Zn²⁺ ‖ Cu²⁺ | Cu   E° = 1.10 V", "note": "The Daniell cell." }
+    ],
+    "safety": "Zinc is low in toxicity. Breathing zinc oxide fumes, for example when welding galvanised steel, causes **metal fume fever**, a short flu-like illness. Very high zinc supplement doses can cause copper deficiency."
+  },
+  "Ga": {
+    "history": "In 1871 **Mendeleev** predicted ‘**eka-aluminium**’, with an atomic weight of about 68 and a density of 5.9 g/cm³, which would be discovered by spectroscopy. In **1875 Paul-Émile Lecoq de Boisbaudran** saw two new violet lines in the spectrum of zinc ore from the Pyrenees, and isolated the metal. He named it after *Gallia* (France). Some suspected a pun on his own name, since *le coq* is *gallus* in Latin, but he denied it. He first measured the density as 4.7. Mendeleev wrote to tell him it should be about 5.9. Lecoq re-purified his sample and found **5.9**: the periodic table had corrected an experiment.",
+    "production": "Gallium is a **by-product** of extracting aluminium from bauxite (the Bayer process) and of zinc refining. **China produces about 98 %** of the world’s primary gallium, and introduced export controls in 2023. It is used to make **gallium arsenide** and **gallium nitride** semiconductors for LEDs, laser diodes, 5G radio chips, fast chargers and high-efficiency solar cells on satellites. The invention of efficient blue GaN LEDs earned Akasaki, Amano and Nakamura the 2014 Nobel Prize in Physics.",
+    "chemistry": "Gallium **melts at 29.8 °C**, so it melts in your hand, yet it doesn’t boil until about 2400 °C, one of the largest liquid ranges of any element. Like water it **expands when it freezes**. Liquid gallium soaks into the grain boundaries of **aluminium** and makes it crumble, so airlines ban it. Chemically it is similar to aluminium: it forms Ga³⁺ and has an amphoteric oxide.",
+    "reactions": [
+      { "eq": "2Ga + 6HCl → 2GaCl₃ + 3H₂", "note": "Dissolves in acids." },
+      { "eq": "Ga(CH₃)₃ + AsH₃ → GaAs + 3CH₄", "note": "Growing gallium arsenide layers for chips (metal–organic vapour deposition)." },
+      { "eq": "Ga₂O₃ + 2NaOH + 3H₂O → 2Na[Ga(OH)₄]", "note": "Amphoteric oxide, like aluminium’s." }
+    ],
+    "safety": "Gallium metal has low toxicity, but it stains skin and attacks aluminium. Some gallium compounds, especially gallium arsenide dust, are toxic."
+  },
+  "Ge": {
+    "history": "In 1871 **Mendeleev** predicted ‘**eka-silicon**’: atomic weight 72, density 5.5 g/cm³, an oxide of density 4.7, and a tetrachloride boiling below 100 °C. In **1886 Clemens Winkler** at Freiberg found a new element in the silver mineral argyrodite and named it after **Germany**. The measured values were atomic weight 72.6, density 5.35, oxide density 4.70, and GeCl₄ boiling at 86 °C. This striking match convinced chemists that the periodic table was right.\n\nGermanium was the material of the **first transistor** (Bell Labs, 1947), before silicon took over in the 1960s.",
+    "production": "Germanium is recovered as a **by-product** of zinc ores and from coal fly ash, mostly in China. It is purified by distilling germanium tetrachloride, converted to GeO₂, and reduced with hydrogen. Very pure crystals are made by zone refining. Uses include **fibre optics** (GeO₂ raises the refractive index of the glass core), **infrared optics** (germanium is transparent to infrared, so it is used for lenses in thermal cameras), high-speed silicon–germanium chips, satellite solar cells and polyester catalysts.",
+    "chemistry": "Germanium is a shiny grey **metalloid** semiconductor with a band gap of 0.67 eV and the diamond crystal structure. Its main oxidation state is +4, as in GeO₂ and GeCl₄, with +2 becoming more stable lower down the group (as with tin and lead).",
+    "reactions": [
+      { "eq": "GeO₂ + 2H₂ → Ge + 2H₂O", "note": "Hydrogen reduction gives germanium metal." },
+      { "eq": "GeO₂ + 4HCl → GeCl₄ + 2H₂O", "note": "GeCl₄ (b.p. 86 °C) is distilled to purify germanium." },
+      { "eq": "Ge + O₂ → GeO₂", "note": "Oxidises when heated strongly in air." }
+    ],
+    "safety": "Germanium has low toxicity. ‘Germanium supplements’ sold as health products have caused kidney failure and deaths, and are not recommended."
+  },
+  "As": {
+    "history": "Arsenic minerals have been known since ancient times. Yellow **orpiment** (As₂S₃) and red **realgar** (As₄S₄) were used as pigments and medicines. The name comes from the Greek *arsenikon*, from the Persian *zarnikh*, yellow (orpiment). **Albertus Magnus** is said to have isolated the element in about 1250. For centuries arsenic trioxide was the poisoner’s favourite, nicknamed ‘**inheritance powder**’. That changed after James Marsh invented a sensitive forensic test in **1836**. Victorian homes often had wallpapers coloured with arsenic-based ‘Scheele’s green’ and ‘Paris green’ pigments, which could make people ill. In 1910 Paul Ehrlich’s arsenic compound **Salvarsan** became the first modern targeted drug, a cure for syphilis.",
+    "production": "Arsenic is mainly recovered as arsenic trioxide (As₂O₃) from the flue dust of **copper and gold smelters**, chiefly in China and Morocco. The metal is made by reducing the oxide with carbon. It is used in **gallium arsenide** semiconductors, lead alloys for batteries and ammunition, and in a decreasing range of wood preservatives and pesticides. Arsenic trioxide is a highly effective treatment for **acute promyelocytic leukaemia**.",
+    "chemistry": "Arsenic is a **metalloid**. Its grey metallic form **sublimes** at 615 °C (it doesn’t melt at normal pressure), while yellow arsenic consists of As₄ molecules. Its oxidation states are −3 (arsine, AsH₃), +3 and +5. Arsenic dissolved naturally in groundwater is a major health problem, especially in **Bangladesh** and West Bengal, where tens of millions drink water from contaminated tube wells.",
+    "reactions": [
+      { "eq": "As₂O₃ + 6Zn + 12HCl → 2AsH₃ + 6ZnCl₂ + 3H₂O", "note": "The Marsh test, step 1: any arsenic present is converted to arsine gas." },
+      { "eq": "2AsH₃ → 2As + 3H₂", "note": "Step 2: heated arsine leaves a shiny black ‘arsenic mirror’ on cold porcelain." },
+      { "eq": "4As + 3O₂ → As₄O₆", "note": "Burns with a pale-blue flame and a garlic smell." }
+    ],
+    "safety": "Arsenic and its compounds are **highly toxic** and are confirmed human carcinogens. Long-term exposure causes skin lesions and cancers of the skin, lung and bladder. **Arsine** gas is extremely toxic."
+  },
+  "Se": {
+    "history": "In **1817 Jöns Jacob Berzelius** and **Johan Gottlieb Gahn** were studying a red sediment from a sulfuric acid factory at Gripsholm, Sweden. At first they thought it was tellurium, named after the Earth (Latin *tellus*). When it proved to be a new element they named it after the **Moon**, Greek *selene*. In 1873 Willoughby Smith discovered that selenium’s electrical resistance falls in light (**photoconductivity**). This led to early light meters, solar cells and, from 1938, Chester Carlson’s **xerography**: photocopiers and laser printers long used selenium-coated drums.",
+    "production": "Selenium is a **by-product** of copper refining: it collects in the anode slime of electrolytic cells. Japan, China and Germany are major refiners. It is used to decolourise glass (or tint it red), in cadmium selenide pigments, in manganese production, in CIGS thin-film solar cells, and in animal feed and supplements.",
+    "chemistry": "Grey selenium, the most stable form, consists of helical chains, conducts electricity weakly and is photoconductive. Red selenium contains Se₈ rings, like sulfur. Selenium shows oxidation states −2, +4 and +6, like sulfur. It is an **essential trace element**, found in the 21st amino acid, **selenocysteine**, and in antioxidant enzymes such as glutathione peroxidase. The gap between too little and too much is unusually narrow.",
+    "reactions": [
+      { "eq": "Se + O₂ → SeO₂", "note": "Burns with a blue flame, giving off a smell like rotten horseradish." },
+      { "eq": "SeO₂ + H₂O → H₂SeO₃", "note": "Selenous acid." },
+      { "eq": "H₂SeO₃ + 2SO₂ + H₂O → Se + 2H₂SO₄", "note": "Sulfur dioxide precipitates red selenium: how it is recovered from refinery slime." }
+    ],
+    "safety": "Selenium compounds are toxic in excess. **Selenosis** causes garlic breath, hair and nail loss, and nerve damage. Hydrogen selenide is very toxic. Too little selenium also causes disease (Keshan disease in parts of China)."
+  },
+  "Br": {
+    "history": "Bromine was discovered almost simultaneously by two young chemists. **Carl Jacob Löwig** isolated it in 1825 from spring water in Bad Kreuznach, Germany, but his publication was delayed. Meanwhile **Antoine-Jérôme Balard** in Montpellier extracted it from the brine of salt marshes in **1826** and published first. The name comes from the Greek *bromos*, stench. The great chemist Justus von Liebig had earlier received a sample of the same liquid and labelled it ‘liquid iodine chloride’. After Balard’s announcement he kept the flask in his ‘cabinet of mistakes’ as a lesson.",
+    "production": "Bromine is extracted from very salty **brines**: the Dead Sea (Israel and Jordan, the largest producers), underground brines in Arkansas, and Chinese salt lakes. Chlorine is bubbled through acidified brine to oxidise bromide to bromine, which is blown out with steam or air and condensed. It has been used in brominated **flame retardants** (now restricted, because some accumulate in living things), dense calcium and zinc bromide brines for oil drilling, water treatment, pharmaceuticals and silver bromide photographic film. Its old use in leaded petrol and in the fumigant methyl bromide has been phased out because they damage the environment and the ozone layer.",
+    "chemistry": "Bromine is one of only two elements that are **liquid at room temperature**, with mercury. It is a dense, dark red-brown liquid that gives off choking orange vapour. As a halogen it lies between chlorine and iodine in reactivity. Chlorine displaces it from bromides, and it in turn displaces iodine. **Bromine water** is decolourised by alkenes, the standard test for C=C double bonds.",
+    "reactions": [
+      { "eq": "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂", "note": "How bromine is extracted from brine." },
+      { "eq": "Br₂ + 2KI → 2KBr + I₂", "note": "Bromine displaces iodine (brown solution)." },
+      { "eq": "CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br", "note": "Alkene test: orange bromine water turns colourless." },
+      { "eq": "Ag⁺ + Br⁻ → AgBr↓", "note": "Cream precipitate in the silver nitrate test; light-sensitive (used in photography)." }
+    ],
+    "safety": "Liquid bromine causes **severe, slow-healing burns**, and its vapour is very toxic and corrosive to eyes and lungs. It must be handled in a fume cupboard with gloves and a face shield."
+  },
+  "Kr": {
+    "history": "On 30 May **1898 William Ramsay** and **Morris Travers** let a sample of liquefied air almost completely evaporate, and examined the tiny residue left behind. Its spectrum showed new bright yellow and green lines. They named the gas after the Greek *kryptos*, hidden. From 1960 to 1983 the **metre** was officially defined as 1 650 763.73 wavelengths of an orange-red line of krypton-86. In 1963 krypton difluoride (KrF₂) became the first krypton compound.",
+    "production": "Krypton makes up only about 1 part per million of air, and is a costly by-product of large **air-separation plants**. Its low thermal conductivity makes it a good filling for high-performance insulating windows. It is also used in bright lamps (airport runway lights, photographic flashes), in **krypton fluoride excimer lasers** (248 nm) for chipmaking, and as a propellant for satellite ion thrusters such as SpaceX’s Starlink.",
+    "chemistry": "Krypton is a noble gas, but unlike lighter ones it can be made to react with **fluorine**. KrF₂ is formed by passing an electric discharge through krypton and fluorine at about −196 °C. It is unstable and an extremely strong fluorinating agent, stronger even than fluorine itself. Krypton-85 from nuclear fuel reprocessing is used to track the movement of air and groundwater.",
+    "reactions": [
+      { "eq": "Kr + F₂ → KrF₂", "note": "Electric discharge at −196 °C; KrF₂ decomposes back to the elements at room temperature." },
+      { "eq": "Kr* → Kr + light", "note": "In a discharge tube krypton glows whitish (strong lines at 557 and 587 nm)." }
+    ],
+    "safety": "Krypton is non-toxic but an asphyxiant at high concentrations. At high pressure it has a narcotic effect stronger than nitrogen’s."
+  }
+}
