@@ -1,0 +1,24 @@
+Role & Goal: You are an expert computational chemist and senior frontend web developer. I am a chemistry student with no coding background. I want you to build a local, browser-based Interactive Chemistry Learning Simulator for me.
+Tech Stack:
+Because I am not a developer, do not use complex build tools like React, Next.js, Node modules, or Webpack. Build this using pure HTML, CSS, and Vanilla JavaScript.
+To achieve the heavy chemistry calculations, integrate robust open-source chemistry libraries via CDN. I highly recommend using RDKit.js (WebAssembly) for the chemical math/properties, combined with JSME (JavaScript Molecule Editor) or Kekule.js for the 2D drawing canvas, and 3Dmol.js for 3D rendering.
+Core Chemistry Features Required:
+Advanced Molecule Builder (Draw & Edit): An interactive 2D canvas where I can add atoms (C, H, N, O, P, S, halogens), draw single/double/triple bonds, and crucially, add wedges and dashes for stereochemistry.
+Multiple Notations Toggle: Switch the view between full Lewis Structures (explicit hydrogens and lone pairs) and standard Skeletal/Bond-Line structures.
+Live Chemical Properties Panel: As I build or edit the molecule, a side panel must automatically calculate and display:
+Molecular formula, molecular weight, and SMILES string.
+Formal charges on specific atoms.
+Estimated oxidation numbers.
+An indicator of partial charges (e.g., highlighting polar bonds or electron-rich areas based on electronegativity).
+Generated IUPAC Name (if supported by the chosen library).
+Valence & Octet Checker (Educational Feature): Implement a real-time warning system. If I draw a carbon with 5 bonds ("Texas Carbon") or violate standard valences, highlight the atom in red and show a warning tooltip explaining the error.
+Advanced Views (3D & Orbitals): A button that takes the 2D drawing, generates 3D coordinates, and renders an interactive 3D ball-and-stick model. Include functionality to view a basic electron density surface or Van der Waals surface if the 3D library supports it.
+Export Feature: A button to export/download the current 2D molecule as a transparent PNG image for my class notes.
+UI/UX Design:
+Make it look modern, clean, and highly educational (think PhET Interactive Simulations). Use a sleek dark mode. Use tooltips to explain why a formal charge is what it is. Organize the UI with the drawing canvas in the center, tools on the left, and live calculations on the right.
+Your Execution Instructions:
+Think step-by-step about how to load the WebAssembly (WASM) for RDKit.js properly via CDN without causing a CORS or loading error.
+Create index.html, style.css, and app.js files directly in this directory.
+Write clean, heavily commented code so I can understand what you did. Add extensive console.log() statements so if something breaks, we can easily see why in the browser console.
+When you are done writing the code, spin up a simple local python/node web server (e.g., npx serve or python -m http.server) on port 8000 so I can view the app at http://localhost:8000.
+Ask me to test it in my browser and ask me what bugs we need to fix or features we should iterate on next.
