@@ -22,7 +22,8 @@ An internet connection is needed the first time, because RDKit.js and 3Dmol.js c
 | `index.html` | Page layout: mode tabs, and each mode's view |
 | `style.css`  | Dark theme and layout |
 | `js/core/`   | Shared helpers: logging, tooltips/toasts, library loading, saving (IndexedDB), tab switching |
-| `js/studio/` | Molecule Studio: editor, chemistry engine, RDKit bridge, drawing, 3D, export |
+| `js/studio/` | Molecule Studio: editor, chemistry engine, RDKit bridge, drawing, curved arrows, 3D, export, presentation mode |
+| `js/studio/tools/` | Molecule Studio 🧰 Tools drawer: spectra, Hückel MOs, drug-likeness, Newman/conformers, projections, synthesis, calculator, library, files, safety |
 | `js/wiki/`   | Element Wiki: periodic table & heatmaps, element pages, spectra, crystal cells, reaction animations |
 | `js/beaker/` | Beaker Lab: reagent data, equilibrium solver (pH, complexes, Ksp), reaction/heat simulation, canvas renderer |
 | `js/labs/`   | Guided Labs: hub and lab reports, plotting, titration, qualitative analysis, electrochemistry, calorimetry |
@@ -38,7 +39,7 @@ Your current drawing is saved automatically in the browser. Use **My data ▾** 
 
 | Tab | Status |
 |---|---|
-| 🧪 Molecule Studio | ✅ drawing, valence checker, charges, 3D |
+| 🧪 Molecule Studio | ✅ drawing, valence checker, charges, 3D, mechanism arrows; 🧰 Tools: IR/NMR prediction, Hückel MOs, drug-likeness, Newman/Fischer/chair/Haworth, conformational scans, synthesis routes, selectivity, retrosynthesis, yield & green metrics, library & notebook, file formats, GHS safety; 🖼 presentation mode with SVG |
 | 📖 Element Wiki | ✅ all 118 elements, trend heatmaps, spectra, crystals, reactions |
 | ⚗️ Beaker Lab | ✅ ~70 reagents, pH/equilibrium engine, precipitates, heat, gases, tests, indicators |
 | 🔬 Guided Labs | ✅ titration, qualitative analysis game, galvanic cells & electrolysis, calorimetry, with lab reports |

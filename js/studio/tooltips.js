@@ -20,6 +20,7 @@ function showCanvasTooltip(hit, e) {
   if (hit.type === 'atom') html = atomTooltip(getAtom(hit.id), an.atoms[hit.id]);
   else if (hit.type === 'bond') html = bondTooltip(state.bonds.find((b) => b.id === hit.id));
   else if (hit.type === 'vh') html = implicitHTooltip(hit);
+  else if (hit.type === 'arrow') html = arrowTooltip(hit.id);
   if (!html) return hideCanvasTooltip();
   canvasTip.innerHTML = html;
   canvasTip.classList.remove('hidden');

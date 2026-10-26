@@ -25,7 +25,8 @@ function check(cond, label, extra = '') {
   else { failures++; console.log('  ✘', label, extra); }
 }
 function eq(actual, expected, label) {
-  check(actual === expected, label, `\n      expected: ${JSON.stringify(expected)}\n      actual:   ${JSON.stringify(actual)}`);
+  // deep comparison, so arrays and objects can be checked too
+  check(actual === expected || JSON.stringify(actual) === JSON.stringify(expected), label, `\n      expected: ${JSON.stringify(expected)}\n      actual:   ${JSON.stringify(actual)}`);
 }
 function near(actual, expected, tol, label) {
   check(Math.abs(actual - expected) <= tol, label, `(expected ${expected} ± ${tol}, got ${actual})`);

@@ -27,6 +27,7 @@ function exportPNG() {
   const ink = $('export-ink').value;          // 'dark' (black ink) or 'light'
   const L = computeLayout(state.analysis);
   const pts = [...state.atoms, ...L.virtualH];
+  (state.arrows || []).forEach((ar) => { const q = arrowCurve(ar, L); if (q) pts.push(q.p0, q.p1, bez(q, 0.5)); });
   const pad = 34;
   const minX = Math.min(...pts.map((p) => p.x)) - pad, maxX = Math.max(...pts.map((p) => p.x)) + pad;
   const minY = Math.min(...pts.map((p) => p.y)) - pad, maxY = Math.max(...pts.map((p) => p.y)) + pad;

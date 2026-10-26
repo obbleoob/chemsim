@@ -14,9 +14,10 @@
 const state = {
   atoms: [],
   bonds: [],
+  arrows: [],           // curved electron-pushing arrows (arrows.js)
   nextId: 1,
 
-  tool: 'atom',         // 'select' | 'erase' | 'atom' | 'bond' | 'ring' | 'charge'
+  tool: 'atom',         // 'select' | 'erase' | 'atom' | 'bond' | 'ring' | 'charge' | 'arrow'
   element: 'C',         // current element for the atom tool
   bondType: 'single',   // current bond for the bond tool
   ringType: '6',
@@ -38,12 +39,13 @@ const state = {
 };
 
 function snapshot() {
-  return JSON.stringify({ atoms: state.atoms, bonds: state.bonds, nextId: state.nextId });
+  return JSON.stringify({ atoms: state.atoms, bonds: state.bonds, arrows: state.arrows || [], nextId: state.nextId });
 }
 function restore(snap) {
   const s = JSON.parse(snap);
   state.atoms = s.atoms;
   state.bonds = s.bonds;
+  state.arrows = s.arrows || [];
   state.nextId = s.nextId;
 }
 /** Call BEFORE changing the molecule so the change can be undone. */

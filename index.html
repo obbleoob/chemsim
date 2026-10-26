@@ -92,6 +92,8 @@
       <button id="btn-redo" class="hbtn" data-tip="Redo (Ctrl+Y)">↷ Redo</button>
       <button id="btn-clean" class="hbtn" data-tip="Tidy up the drawing: RDKit recalculates neat 2D positions for every atom.">✨ Clean up</button>
       <button id="btn-3d" class="hbtn accent" data-tip="Build 3D coordinates from your drawing and open an interactive ball-and-stick model with surfaces.">🧊 3D View</button>
+      <button id="btn-tools" class="hbtn" data-tip="Open the tools drawer: spectra, orbitals, drug-likeness, projections, conformers, synthesis, calculator, library, files and safety.">🧰 Tools</button>
+      <button id="btn-present" class="hbtn" data-tip="Presentation mode: a clean full-screen figure for reports and posters, with SVG and PNG export.">🖼 Present</button>
       <div class="export-group">
         <button id="btn-export" class="hbtn" data-tip="Save the 2D drawing as a PNG with a transparent background, ready for your notes.">⬇ Export PNG</button>
         <select id="export-ink" aria-label="Export ink colour" data-tip="Ink colour for the exported image. Use black on white paper, white on dark slides.">
@@ -153,6 +155,16 @@
         <div class="tool-grid cols-2">
           <button class="tool" data-tool="charge" data-charge="1" data-tip="Add +1 formal charge to the atom you click.">⊕ +1</button>
           <button class="tool" data-tool="charge" data-charge="-1" data-tip="Add −1 formal charge to the atom you click.">⊖ −1</button>
+        </div>
+      </section>
+
+      <section class="tool-section">
+        <h2>Mechanism arrows</h2>
+        <div class="tool-grid cols-2">
+          <button class="tool" data-tool="arrow" data-arrow="full" data-tip="Curved arrow (two-barbed head): an electron PAIR moves. Click the start (lone pair on an atom, or a bond), then the end (an atom or a bond).">
+            <svg viewBox="0 0 40 20"><path d="M5 16 Q 20 -4 34 14" fill="none"/><polygon points="34,14 28,12 33,8" class="fill"/></svg><span>Pair</span></button>
+          <button class="tool" data-tool="arrow" data-arrow="half" data-tip="Half (fishhook) arrow: ONE electron moves, as in radical reactions.">
+            <svg viewBox="0 0 40 20"><path d="M5 16 Q 20 -4 34 14" fill="none"/><polygon points="34,14 33,8 31,12" class="fill"/></svg><span>Single e⁻</span></button>
         </div>
       </section>
 
@@ -289,6 +301,13 @@
         </details>
       </section>
     </aside>
+
+    <!-- ===================== RIGHT: TOOLS DRAWER (replaces the panel while open) ===================== -->
+    <aside class="panel tools-drawer hidden" id="tools-drawer" aria-label="Molecule tools">
+      <div class="tools-head"><h2 id="tools-title">🧰 Tools</h2><button id="tools-close" class="mini" data-tip="Close the tools (back to the properties panel)">✕</button></div>
+      <nav class="tools-tabs" id="tools-tabs"></nav>
+      <div class="tools-body" id="tools-body"></div>
+    </aside>
   </div>
   </section>
 
@@ -374,8 +393,23 @@
   <script src="js/studio/panel.js"></script>
   <script src="js/studio/embed3d.js"></script>
   <script src="js/studio/viewer3d.js"></script>
+  <script src="js/studio/arrows.js"></script>
   <script src="js/studio/export.js"></script>
   <script src="js/studio/main.js"></script>
+  <!-- Molecule Studio tools drawer (Phase 4) -->
+  <script src="js/studio/tools/tools.js"></script>
+  <script src="js/studio/tools/spectra.js"></script>
+  <script src="js/studio/tools/huckel.js"></script>
+  <script src="js/studio/tools/druglike.js"></script>
+  <script src="js/studio/tools/conformers.js"></script>
+  <script src="js/studio/tools/projections.js"></script>
+  <script src="js/studio/data/routes.js"></script>
+  <script src="js/studio/tools/synthesis.js"></script>
+  <script src="js/studio/tools/calculator.js"></script>
+  <script src="js/studio/tools/library.js"></script>
+  <script src="js/studio/tools/files.js"></script>
+  <script src="js/studio/tools/safety.js"></script>
+  <script src="js/studio/present.js"></script>
   <script src="js/wiki/wiki-data.js"></script>
   <script src="js/wiki/spectrum.js"></script>
   <script src="js/wiki/crystal.js"></script>

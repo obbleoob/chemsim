@@ -155,7 +155,7 @@ function importMolblock(mb, { keepIds = false, quiet = false } = {}) {
   const centre = screenToWorld(canvas.clientWidth / 2, canvas.clientHeight / 2);
   pushHistory();
   const oldIds = state.atoms.map((a) => a.id);
-  if (!keepIds) { state.atoms = []; state.bonds = []; }
+  if (!keepIds) { state.atoms = []; state.bonds = []; state.arrows = []; }
   const ids = parsed.atoms.map((a, i) => {
     const id = keepIds && oldIds[i] !== undefined ? oldIds[i] : state.nextId++;
     return id;

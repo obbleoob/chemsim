@@ -18,15 +18,15 @@ const ctx = canvas.getContext('2d');
 const THEMES = {
   screen: {
     bond: '#d8e0ea', label: (el) => ELEMENTS[el].color, charge: '#f8fafc', ox: '#fbbf24', oxBg: 'rgba(251,191,36,0.13)',
-    cip: '#c084fc', lp: '#cbd5e1', pos: '96,165,250', neg: '248,113,113', dipole: '#a5b4fc', err: '#f87171', warn: '#fbbf24',
+    cip: '#c084fc', lp: '#cbd5e1', pos: '96,165,250', neg: '248,113,113', dipole: '#a5b4fc', err: '#f87171', warn: '#fbbf24', arrow: '#f472b6',
   },
   dark: { // black ink for white paper
     bond: '#111111', label: (el) => ELEMENTS[el].print, charge: '#111111', ox: '#b45309', oxBg: 'rgba(180,83,9,0.10)',
-    cip: '#7e22ce', lp: '#111111', pos: '29,78,216', neg: '200,30,30', dipole: '#4338ca',
+    cip: '#7e22ce', lp: '#111111', pos: '29,78,216', neg: '200,30,30', dipole: '#4338ca', arrow: '#be123c',
   },
   light: { // white ink for dark slides
     bond: '#ffffff', label: (el) => (el === 'C' || el === 'H' ? '#ffffff' : ELEMENTS[el].color), charge: '#ffffff', ox: '#fbbf24', oxBg: 'rgba(251,191,36,0.15)',
-    cip: '#d8b4fe', lp: '#ffffff', pos: '96,165,250', neg: '248,113,113', dipole: '#c7d2fe',
+    cip: '#d8b4fe', lp: '#ffffff', pos: '96,165,250', neg: '248,113,113', dipole: '#c7d2fe', arrow: '#f9a8d4',
   },
 };
 
@@ -215,6 +215,32 @@ function drawMolecule(c, L, T, interactive) {
       const nx = -(B.y - A.y) / dist(A, B), ny = (B.x - A.x) / dist(A, B);
       const side = bondSide(b, e) || 1;
       drawText(c, `(${lab})`, (A.x + B.x) / 2 - side * nx * 13, (A.y + B.y) / 2 - side * ny * 13, 11.5, T.cip, '700', 'italic ');
+    });
+  }
+
+  // ----- curved electron-pushing arrows -----
+  drawArrows(c, L, T, interactive);
+
+  // ----- highlight requested by a tool (e.g. the bond being rotated) -----
+  if (interactive && state.toolHighlight) {
+    const h = state.toolHighlight;
+    const col = h.color || '251,191,36';
+    (h.bonds || []).forEach((id) => {
+      const b = state.bonds.find((x) => x.id === id);
+      if (!b) return;
+      const A = getAtom(b.a1), B = getAtom(b.a2);
+      c.strokeStyle = `rgba(${col},0.45)`; c.lineWidth = 11;
+      c.beginPath(); c.moveTo(A.x, A.y); c.lineTo(B.x, B.y); c.stroke();
+    });
+    (h.atoms || []).forEach((id) => {
+      const a = getAtom(id);
+      if (!a) return;
+      c.strokeStyle = `rgba(${col},0.95)`; c.fillStyle = `rgba(${col},0.16)`; c.lineWidth = 2;
+      c.beginPath(); c.arc(a.x, a.y, 14, 0, Math.PI * 2); c.fill(); c.stroke();
+    });
+    (h.labels || []).forEach(({ id, text }) => {
+      const a = getAtom(id);
+      if (a) drawText(c, text, a.x + 14, a.y - 16, 11, `rgb(${col})`, '700');
     });
   }
 

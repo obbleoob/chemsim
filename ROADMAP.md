@@ -104,7 +104,7 @@ Step-by-step experiments with a lab-report summary at the end. All of them use t
 
 ---
 
-## Phase 4: Molecular Studio upgrades (Mode 1)
+## Phase 4: Molecular Studio upgrades (Mode 1) ✅ done
 
 Two things listed as "what you already have" actually aren't in the app yet: **NMR/IR prediction** and **electron-pushing arrows**. They're included here.
 

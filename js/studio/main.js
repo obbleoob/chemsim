@@ -73,6 +73,7 @@ function setTool(tool, extra = {}) {
     if (on && tool === 'bond') on = b.dataset.bond === state.bondType;
     if (on && tool === 'ring') on = b.dataset.ring === state.ringType;
     if (on && tool === 'charge') on = Number(b.dataset.charge) === state.chargeDelta;
+    if (on && tool === 'arrow') on = b.dataset.arrow === state.arrowType;
     b.classList.toggle('active', on);
   });
   canvas.classList.toggle('move-cursor', tool === 'select');
@@ -83,6 +84,7 @@ function setTool(tool, extra = {}) {
     atom: `Atom ${state.element}: click empty space to place ${state.element} · click an atom to turn it into ${state.element} · click a ${state.element} again to grow a chain · drag from an atom to draw a bond. Shortcut: hover an atom and press C, N, O, S, P, F, L (Cl), R (Br), I, H, B.`,
     bond: `Bond (${state.bondType}): click an atom to grow a bond · click a bond to change it${state.bondType === 'single' ? ' (single → double → triple)' : ''} · drag between atoms to connect them.${state.bondType === 'wedge' || state.bondType === 'dash' ? ' Start at the stereocentre (the narrow end). Click again to flip.' : ''}`,
     ring: 'Ring: click empty space for a new ring, an atom to attach one, or a bond to fuse one.',
+    arrow: `${state.arrowType === 'half' ? 'Half (fishhook) arrow: one electron moves' : 'Curved arrow: an electron pair moves'}. Click where the electrons start (an atom = lone pair, or a bond), then where they go (an atom or a bond). Click an arrow to curve it the other way; erase it with the eraser.`,
     charge: `Charge: click an atom to add ${state.chargeDelta > 0 ? '+1' : '−1'} to its formal charge. Shortcut: hover an atom and press + or −.`,
   };
   $('hint-bar').textContent = '💡 ' + hints[tool];
@@ -102,7 +104,7 @@ let autosaveTimer = null;
 function scheduleAutosave() {
   clearTimeout(autosaveTimer);
   autosaveTimer = setTimeout(() => {
-    const data = { atoms: state.atoms, bonds: state.bonds, nextId: state.nextId, notation: state.notation, overlays: state.overlays, savedAt: new Date().toISOString() };
+    const data = { atoms: state.atoms, bonds: state.bonds, arrows: state.arrows, nextId: state.nextId, notation: state.notation, overlays: state.overlays, savedAt: new Date().toISOString() };
     ChemStore.put('autosave', 'studio', data)
       .then(() => log('storage', `Autosaved drawing (${state.atoms.length} atoms)`))
       .catch((e) => warn('storage', 'Autosave failed', e));
@@ -117,6 +119,7 @@ async function restoreAutosave() {
     if (d.notation) setNotation(d.notation);   // before swapping atoms in (it redraws)
     state.atoms = d.atoms;
     state.bonds = d.bonds || [];
+    state.arrows = d.arrows || [];
     state.nextId = d.nextId || 1;
     if (d.overlays) {
       Object.assign(state.overlays, d.overlays);
@@ -151,6 +154,7 @@ function initStudio() {
     else if (t === 'bond') setTool('bond', { bondType: b.dataset.bond });
     else if (t === 'ring') setTool('ring', { ringType: b.dataset.ring });
     else if (t === 'charge') setTool('charge', { chargeDelta: Number(b.dataset.charge) });
+    else if (t === 'arrow') setTool('arrow', { arrowType: b.dataset.arrow });
     else setTool(t);
   }));
 
@@ -160,11 +164,14 @@ function initStudio() {
   $('btn-redo').addEventListener('click', redo);
   $('btn-clean').addEventListener('click', cleanUp);
   $('btn-3d').addEventListener('click', open3D);
+  StudioTools.build();
+  $('btn-tools').addEventListener('click', () => StudioTools.toggle());
+  $('btn-present').addEventListener('click', () => Present.open());
   $('btn-export').addEventListener('click', exportPNG);
   $('btn-clear').addEventListener('click', () => {
     if (!state.atoms.length) return;
     pushHistory();
-    state.atoms = []; state.bonds = [];
+    state.atoms = []; state.bonds = []; state.arrows = [];
     onMoleculeChanged();
     toast('Canvas cleared (Ctrl+Z to undo)');
   });

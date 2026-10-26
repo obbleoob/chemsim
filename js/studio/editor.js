@@ -34,10 +34,12 @@ function addBond(id1, id2, order = 1, stereo = 0) {
 function deleteAtom(id) {
   state.bonds = state.bonds.filter((b) => b.a1 !== id && b.a2 !== id);
   state.atoms = state.atoms.filter((a) => a.id !== id);
+  pruneArrows();
   log('edit', 'Deleted atom', id);
 }
 function deleteBond(id) {
   state.bonds = state.bonds.filter((b) => b.id !== id);
+  pruneArrows();
   log('edit', 'Deleted bond', id);
 }
 

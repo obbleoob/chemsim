@@ -158,6 +158,7 @@ function onMoleculeChanged() {
   render();
   updatePanel();
   scheduleAutosave();
+  if (typeof StudioTools !== 'undefined') StudioTools.moleculeChanged();
   // refresh the tooltip if it is showing
   if (state.hover && !canvasTip.classList.contains('hidden')) hideCanvasTooltip();
 }

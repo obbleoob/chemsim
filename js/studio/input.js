@@ -24,7 +24,7 @@ function hitTest(p) {
     const d = pointSegmentDistance(p, getAtom(b.a1), getAtom(b.a2));
     if (d < bd) { bd = d; best = { type: 'bond', id: b.id }; }
   });
-  return best;
+  return best || arrowHit(p);
 }
 
 function eventWorld(e) {
@@ -58,7 +58,7 @@ canvas.addEventListener('pointermove', (e) => {
       state.view.x += e.clientX - d.lastX;
       state.view.y += e.clientY - d.lastY;
     }
-  } else if (hitAtom && (state.tool === 'atom' || state.tool === 'bond')) {
+  } else if (hitAtom && (state.tool === 'atom' || state.tool === 'bond')) {   // (the arrow tool only uses clicks)
     // Drag from an atom: preview a new bond, snapping to an atom or to 15° steps.
     const target = atomNear(p.x, p.y, 14 / state.view.scale, hitAtom.id);
     let to;
@@ -112,9 +112,19 @@ function handleClick(hit, p) {
   const tool = state.tool;
   log('input', `Click with tool "${tool}" on`, hit || 'empty space');
   if (hit && hit.type === 'vh') hit = null;   // Lewis-mode H atoms are not editable
+  if (typeof StudioTools !== 'undefined' && StudioTools.consumePick(hit)) return;   // a tool asked for an atom/bond
   const atom = hit && hit.type === 'atom' ? getAtom(hit.id) : null;
   const bond = hit && hit.type === 'bond' ? state.bonds.find((b) => b.id === hit.id) : null;
 
+  if (tool === 'arrow') { if (arrowToolClick(hit)) onMoleculeChanged(); return; }
+  if (hit && hit.type === 'arrow') {
+    if (tool !== 'erase') return;              // only the eraser and the arrow tool act on arrows
+    pushHistory();
+    state.arrows = state.arrows.filter((a) => a.id !== hit.id);
+    state.hover = null;
+    onMoleculeChanged();
+    return;
+  }
   if (tool === 'select') return;
 
   if (tool === 'atom') {

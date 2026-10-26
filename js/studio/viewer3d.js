@@ -42,6 +42,33 @@ async function open3D() {
   }
 }
 
+/**
+ * Show a structure file (PDB, CIF, XYZ or SDF/MOL with 3D coordinates) in the
+ * 3D viewer. CIF files of small-molecule crystals also get their unit cell.
+ */
+async function open3DFile(text, fmt, name = '') {
+  $('modal-3d').classList.remove('hidden');
+  $('m3d-formula').textContent = name;
+  try {
+    const $3D = await load3Dmol();
+    if (!v3.viewer) v3.viewer = $3D.createViewer($('viewer3d'), { backgroundColor: '#070a10', antialias: true });
+    v3.viewer.clear();
+    v3.data = null;
+    v3.model = fmt === 'cif' ? v3.viewer.addModel(text, 'cif', { doAssembly: true, duplicateAssemblyAtoms: true, normalizeAssembly: true }) : v3.viewer.addModel(text, fmt, { keepH: true });
+    if (fmt === 'cif' && v3.viewer.addUnitCell) { try { v3.viewer.addUnitCell(v3.model, { box: { color: '#94a3b8' } }); } catch (e) { warn('3d', 'No unit cell in this CIF', e); } }
+    // file atoms have no partial charges: colour surfaces by element
+    v3.color = 'element';
+    document.querySelectorAll('.v3-color').forEach((x) => x.classList.toggle('active', x.dataset.color === 'element'));
+    apply3DStyle();
+    v3.viewer.resize(); v3.viewer.zoomTo(); v3.viewer.render();
+    await apply3DSurface();
+    log('3d', `Opened ${fmt.toUpperCase()} file ${name} (${v3.model.selectedAtoms({}).length} atoms)`);
+  } catch (e) {
+    logError('3d', e);
+    toast('Could not show that file in 3D: ' + e.message, true);
+  }
+}
+
 function closeModal3D() {
   $('modal-3d').classList.add('hidden');
   if (v3.viewer) v3.viewer.spin(false);
@@ -62,7 +89,7 @@ function apply3DStyle() {
     v3.model.selectedAtoms({}).forEach((atom, i) => {
       if (atom.elem === 'H' && !v3.chargeLabels) return;
       let text = v3.labels ? atom.elem : '';
-      if (v3.chargeLabels) text += (text ? ' ' : '') + signed(v3.data.charges[i], 2);
+      if (v3.chargeLabels && v3.data) text += (text ? ' ' : '') + signed(v3.data.charges[i], 2);
       v3.viewer.addLabel(text, { position: { x: atom.x, y: atom.y, z: atom.z }, fontSize: 11, fontColor: 'white', backgroundColor: '#000000', backgroundOpacity: 0.55, inFront: true, alignment: 'center' });
     });
   }
