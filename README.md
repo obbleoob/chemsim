@@ -26,6 +26,7 @@ An internet connection is needed the first time, because RDKit.js and 3Dmol.js c
 | `js/studio/tools/` | Molecule Studio 🧰 Tools drawer: spectra, Hückel MOs, drug-likeness, Newman/conformers, projections, synthesis, calculator, library, files, safety |
 | `js/wiki/`   | Element Wiki: periodic table & heatmaps, element pages, spectra, crystal cells, reaction animations |
 | `js/beaker/` | Beaker Lab: reagent data, equilibrium solver (pH, complexes, Ksp), reaction/heat simulation, canvas renderer |
+| `js/bulk/`   | Bulk & phase science pages in the Beaker Lab: phase diagrams (IAPWS water, CO₂), Lennard-Jones particle box, diffusion & liquid mixing, property trends, polymer builder |
 | `js/labs/`   | Guided Labs: hub and lab reports, plotting, titration, qualitative analysis, electrochemistry, calorimetry |
 | `css/`       | Extra stylesheets per mode |
 | `data/`      | Element data (`elements.json`, built by `tools/build_elements.py`), wiki articles (`data/wiki/`), and `SOURCES.md` |
@@ -41,11 +42,11 @@ Your current drawing is saved automatically in the browser. Use **My data ▾** 
 |---|---|
 | 🧪 Molecule Studio | ✅ drawing, valence checker, charges, 3D, mechanism arrows; 🧰 Tools: IR/NMR prediction, Hückel MOs, drug-likeness, Newman/Fischer/chair/Haworth, conformational scans, synthesis routes, selectivity, retrosynthesis, yield & green metrics, library & notebook, file formats, GHS safety; 🖼 presentation mode with SVG |
 | 📖 Element Wiki | ✅ all 118 elements, trend heatmaps, spectra, crystals, reactions |
-| ⚗️ Beaker Lab | ✅ ~70 reagents, pH/equilibrium engine, precipitates, heat, gases, tests, indicators |
+| ⚗️ Beaker Lab | ✅ ~70 reagents, pH/equilibrium engine, precipitates, heat, gases, tests, indicators; plus phase diagrams, a molecular-dynamics particle box, diffusion & mixing, property trends and a polymer builder |
 | 🔬 Guided Labs | ✅ titration, qualitative analysis game, galvanic cells & electrolysis, calorimetry, with lab reports |
 | 🏆 Challenge Arena | Phase 6 |
 
-Links like `http://localhost:8000/#wiki/Na` open an element page directly.
+Links like `http://localhost:8000/#wiki/Na` open an element page directly, and `#beaker/phase`, `#beaker/particles`, `#beaker/mixing`, `#beaker/trends`, `#beaker/polymer` open the bulk-science pages.
 
 ## Debugging
 

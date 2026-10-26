@@ -19,8 +19,9 @@
 
   function build() {
     root = document.getElementById('view-beaker');
-    root.innerHTML = `
-      <div class="beaker-layout">
+    root.innerHTML = `${BulkHub.navHTML()}
+      <div class="bulk-stage hidden" id="bulk-stage"></div>
+      <div class="beaker-layout" id="beaker-sandbox">
         <aside class="panel shelf" aria-label="Chemical shelf">
           <input id="shelf-search" type="search" placeholder="Search chemicals…" spellcheck="false" />
           <div id="shelf-list" class="shelf-list"></div>
@@ -248,8 +249,15 @@
   ChemRouter.register('beaker', {
     title: 'Beaker Lab',
     init: build,
-    show: () => { running = true; lastFrame = performance.now(); requestAnimationFrame(loop); updatePanel(true); },
-    hide: () => { running = false; },
+    show: () => {
+      // #beaker/<page> shows one of the bulk-science pages instead of the sandbox
+      if (BulkHub.show(root)) { running = false; return; }
+      document.title = 'ChemSim · Beaker Lab';
+      if (!running) { running = true; lastFrame = performance.now(); requestAnimationFrame(loop); }
+      updatePanel(true);
+      BeakerRender.mount(root.querySelector('#beaker-canvas'));
+    },
+    hide: () => { running = false; BulkHub.hide(); },
   });
 
   // console / test access

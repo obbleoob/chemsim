@@ -137,7 +137,7 @@ Two things listed as "what you already have" actually aren't in the app yet: **N
 
 ---
 
-## Phase 5: Bulk & Phase Science (also in the Beaker Lab)
+## Phase 5: Bulk & Phase Science (also in the Beaker Lab) ✅ done
 
 - **Phase diagrams:** interactive diagrams for water, CO₂ and others. Drag a point to see melting, boiling, sublimation, the triple point and the critical point, with a particle view that changes to match.
 - **Particle box:** hundreds to thousands of particles with simple attractions, showing gas/liquid/solid and how concentration and molarity look at particle scale.

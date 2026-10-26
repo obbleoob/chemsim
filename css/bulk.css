@@ -1,0 +1,36 @@
+/* ============================================================================
+   ChemSim · css/bulk.css: bulk & phase science pages (inside the Beaker Lab)
+   ============================================================================ */
+.bulk-nav { display: flex; gap: 4px; flex-wrap: wrap; padding: 6px 12px; background: var(--bg-2); border-bottom: 1px solid var(--border); }
+.bulk-nav a { padding: 5px 12px; border-radius: 99px; color: var(--text-dim); text-decoration: none; font-size: 13px; border: 1px solid transparent; }
+.bulk-nav a:hover { border-color: #34445f; color: var(--text); }
+.bulk-nav a.active { background: #0f2a35; color: var(--accent); border-color: var(--accent); }
+.bulk-stage { flex: 1; min-height: 0; display: flex; }
+.bulk-grid { flex: 1; min-height: 0; display: grid; grid-template-columns: 290px minmax(0, 1fr) 360px; grid-template-rows: minmax(0, 1fr); }
+.bulk-grid > .panel { overflow-y: auto; scrollbar-width: thin; }
+.bulk-grid > .panel:first-child { border-right: 1px solid var(--border); }
+.bulk-grid > .panel:last-child { border-left: 1px solid var(--border); }
+.bulk-center { position: relative; min-width: 0; min-height: 0; background: #0b0f17; }
+.bulk-center canvas { width: 100%; height: 100%; display: block; touch-action: none; }
+.bulk-stage select { width: 100%; background: var(--bg-3); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; color: var(--text); }
+.bulk-stage .ctl select { width: auto; }
+.phase-tag { display: inline-block; font-size: 18px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; padding: 4px 14px; border-radius: 8px; margin-bottom: 8px; }
+canvas.part-cv { width: 100%; height: 170px; display: block; border-radius: 8px; }
+.pb-reads { grid-template-columns: repeat(3, 1fr); }
+#ph-info > div, #pb-info > div, #py-meas > div, #dy-D > div, #pb-conc > div { margin-bottom: 3px; line-height: 1.45; }
+.trend-wrap { flex: 1; overflow-y: auto; padding: 14px clamp(12px, 3vw, 36px) 30px; }
+canvas.trend-plot { height: 380px; }
+.trend-props { flex-wrap: wrap; }
+.trend-compare { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.bpbar { height: 8px; border-radius: 4px; background: linear-gradient(90deg, #22d3ee, #f472b6); }
+.seq-strip { display: flex; flex-wrap: wrap; gap: 2px; margin-top: 8px; }
+.seq-strip i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.seq-strip i.a { background: #22d3ee; } .seq-strip i.b { background: #f472b6; }
+.seq-strip .small { flex-basis: 100%; margin-top: 4px; }
+@media (max-width: 1200px) { .bulk-grid { grid-template-columns: 250px minmax(0, 1fr) 300px; } }
+@media (max-width: 900px) {
+  .bulk-stage { overflow-y: auto; }
+  .bulk-grid { display: flex; flex-direction: column; }
+  .bulk-center { min-height: 60vh; }
+}
+.trend-compare td:last-child { width: 32%; }
