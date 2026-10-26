@@ -28,11 +28,12 @@ An internet connection is needed the first time, because RDKit.js and 3Dmol.js c
 | `js/beaker/` | Beaker Lab: reagent data, equilibrium solver (pH, complexes, Ksp), reaction/heat simulation, canvas renderer |
 | `js/bulk/`   | Bulk & phase science pages in the Beaker Lab: phase diagrams (IAPWS water, CO₂), Lennard-Jones particle box, diffusion & liquid mixing, property trends, polymer builder |
 | `js/labs/`   | Guided Labs: hub and lab reports, plotting, titration, qualitative analysis, electrochemistry, calorimetry |
+| `js/arena/`  | Challenge Arena: question generators, hand-written bank, organic naming/stereo/reactions, mechanism questions, practice/exam UI |
 | `css/`       | Extra stylesheets per mode |
 | `data/`      | Element data (`elements.json`, built by `tools/build_elements.py`), wiki articles (`data/wiki/`), and `SOURCES.md` |
 | `tools/`     | Scripts that rebuild the data files |
 | `tests/`     | Automated browser tests (`node tests/run.js`) |
-| `ROADMAP.md` | The plan for the other modes |
+| `ROADMAP.md` | The build plan (all phases done) |
 
 Your current drawing is saved automatically in the browser. Use **My data ▾** in the header to download or restore everything as a `.json` file.
 
@@ -44,7 +45,7 @@ Your current drawing is saved automatically in the browser. Use **My data ▾** 
 | 📖 Element Wiki | ✅ all 118 elements, trend heatmaps, spectra, crystals, reactions |
 | ⚗️ Beaker Lab | ✅ ~70 reagents, pH/equilibrium engine, precipitates, heat, gases, tests, indicators; plus phase diagrams, a molecular-dynamics particle box, diffusion & mixing, property trends and a polymer builder |
 | 🔬 Guided Labs | ✅ titration, qualitative analysis game, galvanic cells & electrolysis, calorimetry, with lab reports |
-| 🏆 Challenge Arena | Phase 6 |
+| 🏆 Challenge Arena | ✅ USNCO-style practice (hints, explanations, weak-topic focus, missed questions come back) and timed exams (60 questions / 110 min, data sheet, review); 147 hand-written questions + 45 generators across the 10 exam topics; naming, R/S, E/Z, reaction prediction and arrow-pushing mechanisms |
 
 Links like `http://localhost:8000/#wiki/Na` open an element page directly, and `#beaker/phase`, `#beaker/particles`, `#beaker/mixing`, `#beaker/trends`, `#beaker/polymer` open the bulk-science pages.
 
@@ -58,6 +59,7 @@ Open the browser console (F12). Every message starts with `[ChemSim:area]`. Type
 * **Partial charges**: Gasteiger–Marsili method (electronegativity equalisation).
 * **SMILES, InChI, exact mass, R/S and E/Z labels, logP, TPSA, and other descriptors**: RDKit.js.
 * **IUPAC name**: looked up on PubChem. RDKit cannot generate IUPAC names.
+* **Arena answers**: numeric questions are calculated from the numbers in the question (the tests recompute several independently); R/S and E/Z answers come from RDKit's CIP labeller, not from hand-typed keys.
 * **3D geometry**: a small built-in force field (RDKit.js has no 3D embedding). It keeps bond lengths, VSEPR angles and wedge/dash stereochemistry.
 * **ESP surface**: a van der Waals or molecular surface coloured by Gasteiger charges. It is an approximation, not a quantum-chemical electron density.
 

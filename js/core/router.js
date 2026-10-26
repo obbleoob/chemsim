@@ -35,10 +35,6 @@ const ChemRouter = (() => {
       icon: '🔬', title: 'Guided Labs', phase: 'Phase 3',
       items: ['Titration with a burette and live pH curve', 'Qualitative salt analysis game', 'Galvanic cells with the Nernst equation', 'Calorimetry and ΔH'],
     },
-    arena: {
-      icon: '🏆', title: 'Challenge Arena', phase: 'Phase 6',
-      items: ['USNCO-style timed exams', 'Practice mode with hints and explanations', 'Reaction prediction, naming, stoichiometry, mechanisms'],
-    },
   };
 
   function register(id, def) {

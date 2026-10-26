@@ -147,7 +147,7 @@ Two things listed as "what you already have" actually aren't in the app yet: **N
 
 ---
 
-## Phase 6: Challenge Arena (Mode 4)
+## Phase 6: Challenge Arena (Mode 4) ✅ done
 
 - **Question types:** reaction prediction, mechanism arrows (using Phase 4's arrow tool), IUPAC naming both ways including R/S and E/Z, stoichiometry, equilibrium, electrochemistry, and element trivia from the wiki.
 - **Exam mode:** USNCO-style timed sets with the 60-question local-exam format, no aids, and a review at the end.
