@@ -40,7 +40,10 @@ const BeakerSolver = (() => {
       if (!Object.keys(s.a).every((c) => idx[c] !== undefined)) return;
       const nu = Object.entries(s.a).map(([c, k]) => [idx[c], k]);
       if (s.h) nu.push([0, s.h]);
-      add(name, nu, s.logK, s.z, { label: s.label });
+      // Hydroxo species (h < 0) are tabulated in the H⁺ basis at 25 °C; keep
+      // their formation constants in terms of OH⁻ the same at any temperature.
+      const logK = s.h < 0 ? s.logK + s.h * (D.pKw(Tc) - D.pKw(25)) : s.logK;
+      add(name, nu, logK, s.z, { label: s.label });
     });
     const solids = [];
     Object.entries(D.SOLIDS).forEach(([name, s]) => {

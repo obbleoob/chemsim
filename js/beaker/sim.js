@@ -15,14 +15,23 @@
    ============================================================================ */
 'use strict';
 
-const BeakerSim = (() => {
+/* createBeakerSim(options) makes an independent beaker, so the Guided Labs
+   can run several at once (test tubes, a calorimeter cup) without touching
+   the Beaker Lab's own beaker. Options:
+     vesselCp  heat capacity of the container, J/K (glass beaker ≈ 60)
+     lossK     heat loss to the room, W/K (open beaker 0.25, lidded foam cup ≈ 0.02)
+     maxML     capacity in mL
+     quiet     true → do not echo the notebook to the console */
+const BEAKER_REAGENT_H = {};       // speciation enthalpy of each bottle (kJ per L), shared
+
+function createBeakerSim({ vesselCp = 60, lossK = 0.25, maxML = 250, quiet = false } = {}) {
   const D = BeakerData;
   const AIR_HEADSPACE = 0.01;      // mol of air above the liquid (≈ 0.25 L)
   const ROOM = 20;                 // room temperature, °C
   const N_REF = 0.004;             // mol: reference lump size for the area factor
 
   let s = null;                    // the whole state
-  const reagentCache = {};         // speciation enthalpy of each bottle (kJ per L)
+  const reagentCache = BEAKER_REAGENT_H;
 
   /* ---------------- helpers ---------------- */
   const area = (n) => Math.pow(Math.max(n, 0) / N_REF, 2 / 3);
@@ -54,14 +63,14 @@ const BeakerSim = (() => {
     return h;
   }
   const conc = (name) => (s.eq && s.eq.species[name]) || 0;
-  const heatCapacity = () => s.V * 1000 * 4.18 + 60;   // J/K: water + glass
+  const heatCapacity = () => s.V * 1000 * 4.18 + vesselCp;   // J/K: water + container
 
   function log(text, opts = {}) {
     const entry = { t: s.t, text, ...opts };
     s.log.push(entry);
     if (s.log.length > 200) s.log.shift();
     if (s.onEvent) s.onEvent(entry);
-    if (typeof window !== 'undefined' && window.log) window.log('beaker', text);
+    if (!quiet && typeof window !== 'undefined' && window.log) window.log('beaker', text);
   }
   function warnOnce(key, text) {
     if (s.warned.has(key)) return;
@@ -96,23 +105,26 @@ const BeakerSim = (() => {
 
   /** Speciation enthalpy of a reagent bottle, per litre (kJ/L). */
   function reagentH(item) {
-    if (reagentCache[item.id] !== undefined) return reagentCache[item.id];
-    if (!Object.keys(item.c || {}).length) return (reagentCache[item.id] = 0);
+    const key = item.id || JSON.stringify(item.c);
+    if (reagentCache[key] !== undefined) return reagentCache[key];
+    if (!Object.keys(item.c || {}).length) return (reagentCache[key] = 0);
     const eq = BeakerSolver.solve(item.c, ROOM);
-    return (reagentCache[item.id] = speciationH(eq, 1));
+    return (reagentCache[key] = speciationH(eq, 1));
   }
 
   /** Add something from the shelf. amount: mL, g, or drops depending on kind. */
   function add(id, amount) {
-    const item = D.SHELF.find((x) => x.id === id);
+    // id is a shelf id, or a reagent object of the same shape (labs use
+    // custom ones, e.g. an "unknown" solution or water at 50 °C)
+    const item = typeof id === 'object' ? id : D.SHELF.find((x) => x.id === id);
     if (!item) throw new Error('Unknown reagent ' + id);
     const name = item.name;
     if (item.kind === 'solution' || item.kind === 'special') {
       const L = amount / 1000;
-      if (s.V + L > 0.25) { log('The beaker is full (250 mL). Empty it first.', { level: 'warn', icon: '🫗' }); return false; }
-      // mixing: the new liquid is at room temperature
+      if (s.V + L > maxML / 1000 + 1e-9) { log(`The container is full (${maxML} mL). Empty it first.`, { level: 'warn', icon: '🫗' }); return false; }
+      // mixing: the new liquid is at room temperature unless it says otherwise
       const cOld = heatCapacity(), cNew = L * 1000 * 4.18;
-      s.T = (cOld * s.T + cNew * ROOM) / (cOld + cNew);
+      s.T = (cOld * s.T + cNew * (item.T !== undefined ? item.T : ROOM)) / (cOld + cNew);
       s.V += L;
       if (item.kind === 'solution') {
         addTotals(item.c, L);
@@ -132,7 +144,7 @@ const BeakerSim = (() => {
       const def = item.kind === 'metal' ? D.METALS[item.key] : D.OTHER_LUMPS[item.key];
       const mol = amount / def.M;
       let lump = s.lumps.find((l) => l.key === item.key && l.kind === item.kind);
-      if (!lump) { lump = { key: item.key, kind: item.kind, n: 0, oxide: def.oxide || 0, coat: {}, x: 0.25 + Math.random() * 0.5, added: s.t }; s.lumps.push(lump); }
+      if (!lump) { lump = { key: item.key, kind: item.kind, n: 0, oxide: def.oxide || 0, coat: {}, x: 0.25 + Math.random() * 0.5, added: s.t, af: item.areaFactor || 1 }; s.lumps.push(lump); }
       lump.n += mol;
       log(`Added ${fmtAmount(amount, 'g')} of ${name} (${mol.toFixed(4)} mol).`, { icon: item.kind === 'metal' ? '🔩' : '🪨' });
       if (def.water && amount > 0.3) warnOnce('bigmetal-' + item.key, `That is a big piece of ${def.label.toLowerCase()}! Large pieces of reactive metals can explode in water. Real demonstrations use pieces the size of a grain of rice.`);
@@ -192,7 +204,7 @@ const BeakerSim = (() => {
       if (lump.n <= 1e-10) continue;
       if (lump.kind === 'metal') {
         const m = D.METALS[lump.key];
-        const A = area(lump.n);
+        const A = area(lump.n) * (lump.af || 1);      // powders (af > 1) have far more surface
         const protect = lump.oxide > 0 ? 0.02 : 1;
         if (lump.oxide > 0) lump.oxide -= dt * (H + OH) * 1.0;
         let r = 1e-4 * A * ((m.kAcid || 0) * H * protect + (m.kWater || 0) + (m.kBase || 0) * OH * protect) * tempFactor(T);
@@ -303,7 +315,7 @@ const BeakerSim = (() => {
     let q = 0;   // J into the beaker
     if (s.burnerW > 0) q += s.burnerW * 0.5 * dt;          // half the burner's power reaches the liquid
     if (s.ice) q += -8 * (s.T - 0) * dt;                    // ice bath pulls toward 0 °C
-    q += -0.25 * (s.T - ROOM) * dt;                          // slow loss to the room
+    q += -lossK * (s.T - ROOM) * dt;                         // slow loss to the room
 
     // 7. equilibrium + enthalpy → temperature
     const Sbefore = s.Sprev;
@@ -489,7 +501,10 @@ const BeakerSim = (() => {
   return {
     reset, add, tick, runFor, litSplint, glowingSplint, limewaterTest, dampLitmus, flameTest, fractions,
     liquidColor, precipitates, crystals, topSpecies,
+    heatCapacity: () => heatCapacity(),
     get state() { return s; },
     set onEvent(fn) { if (s) s.onEvent = fn; },
   };
-})();
+}
+
+const BeakerSim = createBeakerSim();   // the Beaker Lab's own beaker

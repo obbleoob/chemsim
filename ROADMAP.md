@@ -91,7 +91,7 @@ A sandbox where you drag chemicals into a beaker and watch what happens. The vis
 
 ---
 
-## Phase 3: Guided Labs (Mode 4 labs)
+## Phase 3: Guided Labs (Mode 4 labs) ✅ done
 
 Step-by-step experiments with a lab-report summary at the end. All of them use the Phase 2 engine.
 

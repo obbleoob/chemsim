@@ -25,6 +25,7 @@ An internet connection is needed the first time, because RDKit.js and 3Dmol.js c
 | `js/studio/` | Molecule Studio: editor, chemistry engine, RDKit bridge, drawing, 3D, export |
 | `js/wiki/`   | Element Wiki: periodic table & heatmaps, element pages, spectra, crystal cells, reaction animations |
 | `js/beaker/` | Beaker Lab: reagent data, equilibrium solver (pH, complexes, Ksp), reaction/heat simulation, canvas renderer |
+| `js/labs/`   | Guided Labs: hub and lab reports, plotting, titration, qualitative analysis, electrochemistry, calorimetry |
 | `css/`       | Extra stylesheets per mode |
 | `data/`      | Element data (`elements.json`, built by `tools/build_elements.py`), wiki articles (`data/wiki/`), and `SOURCES.md` |
 | `tools/`     | Scripts that rebuild the data files |
@@ -40,7 +41,7 @@ Your current drawing is saved automatically in the browser. Use **My data ▾** 
 | 🧪 Molecule Studio | ✅ drawing, valence checker, charges, 3D |
 | 📖 Element Wiki | ✅ all 118 elements, trend heatmaps, spectra, crystals, reactions |
 | ⚗️ Beaker Lab | ✅ ~70 reagents, pH/equilibrium engine, precipitates, heat, gases, tests, indicators |
-| 🔬 Guided Labs | Phase 3 (next) |
+| 🔬 Guided Labs | ✅ titration, qualitative analysis game, galvanic cells & electrolysis, calorimetry, with lab reports |
 | 🏆 Challenge Arena | Phase 6 |
 
 Links like `http://localhost:8000/#wiki/Na` open an element page directly.

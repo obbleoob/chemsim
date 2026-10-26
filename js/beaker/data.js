@@ -90,6 +90,7 @@ const BeakerData = (() => {
     'Zn(OH)4--':{ label: 'Zn(OH)₄²⁻',a: { Zn: 1 }, h: -4, w: 4, logK: -40.5, z: -2, dHf: null },
     'CuOH+':    { label: 'CuOH⁺',    a: { Cu: 1 }, h: -1, w: 1, logK: -7.5, z: 1, dHf: null },
     'PbOH+':    { label: 'PbOH⁺',    a: { Pb: 1 }, h: -1, w: 1, logK: -7.7, z: 1, dHf: null },
+    'Pb(OH)3-': { label: 'Pb(OH)₃⁻',  a: { Pb: 1 }, h: -3, w: 3, logK: -28.06, z: -1, dHf: null },   // plumbite: why Pb(OH)₂ dissolves in excess NaOH
     // complexes
     'Cu(NH3)4++': { label: '[Cu(NH₃)₄]²⁺', a: { Cu: 1, NH3: 4 }, logK: 13.3, z: 2, dHf: -348.5, color: [0.18, 0.36, 0.95], ref: 0.006 },
     'Ag(NH3)2+':  { label: '[Ag(NH₃)₂]⁺',  a: { Ag: 1, NH3: 2 }, logK: 7.23, z: 1, dHf: -111.3 },
@@ -129,7 +130,8 @@ const BeakerData = (() => {
     'Fe(OH)3': { a: { Fe3: 1 }, h: -3, w: 3, logKsp: 3.96, dHf: -823.0, color: '#9c4a1a', name: 'rust-brown', eq: 'Fe³⁺ + 3OH⁻ → Fe(OH)₃(s)' },
     'Zn(OH)2': { a: { Zn: 1 }, h: -2, w: 2, logKsp: 11.5, dHf: -641.9, color: '#ffffff', name: 'white', eq: 'Zn²⁺ + 2OH⁻ → Zn(OH)₂(s)' },
     'Al(OH)3': { a: { Al: 1 }, h: -3, w: 3, logKsp: 9.1, dHf: -1276.0, color: '#f2f5f7', name: 'white gelatinous', eq: 'Al³⁺ + 3OH⁻ → Al(OH)₃(s)' },
-    'Pb(OH)2': { a: { Pb: 1 }, h: -2, w: 2, logKsp: 8.15, dHf: -515.9, color: '#ffffff', name: 'white', eq: 'Pb²⁺ + 2OH⁻ → Pb(OH)₂(s)' },
+    // freshly precipitated lead hydroxide/oxide (Baes & Mesmer, PbO: log K 12.7); amphoteric with Pb(OH)₃⁻
+    'Pb(OH)2': { a: { Pb: 1 }, h: -2, w: 2, logKsp: 12.7, dHf: -515.9, color: '#ffffff', name: 'white', eq: 'Pb²⁺ + 2OH⁻ → Pb(OH)₂(s)' },
     'Co(OH)2': { a: { Co: 1 }, h: -2, w: 2, logKsp: 13.2, dHf: -539.7, color: '#d06f8a', name: 'pink (blue at first)', eq: 'Co²⁺ + 2OH⁻ → Co(OH)₂(s)' },
     'Ni(OH)2': { a: { Ni: 1 }, h: -2, w: 2, logKsp: 12.74, dHf: -529.7, color: '#7ccf6b', name: 'apple green', eq: 'Ni²⁺ + 2OH⁻ → Ni(OH)₂(s)' },
     'Mn(OH)2': { a: { Mn: 1 }, h: -2, w: 2, logKsp: 15.28, dHf: -695.4, color: '#e8dcc8', name: 'off-white', eq: 'Mn²⁺ + 2OH⁻ → Mn(OH)₂(s)' },

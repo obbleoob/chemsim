@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="css/wiki.css" />
   <link rel="stylesheet" href="css/beaker.css" />
+  <link rel="stylesheet" href="css/labs.css" />
 </head>
 <body>
 
@@ -54,7 +55,7 @@
       <button class="mode-tab" data-mode="studio" data-tip="Draw molecules, check valence, see charges and 3D models.">🧪 Molecule Studio</button>
       <button class="mode-tab" data-mode="beaker" data-tip="Mix chemicals in a virtual beaker: dissolving, precipitates, gases, pH, temperature.">⚗️ Beaker Lab</button>
       <button class="mode-tab" data-mode="wiki" data-tip="Interactive periodic table: trend heatmaps, and a full page for every element.">📖 Element Wiki</button>
-      <button class="mode-tab" data-mode="labs" data-tip="Guided experiments: titration, salt analysis, galvanic cells, calorimetry (coming in Phase 3).">🔬 Guided Labs</button>
+      <button class="mode-tab" data-mode="labs" data-tip="Guided experiments with lab reports: titration, salt analysis, galvanic cells, calorimetry.">🔬 Guided Labs</button>
       <button class="mode-tab" data-mode="arena" data-tip="USNCO-style quizzes and timed exams (coming in Phase 6).">🏆 Challenge Arena</button>
     </nav>
 
@@ -387,6 +388,13 @@
   <script src="js/beaker/sim.js"></script>
   <script src="js/beaker/render.js"></script>
   <script src="js/beaker/main.js"></script>
+  <!-- Guided Labs (Phase 3): hub first, then each lab registers itself -->
+  <script src="js/labs/plot.js"></script>
+  <script src="js/labs/hub.js"></script>
+  <script src="js/labs/titration.js"></script>
+  <script src="js/labs/qual.js"></script>
+  <script src="js/labs/galvanic.js"></script>
+  <script src="js/labs/calorimetry.js"></script>
   <script src="js/core/errors.js"></script>
   <script src="js/core/boot.js"></script>
 </body>
