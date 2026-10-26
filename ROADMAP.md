@@ -69,7 +69,7 @@ For superheavy elements (roughly Rf onward) the honest answer is often "only a f
 
 ---
 
-## Phase 2: Beaker Lab (Mode 2)
+## Phase 2: Beaker Lab (Mode 2) ✅ done
 
 A sandbox where you drag chemicals into a beaker and watch what happens. The visuals sit on top of a real (simplified) chemistry engine, so the results are actual predictions rather than canned animations.
 
